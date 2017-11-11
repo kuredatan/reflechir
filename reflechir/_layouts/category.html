@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+<p><center><a href="{{ site.url }}" style="color: #000000">Retourner à l'accueil du site</a></center></p>
+
+{% if site.categories[page.category] %}
+{% if site.sections contains page.category %}
+{% for post in site.categories[page.category] reversed %}
+        {% include thumb_post.html %}
+{% endfor %}
+{% else %}
+{% for post in site.categories[page.category] %}
+        {% include thumb_post.html %}
+{% endfor %}
+{% endif %}
+{% else %}
+  <h3>
+     <b>
+        <center>Il n'y a pas d'articles pour le moment !</center>
+     </b>
+  </h3>
+{% endif %}

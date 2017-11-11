@@ -1,0 +1,9 @@
+---
+layout: none
+---
+
+{% for post in site.posts limit:1 %}
+<h2>{{ post.title }}</h2>
+<p>{{ post.content  | truncatewords:80 }} <a href="{{ post.bitlink }}"> Lire l'article &raquo;</a></p>
+
+{% endfor %}

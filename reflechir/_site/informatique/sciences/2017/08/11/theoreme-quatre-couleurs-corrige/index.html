@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+     
+     
+     Réfléchir - (Théorie des graphes) Bases et théorème des quatre couleurs - corrigé
+     
+  </title>
+  <meta name="description" content="Ce site s&#39;adresse à tous et a pour but de susciter la réflexion, autant par l&#39;analyse des actualités que par la découverte des sciences et des sciences humai...">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/informatique/sciences/2017/08/11/theoreme-quatre-couleurs-corrige/">
+  <link rel="alternate" type="application/rss+xml" title="Réfléchir" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+   <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <p><center><h1>
+             
+             Réfléchir
+             
+    </h1></center></p>
+    <p><center><h3>
+             
+             Ce site s&#39;adresse à tous et a pour but de susciter la réflexion, autant par l&#39;analyse des actualités que par la découverte des sciences et des sciences humaines.
+             
+    </h3></center></p>
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          <center>
+          
+           
+            <a class="page-link" href="/404/"></a>
+           
+            <a class="page-link" href="/posts/page3/"></a>
+           
+            <a class="page-link" href="/posts/page2/"></a>
+           
+            <a class="page-link" href="/feed.xml"></a>
+           
+            <a class="page-link" href="/assets/css/style.css"></a>
+           
+            <a class="page-link" href="/"></a>
+           
+            <a class="page-link" href="/"></a>
+           
+            <a class="page-link" href="/assets/main.css"></a>
+           
+            <a class="page-link" href="/category/actualites/">Actualités</a>
+           
+            <a class="page-link" href="/category/dossiers/">Dossiers</a>
+           
+            <a class="page-link" href="/category/evenements/">Évènements</a>
+           
+            <a class="page-link" href="/category/fact_checking/">Fact Checking</a>
+           
+            <a class="page-link" href="/category/opinions/">Opinions</a>
+           
+            <a class="page-link" href="/category/sciences/">Sciences</a>
+           
+            <a class="page-link" href="/category/biologie/">Biologie</a>
+           
+            <a class="page-link" href="/category/informatique/">Informatique</a>
+           
+            <a class="page-link" href="/category/mathematiques/">Mathématiques</a>
+           
+            <a class="page-link" href="/category/physique/">Physique</a>
+           
+            <a class="page-link" href="/category/scienceshumaines/">Sciences humaines</a>
+           
+            <a class="page-link" href="/category/luetapprouve/">Lu et approuvé</a>
+           
+          </center>
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div id="contentBox" style="margin:0px auto; width:98%">
+        <div id="column1" style="float:left; margin:0; width:75%;">
+          <div class="content container">
+            <div class="row">
+              <div class="col-md-8">
+                <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<style type="text/css">
+ 
+#share-buttons img {
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+ 
+</style>
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <p><center><a href="/" style="color: #000000">Retourner à l'accueil du site</a></center></p>
+
+    <h2>
+     <b>
+        (Théorie des graphes) Bases et théorème des quatre couleurs - corrigé
+     </b>
+    </h2>
+            <h5>
+        <font color="grey">Publié le
+        11
+        
+        août
+        
+        2017
+        
+        dans les catégories :
+        
+	
+        <span class="post-tag"><b>informatique </b></span>
+        
+	
+        <span class="post-tag"><b>sciences </b></span>
+        
+        
+        </font>
+        </h5>
+
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Thème : Théorie des graphes</p>
+
+<p>Note : C’est la correction des exercices du premier article sur la série du théorème des quatre couleurs.</p>
+
+<hr />
+
+<p>Exercice : Dites combien vaut K(G) quand G a trois sommets 0, 1 et 2, et trois arêtes, une reliant 0 à 1, une reliant 1 à 2, et l’autre reliant 2 à 0.</p>
+
+<p>Voici un schéma du graphe G décrit dans la consigne :</p>
+
+<p>%% schéma</p>
+
+<p>On rappelle que K(G) est le nombre minimal de couleurs nécessaire pour qu’il existe une coloration c telle que (P) : si les sommets i et les sommets j sont reliés par une arête, alors ils ont des couleurs distinctes par la coloration c : c(i) != c(j) (!= signifie “différent de”). On va évidemment utiliser au moins une couleur, donc K(G) &gt;= 1.</p>
+
+<p>Le nombre minimal de couleurs est tout d’abord forcément plus petit ou égal au nombre de noeuds (aussi appelés sommets) du graphe, ici 3, puisque qu’une coloration donne une couleur à chaque noeud.</p>
+
+<p>Pour démontrer que K(G) = 3, il suffit alors de montrer que K(G) &gt;= 3. On peut tester les cas K(G) = 1, 2, et montrer que de telles colorations ne respectent pas la propriété requise (P). Plus astucieusement, on peut montrer facilement que l’on peut colorier G avec 3 couleurs, et que si K(G) &lt; 3, alors il existe deux noeuds dans G qui ont la même couleur. Or toute paire de sommets dans G est reliée par une arête, ce qui contredit (P). Donc K(G) &gt;= 3, donc K(G) = 3.
+<strong>__</strong>_____</p>
+
+<p>Exercice : Un graphe complet à i sommets (noté K-i) est un graphe tel qu’il existe une arête entre chaque couple de sommets distincts du graphe (par exemple, le graphe de l’exercice précédent s’appelle K-3). Montrez que K(K-i) &gt;= i (&gt;= signifiant “supérieur ou égal à”).</p>
+
+<p>Suivons l’indice donné, et faisons une démonstration par l’absurde, en supposant K(K-i) &lt; i. Alors le graphe K-i est colorié avec strictement moins de i couleurs, donc il existe au moins deux noeuds distincts ayant la même couleur. Or il existe une arête entre chaque couple de sommets distincts, donc la coloration ne respecte pas (P). Donc K(K-i) &gt;= i.</p>
+
+<p>En utilisant le raisonnement décrit à l’exercice précédent, on montre que K(K-i) &lt;= i, donc K(K-i) = i.</p>
+
+<hr />
+
+<p>Exercice : Un cycle à i sommets C-i est un graphe tel que, si les sommets sont numérotés 0, 1, 2, 3, …, i-1, ses arêtes sont (0, 1), (1, 2), (2, 3), …, (i-2, i-1), (i-1, 0). Montrez que si i est supérieur ou égal à 2, alors soit K(C-i) = 2 si i est pair, soit K(C-i) = 3 si i est impair.</p>
+
+<p>L’indice donné était : “raisonnement par récurrence sur i puis, à l’intérieur de la récurrence, un raisonnement par disjonction de cas, dans les deux cas où i est pair/impair”.</p>
+
+<p>Faisons un raisonnement par récurrence sur i supérieur ou égal à 2. On démontre “si i est supérieur ou égal à 2, alors soit K(C-i) = 2 si i est pair, soit K(C-i) = 3 si i est impair”.</p>
+
+<p>Si i = 2, alors la seule paire de sommets distincts dans le graphe est reliée par une arête, donc K(C-2) &gt;= 2. De plus, on peut montrer par un dessin que l’on peut colorier ce graphe avec deux couleurs en respectant (P), donc K(C-2) &lt;= 2, d’où K(C-2) = 2.</p>
+
+<p>Si i = 3, c’est le graphe de l’exercice 1.</p>
+
+<p>Prenons i &gt; 3. Raisonnons par disjonction de cas.</p>
+
+<p>Si i est impair, considérons un noeud v au hasard dans le graphe C-(i-1). On sait par récurrence que K(C-(i-1)) = 2, car i-1 est pair et strictement inférieur à i. Colorions les sommets de C-(i-1) en bleu et jaune. Supposons que v est colorié en jaune (c’est le même raisonnement pour l’autre couleur…).</p>
+
+<p>%%schéma</p>
+
+<p>Pour obtenir le graphe C-i, on divise le sommet v en deux sommets v1 et v2, v1 étant uniquement relié à v2 et à un seul des deux voisins de v, et v2 étant relié à v1 et à l’autre voisin de v.</p>
+
+<p>%%schéma</p>
+
+<p>Comme v était colorié en jaune, alors ses deux voisins étaient coloriés en bleu (sinon cela ne respecte pas la propriété (P)). Si on colorie v1 et v2 en jaune, alors (P) n’est plus respectée car il existe une arête entre v1 et v2. Si on modifie la couleur de l’un des deux voisins de v, alors la propriété (P) n’est plus respectée sur le voisin de v considéré et l’un des voisins de ce sommet. Donc K(C-i) &gt;= 3, et si on colorie par exemple v1 en jaune et v2 en rouge, (P) est bien respectée, d’où K(C-i) &lt;= 3, d’où K(C-i) = 3.</p>
+
+<p>Si i est pair, le plus simple est de se passer de l’hypothèse de récurrence. On peut numéroter les noeuds du graphe de 0 à i-1, et colorier les noeuds de numéro pair en rouge, et les noeuds de numéro impair en bleu. Les noeuds de numéro pair (respectivement impair) n’étant reliés qu’à des noeuds de numéro impair (respectivement pair), ce coloriage respecte la propriété (P), d’où K(C-i) &lt;= 2. Si on n’utilise qu’une seule couleur, toutes les paires de sommets reliés par une arête sont de la même couleur, ce qui contredit (P). D’où K(C-i) &gt;= 2, d’où K(C-i) = 2.</p>
+
+<p>Cela achève la démonstration.
+<strong>__</strong>_____</p>
+
+<p>Exercice : Le graphe K-4 est-il planaire ? K-5 est-il planaire ?</p>
+
+<p>Voici la version plongée de K-4, qui est planaire :</p>
+
+<p>D’après l’indice, K-5 n’est donc pas planaire (voir les prochains articles pour la justification…).
+<strong>__</strong>_____</p>
+
+<p>Exercice : Supposons que le séminaire soit composé de sept conférences : A, B, C, D, E, F et G. Voici l’emploi du temps du séminaire :
+Jour 1 :
+A : 9H30 - 12H00
+B : 8H30 - 11H00
+C : 14H00 - 18H00 (pauvre conférencier…)
+D : 13H00 - 14H30
+Jour 2 :
+E : 8H30 - 10H00
+F : 9H00 - 13H30
+G : 13H00 - 14H00
+Convainquez-vous que le séminaire devra utiliser au moins 2 salles.</p>
+
+<p>Voici le dessin du graphe associé :</p>
+
+<p>%% schéma</p>
+
+  </div>
+  <div id="share-buttons">
+          <h3>Partager cet article : </h3>
+          <a href="http://www.facebook.com/sharer.php?url=" +  + ";" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+          <a href="https://twitter.com/share?url=" +  + ";" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+          </a>
+    </div>
+
+</article>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+          <div id="column2" class="sidemenu" style="float:right; margin:0; width:23%;">
+                <div class="wrapper">
+
+    <br></br>
+
+    <center><h4>
+             Envoyer un mail : <a href="mailto:sitereflechir@gmail.com">sitereflechir@gmail.com</a>
+    </h4></center>
+
+<p>Inscrivez-vous pour recevoir les nouveaux articles par email !</p>
+<div class="form-group">
+    <form style="text-align: center; background-color: whitesmoke; border:1px solid #ccc;padding:3px;text-align:center" action="https://tinyletter.com/reflechir" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/reflechir', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <p><label for="tlemail">Écrire votre adresse mail :</label></p>
+        <p><input type="text" style="width:140px" name="email" id="tlemail"></p>
+        <input type="hidden" value="1" name="embed"><input type="submit" value="S'inscrire" class="btn btn-warning">
+    </form>
+</div> 
+
+<br></br>
+
+          <h3><b>Articles à venir :</b></h3>
+          <h5><p class="indent2"><em>[Informatique] Algorithme de Nussinov et introduction aux grammaires</em></p></h5>
+          <h5><p class="indent2"><em>[Informatique] Eléments de programmation réseau : s'envoyer des mails à l'ancienne</em></p></h5>
+          <h5><p class="indent2"><em>[Mathématiques] Combinatoire</em></p></h5>
+          <h5><p class="indent2"><em>[Mathématiques] Arithmétique</em></p></h5>
+
+   </div>
+
+          </div>
+      </div>
+    </main>
+
+  </body>
+
+</html>

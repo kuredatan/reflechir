@@ -1,0 +1,26 @@
+  <div class="wrapper">
+
+    <br></br>
+
+    <center><h4>
+             Envoyer un mail : <a href="mailto:{{ site.email }}">{{ site.email | escape }}</a>
+    </h4></center>
+
+<p>Inscrivez-vous pour recevoir les nouveaux articles par email !</p>
+<div class="form-group">
+    <form style="text-align: center; background-color: whitesmoke; border:1px solid #ccc;padding:3px;text-align:center" action="https://tinyletter.com/reflechir" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/reflechir', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <p><label for="tlemail">Écrire votre adresse mail :</label></p>
+        <p><input type="text" style="width:140px" name="email" id="tlemail"></p>
+        <input type="hidden" value="1" name="embed"><input type="submit" value="S'inscrire" class="btn btn-warning">
+    </form>
+</div> 
+
+<br></br>
+
+          <h3><b>Articles à venir :</b></h3>
+          <h5><p class="indent2"><em>[Informatique] Algorithme de Nussinov et introduction aux grammaires</em></p></h5>
+          <h5><p class="indent2"><em>[Informatique] Eléments de programmation réseau : s'envoyer des mails à l'ancienne</em></p></h5>
+          <h5><p class="indent2"><em>[Mathématiques] Combinatoire</em></p></h5>
+          <h5><p class="indent2"><em>[Mathématiques] Arithmétique</em></p></h5>
+
+   </div>

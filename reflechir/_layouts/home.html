@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="post-list">
+  {% if site.posts %}
+    {% for post in site.posts %}
+    {% include thumb_post.html %}
+      <br></br>
+    {% endfor %}
+  {% else %}
+  <h3>
+     <b>
+        <center>Il n'y a pas d'articles pour le moment !</center>
+     </b>
+  </h3>
+  </ul>
+  {% endif %}
+
+</div>

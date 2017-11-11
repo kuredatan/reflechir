@@ -1,0 +1,184 @@
+title:                  Réfléchir
+description:            "Ce site s'adresse à tous et a pour but de susciter la réflexion, autant par l'analyse des actualités que par la découverte des sciences et des sciences humaines."
+url:                    "http://reflechir.com"
+email:                  sitereflechir@gmail.com
+lang:                   "fr"
+categories:             [actualités,sciences, sciences humaines,évènements,fact-checking,opinions,mathématiques,informatique,biologie, physique,dossiers,lu et approuvé]
+sections:               [actualités, sciences, sciences humaines]
+pagenames:              ["Actualités","Sciences","Sciences humaines","Évènements","Dossiers","Fact Checking","Opinions","Mathématiques","Informatique","Biologie","Physique","Lu et approuvé"]
+
+google_analytics:       'UA-109548328-1'
+
+images:                 "images/"
+pdfs:                   "pdfs/"
+
+theme:                  minima
+paginate:               5
+
+version:                2.1.0
+
+defaults:
+  -
+    scope:
+      path:             "_posts/actualites"
+      type:             "posts"
+    values:
+      title:            "Actualités"
+      layout:           "post"
+      category:         actualités
+  -
+    scope:
+      path:             "_posts/sciences"
+      type:             "posts"
+    values:
+      title:            "Sciences"
+      layout:           "post"
+      category:         sciences
+  -
+    scope:
+      path:             "_posts/scienceshumaines"
+      type:             "posts"
+    values:
+      title:            "Sciences humaines"
+      layout:           "post"
+      category:         sciences humaines
+  -
+    scope:
+      path:             "_posts/evenements"
+      type:             "posts"
+    values:
+      title:            "Évènements"
+      layout:           "post"
+      category:         [évènements,actualités]
+  -
+    scope:
+      path:             "_posts/dossiers"
+      type:             "posts"
+    values:
+      title:            "Dossiers"
+      layout:           "post"
+      category:         [dossiers,actualités]
+  -
+    scope:
+      path:             "_posts/fact_checking"
+      type:             "posts"
+    values:
+      title:            "Fact Checking"
+      layout:           "post"
+      category:         [fact-checking,actualités]
+  -
+    scope:
+      path:             "_posts/opinions"
+      type:             "posts"
+    values:
+      title:            "Opinions"
+      layout:           "post"
+      category:         [opinions,actualités]
+  -
+    scope:
+      path:             "_posts/informatique"
+      type:             "posts"
+    values:
+      title:            "Informatique"
+      layout:           "post"
+      category:         [informatique,sciences]
+  -
+    scope:
+      path:             "_posts/mathematiques"
+      type:             "posts"
+    values:
+      title:            "Mathématiques"
+      layout:           "post"
+      category:         [mathématiques,sciences]
+  -
+    scope:
+      path:             "_posts/biologie"
+      type:             "posts"
+    values:
+      title:            "Biologie"
+      layout:           "post"
+      category:         [biologie,sciences]
+  -
+    scope:
+      path:             "_posts/physique"
+      type:             "posts"
+    values:
+      title:            "Physique"
+      layout:           "post"
+      category:         [physique,sciences]
+  -
+    scope:
+      path:             "_posts/luetapprouve"
+      type:             "posts"
+    values:
+      title:            "Lu et approuvé"
+      layout:           "post"
+      category:         [lu et approuvé,sciences]
+
+images:                 "images/"
+source:                 .
+destination:            ./_site
+collections_dir:        .
+plugins_dir:            _plugins
+layouts_dir:            _layouts
+data_dir:               _data
+includes_dir:           _includes
+collections:
+  posts:
+    output:             true
+
+safe:                   false
+include:                [".htaccess"]
+exclude:                ["Gemfile", "Gemfile.lock", "node_modules", 
+                        "vendor/bundle/", "vendor/cache/", 
+                        "vendor/gems/", "vendor/ruby/"]
+keep_files:             [".git", ".svn"]
+encoding:               "utf-8"
+markdown_ext:           "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter:    false
+
+show_drafts:            null
+limit_posts:            0
+future:                 false
+unpublished:            false
+
+whitelist:              []
+plugins:                ["jekyll-feed", "jekyll-paginate",
+                        "jekyll-gist", "github-pages"]
+
+markdown:               kramdown
+highlighter:            rouge
+lsi:                    false
+excerpt_separator:      "\n\n"
+incremental:            false
+
+detach:                 false
+port:                   4000
+host:                   127.0.0.1
+baseurl:                "/" 
+show_dir_listing:       false
+
+permalink:              pretty
+paginate_path:          '/posts/page:num/'
+timezone:               null
+
+quiet:                  false
+verbose:                false
+
+liquid:
+  error_mode:           strict
+
+rdiscount:
+  extensions:           []
+
+redcarpet:
+  extensions:           []
+
+kramdown:
+  auto_ids:             true
+  entity_output:        as_char
+  toc_levels:           1..6
+  smart_quotes:         lsquo,rsquo,ldquo,rdquo
+  input:                GFM
+  hard_wrap:            false
+  footnote_nr:          1

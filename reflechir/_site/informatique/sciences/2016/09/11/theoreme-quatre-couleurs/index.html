@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+     
+     
+     Réfléchir - (Théorie des graphes) Bases et théorème des quatre couleurs
+     
+  </title>
+  <meta name="description" content="Ce site s&#39;adresse à tous et a pour but de susciter la réflexion, autant par l&#39;analyse des actualités que par la découverte des sciences et des sciences humai...">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/informatique/sciences/2016/09/11/theoreme-quatre-couleurs/">
+  <link rel="alternate" type="application/rss+xml" title="Réfléchir" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+   <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <p><center><h1>
+             
+             Réfléchir
+             
+    </h1></center></p>
+    <p><center><h3>
+             
+             Ce site s&#39;adresse à tous et a pour but de susciter la réflexion, autant par l&#39;analyse des actualités que par la découverte des sciences et des sciences humaines.
+             
+    </h3></center></p>
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          <center>
+          
+           
+            <a class="page-link" href="/404/"></a>
+           
+            <a class="page-link" href="/posts/page3/"></a>
+           
+            <a class="page-link" href="/posts/page2/"></a>
+           
+            <a class="page-link" href="/feed.xml"></a>
+           
+            <a class="page-link" href="/assets/css/style.css"></a>
+           
+            <a class="page-link" href="/"></a>
+           
+            <a class="page-link" href="/"></a>
+           
+            <a class="page-link" href="/assets/main.css"></a>
+           
+            <a class="page-link" href="/category/actualites/">Actualités</a>
+           
+            <a class="page-link" href="/category/dossiers/">Dossiers</a>
+           
+            <a class="page-link" href="/category/evenements/">Évènements</a>
+           
+            <a class="page-link" href="/category/fact_checking/">Fact Checking</a>
+           
+            <a class="page-link" href="/category/opinions/">Opinions</a>
+           
+            <a class="page-link" href="/category/sciences/">Sciences</a>
+           
+            <a class="page-link" href="/category/biologie/">Biologie</a>
+           
+            <a class="page-link" href="/category/informatique/">Informatique</a>
+           
+            <a class="page-link" href="/category/mathematiques/">Mathématiques</a>
+           
+            <a class="page-link" href="/category/physique/">Physique</a>
+           
+            <a class="page-link" href="/category/scienceshumaines/">Sciences humaines</a>
+           
+            <a class="page-link" href="/category/luetapprouve/">Lu et approuvé</a>
+           
+          </center>
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div id="contentBox" style="margin:0px auto; width:98%">
+        <div id="column1" style="float:left; margin:0; width:75%;">
+          <div class="content container">
+            <div class="row">
+              <div class="col-md-8">
+                <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<style type="text/css">
+ 
+#share-buttons img {
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+ 
+</style>
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <p><center><a href="/" style="color: #000000">Retourner à l'accueil du site</a></center></p>
+
+    <h2>
+     <b>
+        (Théorie des graphes) Bases et théorème des quatre couleurs
+     </b>
+    </h2>
+            <h5>
+        <font color="grey">Publié le
+        11
+        
+        septembre
+        
+        2016
+        
+        dans les catégories :
+        
+	
+        <span class="post-tag"><b>informatique </b></span>
+        
+	
+        <span class="post-tag"><b>sciences </b></span>
+        
+        
+        </font>
+        </h5>
+
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Thème : Théorie des graphes</p>
+
+<p>Note : Les quatre premiers articles de mathématiques peuvent être utiles pour faire les exercices de cet article (ne vous inquiétez pas, ils sont très courts !)</p>
+
+<p>Cet article est l’occasion de présenter quelques définitions élémentaires de la théorie des graphes, et est le premier d’une série visant à démontrer un théorème majeur, le théorème des quatre couleurs. Il n’y a pas de démonstration complexe, mais il est vivement conseillé de faire les exercices pour se familiariser avec les notions.</p>
+
+<p>Retournons ensemble dans un passé insouciant, où, assis sur votre chaise dans une salle de classe, votre seule préoccupation était de colorier avec un nombre minimal de couleurs (votre attirail de crayons étant limité) la carte géographique en face de vous. Vous ne vous doutiez certes pas qu’à cet instant, pauvre innocent, vous étiez actuellement en train de méditer sur l’un des problèmes majeurs de la théorie des graphes.</p>
+
+<p>Mais, tout d’abord, formalisons le problème que nous avons énoncé précédemment.</p>
+
+<ul>
+  <li>
+    <p>Un graphe (comme celui qui est présent en image ci-dessus) est en fait constitué d’un ensemble de sommets, et d’un ensemble d’arêtes, c’est-à-dire de liens entre deux sommets. Une arête entre les sommets i et j est notée (i,j) (ou de façon équivalente ici, (j,i) : on dit que le graphe est non orienté). On écrira alors que G est le graphe (V, E) avec V l’ensemble de sommets (“vertices”, noeuds en anglais), et E l’ensemble d’arêtes (“edges”, traduction anglaise d’arête). Ici, on considère qu’il n’existe pas d’arêtes pointant d’un sommet vers lui-même (donc i est différent de j).</p>
+  </li>
+  <li>
+    <p>Une coloration d’un graphe va alors être une fonction notée c qui à un sommet associe sa couleur : par exemple, si on a colorié le sommet 1 du graphe en bleu, c(1) = bleu. Tout comme on peut associer des entiers à chaque sommet, de même on pourra associer un entier à chaque couleur. Il est évidemment préférable d’associer deux entiers différents à deux couleurs différentes… En définitive, c sera une fonction d’un intervalle {0, 1, 2, …, n} dans un intervalle {0, 1, 2, …, m}, où n sera le nombre de sommets, et m le nombre de couleurs, et c(0) sera donc la couleur du sommet numéroté 0.</p>
+  </li>
+  <li>
+    <p>On notera K(G) le nombre minimal de couleurs nécessaire pour qu’il existe une coloration c telle que :
+Propriété (P) : si les sommets i et les sommets j sont reliés par une arête, alors ils ont des couleurs distinctes par la coloration c : c(i) != c(j) (!= signifie “différent de”).</p>
+  </li>
+  <li>
+    <p>Un graphe est colorié si on a pu trouver une fonction de coloration qui respecte la propriété (P). Le graphe est colorié avec au plus k couleurs si la fonction de coloration respecte la propriété (P) et que le nombre de couleurs est k.</p>
+  </li>
+</ul>
+
+<p>–</p>
+
+<p>Exercice : Dites combien vaut K(G) quand G a trois sommets 0, 1 et 2, et trois arêtes, une reliant 0 à 1, une reliant 1 à 2, et l’autre reliant 2 à 0. (Ce n’est nullement une question piège. En cas de doute, vous pouvez voir les réponses dans le prochain article, comme pour tous les exercices qui vont suivre…)</p>
+
+<p>Exercice : Un graphe complet à i sommets (noté K-i) est un graphe tel qu’il existe une arête entre chaque couple de sommets distincts du graphe (par exemple, le graphe de l’exercice précédent s’appelle K-3). Montrez que K(K-i) &gt;= i (&gt;= signifiant “supérieur ou égal à”). (Indice : démonstration par l’absurde, en supposant que K(K-i) &lt; i)</p>
+
+<p>Exercice : Un cycle à i sommets C-i est un graphe tel que, si les sommets sont numérotés 0, 1, 2, 3, …, i-1, ses arêtes sont (0, 1), (1, 2), (2, 3), …, (i-2, i-1), (i-1, 0). Montrez que si i est supérieur ou égal à 2, alors soit K(C-i) = 2 si i est pair, soit K(C-i) = 3 si i est impair. (Indice : raisonnement par récurrence sur i puis, à l’intérieur de la récurrence, un raisonnement par disjonction de cas, dans les deux cas où i est pair/impair)</p>
+
+<p>–</p>
+
+<ul>
+  <li>Un graphe planaire G est tel qu’il existe une façon de le dessiner sans que les arêtes ne s’intersectent. Un graphe planaire plongé est un graphe qui est dessiné sans que les arêtes ne s’intersectent. Autrement dit, un graphe planaire peut être dessiné sous forme d’un graphe planaire plongé. Ici, lorsqu’on évoquera un graphe planaire, on pensera à sa version plongée.</li>
+</ul>
+
+<p>–</p>
+
+<p>Exercice : Le graphe K-4 est-il planaire ? K-5 est-il planaire ? (Indice : il y a un oui et un non. Pour prouver le oui, dessinez une version planaire du graphe. La justification du non nécessite le théorème de Kuratowski-Wagner, qui sera présenté dans cet article un peu plus tard)</p>
+
+<p>–</p>
+
+<p>Un graphe connexe est un graphe tel que, pour tout sommets i et j distincts, il existe un chemin, c’est-à-dire une suite d’arêtes, dans le graphe de i vers j (ou de façon équivalente, de j vers i, car nos graphes sont non orientés). Par exemple, K-3 est connexe.</p>
+
+<p>–</p>
+
+<p>Le graphe K-i-j est le graphe constitué de deux ensembles de sommets distincts G-i (contenant i sommets) et G-j (contenant j sommets), tels que chaque noeud dans G-i soit relié à tous les sommets de G-j, et que chaque noeud de G-j soit relié à tous les sommets de G-i. Par exemple, vous avez en image ci-dessus le graphe K-3-3, qui aura son rôle à jouer ci-dessous. On appelle un tel graphe un graphe biparti complet.</p>
+
+<p>–</p>
+
+<p>Après cette longue (mais nécessaire) tartine de définitions, revenons à nos graphes. Le théorème que vous auriez rêvé connaître en classe de géographie, et qui peut paraître assez étonnant, est le théorème des quatre couleurs :</p>
+
+<p>Théorème des quatre couleurs (conjecturé en 1852) : Toute carte (que l’on pourra assimiler à un graphe planaire non orienté connexe) peut être coloriée avec au plus quatre couleurs.</p>
+
+<p>Ce théorème est la conséquence directe d’un autre résultat (pour vous en convaincre, revoyez les définitions ci-dessus) :</p>
+
+<p>Théorème d’Appel et Haken (démontré en 1976) : Pour tout graphe planaire G, K(G) &lt;= 4.</p>
+
+<p>Ce dernier théorème est assez exceptionnel, car sa démonstration s’aide d’un ordinateur, qui a colorié toutes les configurations possibles qui peuvent être contenues dans un graphe planaire, qui avaient été préalablement énumérées par les mathématiciens. Comme toutes les configurations représentaient exhaustivement tous les cas possibles, et que l’ordinateur a réussi à les colorier avec au plus quatre couleurs, on peut penser que la conjecture s’avérait vraie -c’est une sorte de version assez longue et pénible de la démonstration par disjonction de cas. Certains mathématiciens restent frustrés par cette preuve informatique…</p>
+
+<p>Evidemment, vous pouvez vous dire -en toute légitimité- que c’était bien la peine de consacrer tout un article simplement pour colorier une carte alors qu’au demeurant, vous pouviez très bien acheter de nouveaux crayons. Mais l’intérêt de la résolution du problème de coloriage (avec un nombre minimal de couleurs) est que beaucoup de problèmes de la vie quotidienne peuvent s’y ramener. Un congrès d’informaticiens veut organiser un séminaire, en utilisant le moins de salles possibles. Les horaires des différentes conférences étant déjà fixés, il s’agit d’attribuer une salle pour chaque conférence. Pour cela, on construit le graphe où les sommets sont les conférences. Deux conférences sont reliées par une arête si leur temps d’exposé se chevauchent (autrement dit, elles se déroulent le même jour et l’une commence pendant le temps d’exposé de l’autre). Les couleurs seront alors les différentes salles utilisées pour le séminaire. Alors d’après la définition précédente du graphe, si deux conférences sont reliées par une arête, alors elles ne peuvent pas se dérouler dans la même salle, donc les sommets associés ne pourront pas être de la même couleur.</p>
+
+<p>–</p>
+
+<p>Exercice : Supposons que le séminaire soit composé de sept conférences : A, B, C, D, E, F et G. Voici l’emploi du temps du séminaire :</p>
+
+<p>Jour 1 :
+A : 9H30 - 12H00
+B : 8H30 - 11H00
+C : 14H00 - 18H00 (pauvre conférencier…)
+D : 13H00 - 14H30</p>
+
+<p>Jour 2 :
+E : 8H30 - 10H00
+F : 9H00 - 13H30
+G : 13H00 - 14H00</p>
+
+<p>Convainquez-vous que le séminaire devra utiliser au moins 2 salles.</p>
+
+<p>–</p>
+
+<p>Références : (si vous ne pouvez pas attendre les prochains articles de la série, et que vous voulez en savoir plus sur la démonstration du théorème des quatre couleurs, et de celui d’Appel et Haken)</p>
+<ul>
+  <li>Elements de théorie des graphes : Bretto, Faisant, Hennecart.</li>
+  <li>La <a href="(http://enseignement.polytechnique.fr/profs/informatique/Georges.Gonthier/pi2000/pro/gonthier)">page de Georges Gonthier</a> sur le site de l’Ecole Polytechnique.</li>
+</ul>
+
+  </div>
+  <div id="share-buttons">
+          <h3>Partager cet article : </h3>
+          <a href="http://www.facebook.com/sharer.php?url=" +  + ";" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+          <a href="https://twitter.com/share?url=" +  + ";" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+          </a>
+    </div>
+
+</article>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+          <div id="column2" class="sidemenu" style="float:right; margin:0; width:23%;">
+                <div class="wrapper">
+
+    <br></br>
+
+    <center><h4>
+             Envoyer un mail : <a href="mailto:sitereflechir@gmail.com">sitereflechir@gmail.com</a>
+    </h4></center>
+
+<p>Inscrivez-vous pour recevoir les nouveaux articles par email !</p>
+<div class="form-group">
+    <form style="text-align: center; background-color: whitesmoke; border:1px solid #ccc;padding:3px;text-align:center" action="https://tinyletter.com/reflechir" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/reflechir', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <p><label for="tlemail">Écrire votre adresse mail :</label></p>
+        <p><input type="text" style="width:140px" name="email" id="tlemail"></p>
+        <input type="hidden" value="1" name="embed"><input type="submit" value="S'inscrire" class="btn btn-warning">
+    </form>
+</div> 
+
+<br></br>
+
+          <h3><b>Articles à venir :</b></h3>
+          <h5><p class="indent2"><em>[Informatique] Algorithme de Nussinov et introduction aux grammaires</em></p></h5>
+          <h5><p class="indent2"><em>[Informatique] Eléments de programmation réseau : s'envoyer des mails à l'ancienne</em></p></h5>
+          <h5><p class="indent2"><em>[Mathématiques] Combinatoire</em></p></h5>
+          <h5><p class="indent2"><em>[Mathématiques] Arithmétique</em></p></h5>
+
+   </div>
+
+          </div>
+      </div>
+    </main>
+
+  </body>
+
+</html>

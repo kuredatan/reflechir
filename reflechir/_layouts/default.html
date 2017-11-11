@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "fr" }}">
+
+  {% include head.html %}
+
+  <body>
+
+   {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div id="contentBox" style="margin:0px auto; width:98%">
+        <div id="column1" style="float:left; margin:0; width:75%;">
+          <div class="content container">
+            <div class="row">
+              <div class="col-md-8">
+                {{content}}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+          <div id="column2" class="sidemenu" style="float:right; margin:0; width:23%;">
+              {% include side.html %}
+          </div>
+      </div>
+    </main>
+
+  </body>
+
+</html>

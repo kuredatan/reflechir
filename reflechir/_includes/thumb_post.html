@@ -1,0 +1,11 @@
+      <li>
+          <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}" style="color: #000000">
+                 <b>{{ post.title | truncate:62 | escape }}</b>
+              </a>
+          </h3>
+        {% include post_date.html %}
+        <h4>
+          <p>{{ post.content  | truncatewords:80 }}</p>
+        </h4>
+      </li>
