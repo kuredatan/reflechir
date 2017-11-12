@@ -1,6 +1,6 @@
 title:                  Réfléchir
 description:            "Ce site s'adresse à tous et a pour but de susciter la réflexion, autant par l'analyse des actualités que par la découverte des sciences et des sciences humaines."
-url:                    http://reflechir.ml
+url:                    http://reflechir.ml 
 email:                  sitereflechir@gmail.com
 lang:                   "fr"
 categories:             [actualités,sciences, sciences humaines,évènements,fact-checking,opinions,mathématiques,informatique,biologie, physique,dossiers,lu et approuvé]
@@ -20,100 +20,82 @@ version:                2.1.0
 defaults:
   -
     scope:
-      path:             "_posts/actualites"
+      path:             "_posts/"
       type:             "posts"
     values:
-      title:            "Actualités"
       layout:           "post"
+  -
+    scope:
+      path:             "_posts/actualites"
+    values:
+      title:            "Actualités"
       category:         actualités
   -
     scope:
       path:             "_posts/sciences"
-      type:             "posts"
     values:
       title:            "Sciences"
-      layout:           "post"
       category:         sciences
   -
     scope:
       path:             "_posts/scienceshumaines"
-      type:             "posts"
     values:
       title:            "Sciences humaines"
-      layout:           "post"
       category:         sciences humaines
   -
     scope:
       path:             "_posts/evenements"
-      type:             "posts"
     values:
       title:            "Évènements"
-      layout:           "post"
       category:         [évènements,actualités]
   -
     scope:
       path:             "_posts/dossiers"
-      type:             "posts"
     values:
       title:            "Dossiers"
-      layout:           "post"
       category:         [dossiers,actualités]
   -
     scope:
       path:             "_posts/fact_checking"
-      type:             "posts"
     values:
       title:            "Fact Checking"
-      layout:           "post"
       category:         [fact-checking,actualités]
   -
     scope:
       path:             "_posts/opinions"
-      type:             "posts"
     values:
       title:            "Opinions"
-      layout:           "post"
       category:         [opinions,actualités]
   -
     scope:
       path:             "_posts/informatique"
-      type:             "posts"
     values:
       title:            "Informatique"
-      layout:           "post"
       category:         [informatique,sciences]
   -
     scope:
       path:             "_posts/mathematiques"
-      type:             "posts"
     values:
       title:            "Mathématiques"
-      layout:           "post"
       category:         [mathématiques,sciences]
   -
     scope:
       path:             "_posts/biologie"
-      type:             "posts"
     values:
       title:            "Biologie"
-      layout:           "post"
       category:         [biologie,sciences]
   -
     scope:
       path:             "_posts/physique"
-      type:             "posts"
     values:
       title:            "Physique"
-      layout:           "post"
       category:         [physique,sciences]
   -
     scope:
       path:             "_posts/luetapprouve"
-      type:             "posts"
     values:
       title:            "Lu et approuvé"
-      layout:           "post"
-      category:         [lu et approuvé,sciences]
+      category:         [lu et approuvé,sciences humaines]
 
 images:                 "images/"
 source:                 .

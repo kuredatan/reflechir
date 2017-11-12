@@ -1,3 +1,10 @@
+<style>
+header
+{
+    background-color:#ebebe0;
+}
+</style>
+
 <header class="site-header" role="banner">
 
   <div class="wrapper">
@@ -33,8 +40,21 @@
         <div class="trigger">
           <center>
           {% assign sorted_pages = site.pages | sort:"order" %}
+          {% assign i = 0 %}
            {% for node in sorted_pages %}
+           {% if node.title != null %}
+            {% assign i = i | plus:1 %}
+             {% if page.url == node.url %}
+            <a class="page-link" href="{{ node.url | relative_url }}" font-color="#b8b894">{{ node.title | escape }}</a>
+             {% else %}
             <a class="page-link" href="{{ node.url | relative_url }}">{{ node.title | escape }}</a>
+             {% endif %}
+             {% assign remi = i | modulo:5 %}
+	     {% if remi == 0 %}
+              {% assign i = 0 %}
+               <br>
+              {% endif %}
+              {% endif %}
            {% endfor %}
           </center>
         </div>

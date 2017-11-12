@@ -1,6 +1,6 @@
 ---
-title: "Article introductif"
-date: 2017-04-14
+title: "Présidentielle 2017 : Article introductif"
+date: 2017-04-04
 ---
 
 Cet article introductif présente les différentes parties des articles sur les candidats.
