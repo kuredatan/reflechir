@@ -5,7 +5,7 @@ date: 2017-04-04
 
 ![Source : europe1.fr]({{ "/images/NDA_en_2014.jpg" | absolute_url }})
 
-Voir la [deuxième]({{ site.baseurl }}{% post_url _posts/evenements/post/2017-04-04-presidentielle-2017-nicolas-dupont-aignan-deuxieme-partie %}) partie.
+Voir la [deuxième]({{ site.url }}{% post_url /evenements/2017-04-04-presidentielle-2017-nicolas-dupont-aignan-deuxieme-partie %}) partie.
 
 Les crochets dans le texte indiquent une citation de la source associée au numéro, disponible dans la partie Sources de l'article.
 

@@ -5,7 +5,7 @@ date: 2017-04-04
 
 ![Source : europe1.fr]({{ "/images/NDA_en_2014.jpg" | absolute_url }})
 
-Voir la [première]({{ site.baseurl }}{% post_url _posts/evenements/post/2017-04-04-presidentielle-2017-nicolas-dupont-aignan-premiere-partie %}) partie.
+Voir la [première]({{ site.url }}{% post_url /evenements/2017-04-04-presidentielle-2017-nicolas-dupont-aignan-premiere-partie %}) partie.
 
 IV) Mesures écologiques
 

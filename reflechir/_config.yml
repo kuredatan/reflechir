@@ -1,6 +1,6 @@
 title:                  Réfléchir
 description:            "Ce site s'adresse à tous et a pour but de susciter la réflexion, autant par l'analyse des actualités que par la découverte des sciences et des sciences humaines."
-url:                    "http://reflechir.com"
+url:                    http://reflechir.ml
 email:                  sitereflechir@gmail.com
 lang:                   "fr"
 categories:             [actualités,sciences, sciences humaines,évènements,fact-checking,opinions,mathématiques,informatique,biologie, physique,dossiers,lu et approuvé]
@@ -153,8 +153,8 @@ excerpt_separator:      "\n\n"
 incremental:            false
 
 detach:                 false
-port:                   4000
-host:                   127.0.0.1
+port:                   80
+host:                   0.0.0.0
 baseurl:                "/" 
 show_dir_listing:       false
 

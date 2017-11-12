@@ -5,7 +5,7 @@ date: 2017-04-04
 
 ![Source : europe1.fr]({{ "/images/Jean-Luc-Melenchon.jpg" | absolute_url }})
 
-Voir les [première]({{ site.baseurl }}{% post_url _posts/evenements/post/2017-04-04-presidentielle-2017-jean-luc-melenchon-premiere-partie %}) et [troisième]({{ site.baseurl }}{% post_url _posts/evenements/post/2017-04-04-presidentielle-2017-jean-luc-melenchon-troisieme-partie %}) parties. Le programme de Jean-Luc Mélenchon est disponible [ici](https://laec.fr/). Sa version audio est disponible sur cette [page](https://avenirencommun.fr/avenir-en-commun/). Son émission de chiffrage est disponible [ici](https://www.youtube.com/watch?v=T7b67QCjibc).
+Voir les [première]({{ site.url }}{% post_url /evenements/2017-04-04-presidentielle-2017-jean-luc-melenchon-premiere-partie %}) {{ site.url }}{% post_url /evenements/2017-04-04-presidentielle-2017-jean-luc-melenchon-premiere-partie %} et [troisième]({{ site.url }}{% post_url /evenements/2017-04-04-presidentielle-2017-jean-luc-melenchon-troisieme-partie %}) parties. Le programme de Jean-Luc Mélenchon est disponible [ici](https://laec.fr/). Sa version audio est disponible sur cette [page](https://avenirencommun.fr/avenir-en-commun/). Son émission de chiffrage est disponible [ici](https://www.youtube.com/watch?v=T7b67QCjibc).
 
 IV) Mesures écologiques
 
