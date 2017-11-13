@@ -33,7 +33,7 @@ J'écris ici seulement l'essentiel :
 [PDF]({{ "/pdfs/[nom du document].pdf" | absolute_url }})
 
 * Ajouter une adresse URL vers un post du blog : (le manque d'espace entre les crochets et les parenthèses est important)
-Ecrire : [Je suis un lien URL]({{ site.url }}{% post_url [sous-dossier/AAAA-MM-DD-title] %}) 
+Ecrire : [Je suis un lien URL]({{ siteurl }}{% post_url [sous-dossier/AAAA-MM-DD-title] %}) 
 (ne modifier que les parties entre crochets : 'sous-dossier' est le sous-dossier du dossier '_posts' qui contient le post. Ne pas marquer l'extension ".md")
 
 * Ajouter une adresse URL : (le manque d'espace entre les crochets et les parenthèses est important)

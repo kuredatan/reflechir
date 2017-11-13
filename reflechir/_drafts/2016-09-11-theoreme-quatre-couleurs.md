@@ -1,6 +1,5 @@
 ---
 title: (Théorie des graphes) Bases et théorème des quatre couleurs
-date: 2016-09-11
 ---
 
 Thème : Théorie des graphes

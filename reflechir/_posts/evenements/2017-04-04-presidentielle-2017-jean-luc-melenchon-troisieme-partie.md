@@ -1,9 +1,8 @@
 --- 
 title: "Présidentielle 2017 : Jean-Luc Mélenchon (troisième partie)"
 date: 2017-04-04
+bitlink: http://bit.ly/2hmRYAn
 ---
-
-![Source : europe1.fr]({{ "/images/Jean-Luc-Melenchon.jpg" | absolute_url }})
 
 Voir les [première]({{ site.url }}{% post_url /evenements/2017-04-04-presidentielle-2017-jean-luc-melenchon-premiere-partie %}) et [deuxième]({{ site.url }}{% post_url /evenements/2017-04-04-presidentielle-2017-jean-luc-melenchon-deuxieme-partie %}) parties. Le programme de Jean-Luc Mélenchon est disponible [ici](https://laec.fr/). Sa version audio est disponible sur cette [page](https://avenirencommun.fr/avenir-en-commun/). Son émission de chiffrage est disponible [ici](https://www.youtube.com/watch?v=T7b67QCjibc).
 
@@ -192,4 +191,6 @@ Voir mesure numéro 12.
 Mélenchon est le seul candidat qui propose la Sécurité sociale intégrale, qui rembourse à 100% les soins de santé prescrits. C’est aussi le candidat qui va le plus loin dans les mesures de protection sociale. On peut légitimement se demander comment il finance toutes ces dépenses : la réponse peut être trouvée dans son émission de chiffrage (lien dans les Sources juste après le programme).
 Pour garantir de meilleurs services publics, Mélenchon compte recruter plus de fonctionnaires, comme Hamon et Le Pen, mais contrairement à Macron et Fillon qui veulent supprimer des postes de fonctionnaires.
 Mélenchon et Hamon proposent le passage à une 6ème République (mais ne se font pas exactement la même idée de la 6ème République, voir leurs mesures institutionnelles), tandis que Macron, Fillon et Le Pen veulent rester dans la 5ème République mais ont quand même des mesures institutionnelles importantes (par exemple réduire le nombre de parlementaires).
+
+L'image vient de europe1.fr.
 

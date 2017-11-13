@@ -1,6 +1,7 @@
 ---
 title: "Présidentielle 2017 : Article introductif"
 date: 2017-04-04
+bitink: http://bit.ly/2hophmN
 ---
 
 Cet article introductif présente les différentes parties des articles sur les candidats.
