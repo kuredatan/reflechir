@@ -4,6 +4,8 @@ date: 2017-08-24
 bitlink: http://bit.ly/2yrl5JD
 ---
 
+<img src="/images/Lu_et_approuv.png" style="float: center"/> 
+
 George Bernard Shaw (1856-1950), connu comme Bernard Shaw, est un dramaturge irlandais considéré par beaucoup comme le second meilleur dramaturge anglophone (après William Shakespeare) (voir notamment la citation du Oxford Encyclopedia of Theatre and Performance sur la [page Wikipedia](https://en.wikipedia.org/wiki/George_Bernard_Shaw) consultée le 31 juillet 2017). Shaw reçut le Prix Nobel de littérature en 1925.
 
 Les pièces et les préfaces de Shaw provoquent la réflexion en remettant en question les « évidences » de son époque (souvent encore d'actualité).

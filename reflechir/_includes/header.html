@@ -43,21 +43,12 @@ header
          <div class="trigger">
           <center>
           {% assign sorted_pages = site.pages | sort:"order" %}
-          {% assign i = 0 %}
            {% for node in sorted_pages %}
-           {% if node.title != null %}
-            {% assign i = i | plus:1 %}
              {% if page.url == node.url %}
 <a class="page-link" href="{{ node.url | relative_url }}"><font color="#adad85">{{ node.title | escape }}</font></a>
              {% else %}
 <a class="page-link" href="{{ node.url | relative_url }}">{{ node.title | escape }}</a>
              {% endif %}
-             {% assign remi = i | modulo:5 %}
-	     {% if remi == 0 %}
-              {% assign i = 0 %}
-               <br>
-              {% endif %}
-              {% endif %}
            {% endfor %}
           </center>
         </div>

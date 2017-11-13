@@ -4,6 +4,8 @@ date: 2017-04-04
 bitlink: http://bit.ly/2zAoJo6
 ---
 
+<img src="/images/21e61bb6f3f978d3d1c96e89c9d9f.jpeg" style="float: center"/> 
+
 Voir les [première]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-emmanuel-macron-premiere-partie %}) et [troisieme]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-emmanuel-macron-troisieme-partie %}) parties. Le programme d'Emmanuel Macron est disponible sur cette [page](http://www.en-marche.fr/emmanuel-macron/le-programme). Synthèse : [ici](http://www.cnewsmatin.fr/politique/2017-03-19/presidentielle-2017-le-programme-demmanuel-macron-744341)
 
 ## IV) Mesures écologiques ##

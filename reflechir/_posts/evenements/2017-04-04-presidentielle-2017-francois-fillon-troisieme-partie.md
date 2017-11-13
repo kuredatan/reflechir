@@ -4,6 +4,8 @@ date: 2017-04-04
 bitlink: http://bit.ly/2hn1PGf
 ---
 
+<img src="/images/François_Fillon_2010.jpg" style="float: center"/> 
+
 Voir les [première]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-francois-fillon-premiere-partie %}) et [deuxième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-francois-fillon-deuxieme-partie %}) parties. Le programme de François Fillon est disponible [ici](https://www.fillon2017.fr/wp-content/uploads/2017/03/PROJET_FRAN%C3%87OIS_FILLON_2017.pdf).
 
 ## X) Mesures institutionnelles ##

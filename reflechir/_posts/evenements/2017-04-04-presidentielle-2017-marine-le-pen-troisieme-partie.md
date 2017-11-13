@@ -4,6 +4,8 @@ date: 2017-04-04
 bitlink: http://bit.ly/2zRLIf4
 ---
 
+<img src="/images/marine-le-pen-new-york-mais-pas-pour-voir-donald-trump.jpg" style="float: center"/> 
+
 Voir les [première]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-marine-le-pen-premiere-partie %}) et [deuxième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-marine-le-pen-deuxieme-partie %}) parties. Le programme de Marine Le Pen est disponible [ici](https://www.marine2017.fr/wp-content/uploads/2017/02/projet-presidentiel-marine-le-pen.pdf).
 
 ## X) Mesures institutionnelles ##

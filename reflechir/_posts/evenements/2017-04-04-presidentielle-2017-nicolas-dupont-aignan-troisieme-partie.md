@@ -4,6 +4,8 @@ date: 2017-04-04
 bitlink: http://bit.ly/2i8Hcyi
 ---
 
+<img src="/images/NDA_en_2014.jpg" style="float: center"/> 
+
 Voir les [première]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-nicolas-dupont-aignan-premiere-partie %}) et [deuxième]({{ site.url }}{% post_url /evenements/2017-04-04-presidentielle-2017-nicolas-dupont-aignan-deuxieme-partie %}) parties. Le programme de Nicolas Dupont-Aignan est disponible [ici](http://www.nda-2017.fr/projet).
 
 ## X) Mesures institutionnelles ##

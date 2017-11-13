@@ -4,6 +4,8 @@ date: 2017-04-04
 bitlink: http://bit.ly/2yut1Kh
 ---
 
+<img src="/images/François_Fillon_2010.jpg" style="float: center"/> 
+
 Voir les [deuxième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-francois-fillon-deuxieme-partie %}) et [troisième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-francois-fillon-troisieme-partie %}) parties. Le programme de François Fillon est disponible sur cette [page](https://www.fillon2017.fr/wp-content/uploads/2017/03/PROJET_FRAN%C3%87OIS_FILLON_2017.pdf).
 
 ## Contexte ##

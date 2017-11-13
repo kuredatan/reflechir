@@ -4,6 +4,8 @@ date: 2017-04-04
 bitink: http://bit.ly/2hophmN
 ---
 
+<img src="/images/2017-03-18t105333z_1912742804_rc1acb0a48b0_rtrmadp_3_france-election-candidates_2.jpg" style="float: center"/> 
+
 Cet article introductif présente les différentes parties des articles sur les candidats.
 Pour des raisons de lisibilité, les articles sur Dupont-Aignan, Fillon, Hamon, Le Pen, Macron, et Mélenchon ont été scindés en trois chacun.
 

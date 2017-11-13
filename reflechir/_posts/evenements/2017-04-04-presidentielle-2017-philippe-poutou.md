@@ -4,6 +4,8 @@ date: 2017-04-04
 bitlink: http://bit.ly/2AEncLP
 ---
 
+<img src="/images/16.jpg" style="float: center"/> 
+
 Le programme de Philippe Poutou est disponible [ici](https://poutou2017.org/sites/default/files/2017-03/ProgrammePOUTOU-2017_WEB_0.pdf), et est résumé sur cette [page](https://poutou2017.org/sites/default/files/2017-01/4PAGES-Campagne-web.pdf).
 
 ## Contexte ##

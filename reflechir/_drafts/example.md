@@ -27,7 +27,9 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 J'écris ici seulement l'essentiel :
 
 * Ajouter une image : mettre l'image dans le dossier "images" et écrire
-![Légende]({{ "/images/[nom de l'image].[extension]" | absolute_url }})
+<img src="/images/[nom de l'image].[extension]" style="float: center"/> 
+
+(ignorer : ![Légende]({{ "/images/[nom de l'image].[extension]" | absolute_url }}))
 
 * Ajouter un document PDF : mettre le document dans le dossier "pdfs" et écrire
 [PDF]({{ "/pdfs/[nom du document].pdf" | absolute_url }})

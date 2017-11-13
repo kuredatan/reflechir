@@ -4,6 +4,8 @@ date: 2017-04-04
 bitlink: http://bit.ly/2i7uCzC
 ---
 
+<img src="/images/180px-BHamon2012.jpg" style="float: center"/> 
+
 Voir les [première]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-benoit-hamon-premiere-partie %}) et [troisième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-benoit-hamon-troisieme-partie %}) parties. Le programme de Benoît Hamon est disponible sur cette [page](https://www.benoithamon2017.fr/wp-content/uploads/2017/03/projet-web1.pdf).
 
 ## IV) Mesures écologiques ##
