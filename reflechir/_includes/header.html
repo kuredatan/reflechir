@@ -8,7 +8,6 @@ header
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    <div>
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <p><center><h1>
@@ -25,7 +24,6 @@ header
              {{ site.description | escape }}
              {% endif %}
     </h3></center></p>
-    <div>
     {% if page_paths %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -39,7 +37,6 @@ header
           </span>
         </label>
 
-        <div class="wrapper" style="float: left;">
          <div class="trigger">
           <center>
           {% assign sorted_pages = site.pages | sort:"order" %}
@@ -50,6 +47,5 @@ header
         </div>
       </nav>
     {% endif %}
-  </div>
   </div>
 </header>
