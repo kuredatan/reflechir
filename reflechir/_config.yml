@@ -5,6 +5,7 @@ email:                  sitereflechir@gmail.com
 lang:                   "fr"
 categories:             [actualités,sciences, sciences humaines,évènements,fact-checking,opinions,mathématiques,informatique,biologie, physique,dossiers,lu et approuvé]
 sections:               [actualités, sciences, sciences humaines]
+antichrono:             [actualités, sciences, sciences humaines,dossiers,évènements,fact-checking,opinions]
 pagenames:              ["Actualités","Sciences","Sciences humaines","Évènements","Dossiers","Fact Checking","Opinions","Mathématiques","Informatique","Biologie","Physique","Lu et approuvé"]
 
 google_analytics:       'UA-109489888-1'
