@@ -9,10 +9,6 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-\documentclass[12pt]{article}
-\usepackage{amsmath, amssymb}
-\begin{document}
-
 En math\'ematiques, savoir d\'emontrer un \'enonc\'e est tr\`es important. Un \'enonc\'e est constitu\'e d'hypoth\`eses et de conclusions. Une d\'emonstration est une suite de d\'eductions qui relie hypoth\`eses et conclusions. Pour que la d\'emonstration d'un \'enonc\'e soit correcte, il faut que toutes les d\'eductions de la d\'emonstration le soient.\\
 
 Etudions l'\'enonc\'e suivant : La compos\'ee de deux fonctions de $\mathbb{R}$ dans $\mathbb{R}$ d\'ecroissantes est croissante.\\
@@ -73,5 +69,3 @@ Remarque : $f$ n'est pas non plus d\'ecroissante. En effet, $2 \geq 1,5$ et $f(2
 Il existe une multitude d'\'enonc\'es, de d\'emonstrations et de contre-exemples en math\'ematiques. Plusieurs d\'emonstrations utilisent le m\^eme type de raisonnement, qu'il est bon de savoir manipuler sans difficult\'e. Nous pr\'esenterons dans les articles suivants les raisonnements par r\'ecurrence (article 2), par contraposition, par l'absurde (article 3), par analyse-synth\`ese et par disjonction de cas (article 4).\\
 
 Cl\'ementine Lemari\'e--Rieusset
-
-\end{document}
