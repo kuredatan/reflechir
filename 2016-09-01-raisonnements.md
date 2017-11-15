@@ -2,6 +2,13 @@
 title : "1. Les raisonnements en mathématiques."
 date : 2016-09-01
 ---
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
+
 \documentclass[12pt]{article}
 \usepackage{amsmath, amssymb}
 \begin{document}
