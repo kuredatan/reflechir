@@ -65,6 +65,6 @@ Remarque : $f$ n'est pas non plus d\'ecroissante. En effet, $2 \geq 1,5$ et $f(2
 
 Il existe une multitude d'\'enonc\'es, de d\'emonstrations et de contre-exemples en math\'ematiques. Plusieurs d\'emonstrations utilisent le m\^eme type de raisonnement, qu'il est bon de savoir manipuler sans difficult\'e. Nous pr\'esenterons dans les articles suivants les raisonnements par r\'ecurrence (article 2), par contraposition, par l'absurde (article 3), par analyse-synth\`ese et par disjonction de cas (article 4).\\
 
-Cl\'ementine Lemari\'e--Rieusset, http://reflechir.pythonanywhere.com/
+Cl\'ementine Lemari\'e--Rieusset
 
 \end{document}
