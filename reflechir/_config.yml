@@ -7,6 +7,7 @@ categories:             [actualités,sciences, sciences humaines,évènements,fa
 sections:               [actualités, sciences, sciences humaines]
 antichrono:             [actualités, sciences, sciences humaines,dossiers,évènements,fact-checking,opinions]
 pagenames:              ["Actualités","Sciences","Sciences humaines","Évènements","Dossiers","Fact Checking","Opinions","Mathématiques","Informatique","Biologie","Physique","Lu et approuvé"]
+sectionnames:           ["Actualités","Sciences","Sciences humaines"]
 
 google_analytics:       'UA-109489888-1'
 environment:            "production"
@@ -143,7 +144,7 @@ baseurl:                "/"
 show_dir_listing:       false
 
 permalink:              pretty
-paginate_path:          '/posts/page:num/'
+paginate_path:          '/blog/page:num/'
 timezone:               null
 
 quiet:                  false
