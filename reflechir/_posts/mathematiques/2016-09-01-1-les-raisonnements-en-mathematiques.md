@@ -1,29 +1,32 @@
 ---
-title: "1. Les raisonnements en mathématiques."
+title: "1. Les raisonnements en mathématiques"
 date: 2016-09-01
 bitlink: http://bit.ly/2z9AkeU
 ---
 
+\package{amsmath}
+\package{amssymb}
+
 En mathématiques, savoir démontrer un énoncé est très important. Un énoncé est constitué d'hypothèses et de conclusions. Une démonstration est une suite de déductions qui relie hypothèses et conclusions. Pour que la démonstration d'un énoncé soit correcte, il faut que toutes les déductions de la démonstration le soient.
 
-Etudions l'énoncé suivant : La composée de deux fonctions de R dans R décroissantes est croissante.
+Etudions l'énoncé suivant : La composée de deux fonctions de \\(\mathbb{R}\\) dans \\(\mathbb{R}\\) décroissantes est croissante.
 
 Définitions :
 
-R est l'ensemble des nombres réels ($1$, $-8$, $\sqrt{2}$, $\frac{3}{4}$ etc).
+\\(\mathbb{R}\\) est l'ensemble des nombres réels (\\(1\\), \\(-8\\), \\(\sqrt{2}\\), \\(\frac{3}{4}\\) etc).
  
-Une fonction $f$ de R dans R associe à chaque réel un réel.
+Une fonction \\(f\\) de \\(\mathbb{R}\\) dans \\(\mathbb{R}\\) associe à chaque réel un réel.
 
-La fonction $f : x \mapsto x^2$ ("$x$ donne $x^2$") associe à chaque réel son carré : en 2 elle vaut 4 ($f(2) = 4$), en 3 elle vaut 9 ($f(3) = 9$), en $\sqrt{2}$ elle vaut 2 ($f(\sqrt{2}) = 2$) et ainsi de suite.
+La fonction \\(f : x \mapsto x^2\\) ("\\(x\\) donne \\(x^2\\)") associe à chaque réel son carré : en 2 elle vaut 4 (\\(f(2) = 4\\)), en 3 elle vaut 9 (\\(f(3) = 9\\)), en \\(\sqrt{2}\\) elle vaut 2 (\\(f(\sqrt{2}) = 2\\)) et ainsi de suite.
 
-La fonction $g : x \mapsto 2x $ ("$x$ donne $2 \times x$") associe à chaque réel son double : en 2 elle vaut 4, en 3 elle vaut 6, en $\sqrt{2}$ elle vaut $2\sqrt{2}$ et ainsi de suite.
+La fonction \\(g : x \mapsto 2x\\) ("\\(x\\) donne \\(2 \times x\\)") associe à chaque réel son double : en 2 elle vaut 4, en 3 elle vaut 6, en \\(\sqrt{2}\\) elle vaut \\(2\sqrt{2}\\) et ainsi de suite.
 
-La composée $f \circ g$ des fonctions $f$ et $g$ est la fonction qui à $x$ associe $f(g(x))$.
-Par exemple, si $f : x \mapsto x^2$ et $g : x \mapsto 2x $, $f \circ g(2) = f(4) = 16$, $f \circ g(3) = f(6) = 36$, $f \circ g(\sqrt{2}) = f(2\sqrt{2}) = 8$.
+La composée \\(f \circ g\\) des fonctions \\(f\\) et \\(g\\) est la fonction qui à \\(x\\) associe \\(f(g(x))\\).
+Par exemple, si \\(f : x \mapsto x^2\\) et \\(g : x \mapsto 2x\\), \\(f \circ g(2) = f(4) = 16\\), \\(f \circ g(3) = f(6) = 36\\), \\(f \circ g(\sqrt{2}) = f(2\sqrt{2}) = 8\\).
 
-Une fonction $f$ est croissante si, pour tous les réels $x$ et $y$, lorsque $x$ est plus grand que $y$, $f(x)$ est plus grand que $f(y)$ (que l'on note $f(x) \geq f(y)$).
+Une fonction \\(f\\) est croissante si, pour tous les réels \\(x\\) et \\(y\\), lorsque \\(x\\) est plus grand que \\(y\\), \\(f(x)\\) est plus grand que \\(f(y)\\) (que l'on note \\(f(x) \geq f(y)\\)).
 
-Une fonction $f$ est décroissante si, pour tous les réels $x$ et $y$, lorsque $x$ est plus grand que $y$, $f(x)$ est plus petit que $f(y)$ (que l'on note $f(x) \leq f(y)$).
+Une fonction \\(f\\) est décroissante si, pour tous les réels \\(x\\) et \\(y\\), lorsque \\(x\\) est plus grand que \\(y\\), \\(f(x)\\) est plus petit que \\(f(y)\\) (que l'on note \\(f(x) \leq f(y)\\)).
 
 Démontrons à présent notre énoncé :
 
@@ -41,7 +44,7 @@ De manière équivalente, $f(g(x)) \geq f(g(y))$.
 
 $f \circ g$ est donc croissante (conclusion)
 
-Nous avons une démontration correcte de notre énoncé, qui est donc vrai.
+Nous avons une démonstration correcte de notre énoncé, qui est donc vrai.
 
 Notations :
 
