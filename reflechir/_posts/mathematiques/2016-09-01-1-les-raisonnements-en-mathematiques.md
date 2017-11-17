@@ -4,8 +4,8 @@ date: 2016-09-01
 bitlink: http://bit.ly/2z9AkeU
 ---
 
-\package{amsmath}
-\package{amssymb}
+\usepackage{amsmath}
+\usepackage{amssymb}
 
 En mathématiques, savoir démontrer un énoncé est très important. Un énoncé est constitué d'hypothèses et de conclusions. Une démonstration est une suite de déductions qui relie hypothèses et conclusions. Pour que la démonstration d'un énoncé soit correcte, il faut que toutes les déductions de la démonstration le soient.
 
@@ -30,39 +30,39 @@ Une fonction \\(f\\) est décroissante si, pour tous les réels \\(x\\) et \\(y\
 
 Démontrons à présent notre énoncé :
 
-Soient $f$ et $g$ deux fonctions décroissantes (hypothèses) 
+Soient \\(f\\) et \\(g\\) deux fonctions décroissantes (hypothèses) 
 
-Soient $x$ et $y$ deux réels tels que $x \geq y$ ($x$ plus grand que $y$)
+Soient \\(x\\) et \\(y\\) deux réels tels que \\(x \geq y\\) (\\(x\\) plus grand que \\(y\\))
 
-$g(x) \leq g(y)$ (car $g$ est décroissante) (première déduction)
+\\(g(x) \leq g(y)\\) (car \\(g\\) est décroissante) (première déduction)
 
-De manière équivalente, $g(y) \geq g(x)$.
+De manière équivalente, \\(g(y) \geq g(x)\\).
 
-Ainsi, $f(g(y)) \leq f(g(x))$ (car $f$ est décroissante) (deuxième déduction)
+Ainsi, \\(f(g(y)) \leq f(g(x))\\) (car \\(f\\) est décroissante) (deuxième déduction)
 
-De manière équivalente, $f(g(x)) \geq f(g(y))$.
+De manière équivalente, \\(f(g(x)) \geq f(g(y))\\).
 
-$f \circ g$ est donc croissante (conclusion)
+\\(f \circ g\\) est donc croissante (conclusion)
 
 Nous avons une démonstration correcte de notre énoncé, qui est donc vrai.
 
 Notations :
 
-La négation de "$x$ plus grand que $y$" est "$x$ strictement plus petit que $y$" (c'est-à-dire $x$ plus petit que $y$ et $x$ différent de $y$) que l'on note $x < y$.
+La négation de "\\(x\\) plus grand que \\(y\\)" est "\\(x\\) strictement plus petit que \\(y\\)" (c'est-à-dire \\(x\\) plus petit que \\(y\\) et \\(x\\) différent de \\(y\\)) que l'on note \\(x < y\\).
 
-La négation de "$x$ plus petit que $y$" est "$x$ strictement plus grand que $y$" (c'est-à-dire $x$ plus grand que $y$ et $x$ différent de $y$) que l'on note $x > y$.
+La négation de "\\(x\\) plus petit que \\(y\\)" est "\\(x\\) strictement plus grand que \\(y\\)" (c'est-à-dire \\(x\\) plus grand que \\(y\\) et \\(x\\) différent de \\(y\\)) que l'on note \\(x > y\\).
 
 Considérons à présent l'énoncé suivant : 
 
-La fonction $f$ qui à un entier associe $1$ et à un réel non entier associe $-1$ est croissante.
+La fonction \\(f\\) qui à un entier associe \\(1\\) et à un réel non entier associe \\(-1\\) est croissante.
 
 Montrons que cet énoncé est faux. 
 
-Pour cela, il suffit de montrer qu'il existe un couple de réels $(x,y)$ tel que $x \geq y$ et $f(x) < f(y)$ (c'est-à-dire tel que $x$ est plus grand que $y$ et $f(x)$ n'est pas plus grand que $f(y)$). Un tel couple de réels est appelé un contre-exemple à notre énoncé.
+Pour cela, il suffit de montrer qu'il existe un couple de réels \\((x,y)\\) tel que \\(x \geq y\\) et \\(f(x) < f(y)\\) (c'est-à-dire tel que \\(x\\) est plus grand que \\(y\\) et \\(f(x)\\) n'est pas plus grand que \\(f(y)\\)). Un tel couple de réels est appelé un contre-exemple à notre énoncé.
 
-$2,5 \geq 2$ et $f(2,5) = -1 < 1 = f(2)$ donc $f$ n'est pas croissante.
+\\(2,5 \geq 2\\) et \\(f(2,5) = -1 < 1 = f(2)\\) donc \\(f\\) n'est pas croissante.
 
-Remarque : $f$ n'est pas non plus décroissante. En effet, $2 \geq 1,5$ et $f(2) = 1 > -1 = f(1,5)$.
+Remarque : \\(f\\) n'est pas non plus décroissante. En effet, \\(2 \geq 1,5\\) et \\(f(2) = 1 > -1 = f(1,5)\\).
 
 Il existe une multitude d'énoncés, de démonstrations et de contre-exemples en mathématiques. Plusieurs démonstrations utilisent le même type de raisonnement, qu'il est bon de savoir manipuler sans difficulté. Nous présenterons dans les articles suivants les raisonnements par récurrence (article 2), par contraposition, par l'absurde (article 3), par analyse-synthèse et par disjonction de cas (article 4).
 
