@@ -1,5 +1,5 @@
 ---
-title: Example
+title: Rédiger un article
 categories: ""
 ---
 
