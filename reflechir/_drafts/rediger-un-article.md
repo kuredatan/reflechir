@@ -17,6 +17,8 @@ bitlink: [lien obtenu avec https://bitly.com/]
 ---
 "
 
+Pour obtenir le lien avec "bitlink", il suffit d'écrire dans la boîte de dialogue Bitly le lien suivant : http://www.reflechir.ml/lu et approuvé/sciences humaines/2017/08/24/le-theatre-de-shaw/ pour l'article "Le théâtre de Shaw", et de manière générale : http://www.reflechir.ml/[sous-section]/[section]/AAAA/MM/DD/titre-avec-tirets/
+
 ## Petit guide des choses utiles        ##
 
 Pour une liste des choses possibles : 
