@@ -4,9 +4,6 @@ date: 2016-09-01
 bitlink: http://bit.ly/2z9AkeU
 ---
 
-\usepackage{amsmath}
-\usepackage{amssymb}
-
 En mathématiques, savoir démontrer un énoncé est très important. Un énoncé est constitué d'hypothèses et de conclusions. Une démonstration est une suite de déductions qui relie hypothèses et conclusions. Pour que la démonstration d'un énoncé soit correcte, il faut que toutes les déductions de la démonstration le soient.
 
 Etudions l'énoncé suivant : La composée de deux fonctions de \\(\mathbb{R}\\) dans \\(\mathbb{R}\\) décroissantes est croissante.
