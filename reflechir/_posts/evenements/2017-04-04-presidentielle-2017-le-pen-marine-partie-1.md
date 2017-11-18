@@ -8,7 +8,7 @@ bitlink: http://bit.ly/2iPDtpf
 
 Voir les [deuxième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-le-pen-marine-partie-2 %}) et [troisième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-le-pen-marine-partie-3 %}) parties. Le programme de Marine Le Pen est disponible [ici](https://www.marine2017.fr/wp-content/uploads/2017/02/projet-presidentiel-marine-le-pen.pdf).
 
-## Contexte ##
+## Contexte ##
 
 Marion Anne Perrine Le Pen, dite Marine Le Pen, est la candidate à l’élection présidentielle de 2017 issue du Front national. Elle a eu une maîtrise en droit en 1990 (Paris II-Assas), un DEA de droit pénal en 1991 (Paris II-Assas) et un Certificat d'aptitude à la profession d'avocat (CAPA) en 1992 (Ecole de formation professionnelle des barreaux de la cour d'appel de Paris ou EFB). Elle a été avocate au barreau de Paris entre 1992 et 1998. Elle a été élue députée européenne en 2004, en 2009 et en 2014. Elle a été candidate à l'élection présidentielle en 2012 et en 2017. ([source](https://fr.wikipedia.org/wiki/Marine_Le_Pen))
 

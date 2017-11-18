@@ -8,7 +8,7 @@ bitlink: http://bit.ly/2hoRcmF
 
 Voir les [deuxième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-macron-emmanuel-partie-2 %}) et [troisième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-macron-emmanuel-partie-3 %}) parties. Le programme d'Emmanuel Macron est disponible sur cette [page](http://www.en-marche.fr/emmanuel-macron/le-programme). Synthèse : [ici](http://www.cnewsmatin.fr/politique/2017-03-19/presidentielle-2017-le-programme-demmanuel-macron-744341)
 
-## Contexte ##
+## Contexte ##
 
 Ancien élève de la classe préparatoire B/L du lycée Henri IV, il obtient un DEA de philosophie à l’université de Nanterre avant d’intégrer un master de Sciences Po puis l’ENA en 2002.
 

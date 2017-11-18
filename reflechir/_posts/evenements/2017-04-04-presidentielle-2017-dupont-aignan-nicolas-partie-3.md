@@ -8,7 +8,7 @@ bitlink: http://bit.ly/2i8Hcyi
 
 Voir les [première]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-dupont-aignan-nicolas-partie-1 %}) et [deuxième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-dupont-aignan-nicolas-partie-2 %}) parties. Le programme de Nicolas Dupont-Aignan est disponible [ici](http://www.nda-2017.fr/projet).
 
-## X) Mesures institutionnelles ##
+## X) Mesures institutionnelles ##
 
 #### "Exiger pour tout candidat à un mandat électif un casier judiciaire vierge" ####
 

@@ -8,7 +8,7 @@ bitlink: http://bit.ly/2AFHip0
 
 Voir les [première]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-macron-emmanuel-partie-1 %}) et [deuxième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentielle-2017-macron-emmanuel-partie-2 %}) parties. Le programme d'Emmanuel Macron est disponible sur cette [page](http://www.en-marche.fr/emmanuel-macron/le-programme). Synthèse : [ici](http://www.cnewsmatin.fr/politique/2017-03-19/presidentielle-2017-le-programme-demmanuel-macron-744341)
 
-## X) Mesures institutionnelles ##
+## X) Mesures institutionnelles ##
 
 #### Des cibles d’économie seront fixées pour chaque ministère et un ministre ne parvenant pas à réaliser ses économies programmées se verra contraint de démissionner. Le ministre des Finances rendra compte de la situation budgétaire chaque trimestre au Parlement. ####
 
