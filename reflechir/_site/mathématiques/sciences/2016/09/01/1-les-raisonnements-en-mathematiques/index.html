@@ -22,11 +22,14 @@ MathJax.Hub.Config({
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 });
 </script>
-<script type="text/javascript" async src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
   <title>
      
      
-     Réfléchir - 1. Les raisonnements en mathématiques.
+     Réfléchir - 1. Les raisonnements en mathématiques
      
   </title>
   <meta name="description" content="Ce site s&#39;adresse à tous et a pour but de susciter la réflexion, autant par l&#39;analyse des actualités que par la découverte des sciences et des sciences humai...">
@@ -268,12 +271,7 @@ header
           <div class="content container">
             <div class="row">
               <div class="col-md-8">
-                <script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-<style type="text/css">
- 
+                <style type="text/css">
 #share-buttons img {
     width: 35px;
     padding: 5px;
@@ -290,7 +288,7 @@ header
 
     <h2>
      <b>
-        1. Les raisonnements en mathématiques.
+        1. Les raisonnements en mathématiques
      </b>
     </h2>
             <h5>
@@ -317,20 +315,20 @@ header
   <div class="post-content" itemprop="articleBody">
     <p>En mathématiques, savoir démontrer un énoncé est très important. Un énoncé est constitué d’hypothèses et de conclusions. Une démonstration est une suite de déductions qui relie hypothèses et conclusions. Pour que la démonstration d’un énoncé soit correcte, il faut que toutes les déductions de la démonstration le soient.</p>
 
-<p>Etudions l’énoncé suivant : La composée de deux fonctions de R dans R décroissantes est croissante.</p>
+<p>Etudions l’énoncé suivant : La composée de deux fonctions de $\mathbb{R}$ dans $\mathbb{R}$ décroissantes est croissante.</p>
 
 <p>Définitions :</p>
 
-<p>R est l’ensemble des nombres réels ($1$, $-8$, $\sqrt{2}$, $\frac{3}{4}$ etc).</p>
+<p>$\mathbb{R}$ est l’ensemble des nombres réels $1$, $-8$, $\sqrt{2}$, $\frac{3}{4}$ etc).</p>
 
-<p>Une fonction $f$ de R dans R associe à chaque réel un réel.</p>
+<p>Une fonction $f$ de $\mathbb{R}$ dans $\mathbb{R}$ associe à chaque réel un réel.</p>
 
-<p>La fonction $f : x \mapsto x^2$ (“$x$ donne $x^2$”) associe à chaque réel son carré : en 2 elle vaut 4 ($f(2) = 4$), en 3 elle vaut 9 ($f(3) = 9$), en $\sqrt{2}$ elle vaut 2 ($f(\sqrt{2}) = 2$) et ainsi de suite.</p>
+<p>La fonction $f : x \mapsto x^2$ (“$x$ donne $x^2$”) associe à chaque réel son carré : en 2 elle vaut 4 $f(2) = 4$), en 3 elle vaut 9 $f(3) = 9$), en $\sqrt{2}$ elle vaut 2 ($f$(\sqrt{2}) = 2$) et ainsi de suite.</p>
 
-<p>La fonction $g : x \mapsto 2x $ (“$x$ donne $2 \times x$”) associe à chaque réel son double : en 2 elle vaut 4, en 3 elle vaut 6, en $\sqrt{2}$ elle vaut $2\sqrt{2}$ et ainsi de suite.</p>
+<p>La fonction $g : x \mapsto 2x$ (“$x$ donne $2 \times x$”) associe à chaque réel son double : en 2 elle vaut 4, en 3 elle vaut 6, en $\sqrt{2}$ elle vaut $2\sqrt{2}$ et ainsi de suite.</p>
 
 <p>La composée $f \circ g$ des fonctions $f$ et $g$ est la fonction qui à $x$ associe $f(g(x))$.
-Par exemple, si $f : x \mapsto x^2$ et $g : x \mapsto 2x $, $f \circ g(2) = f(4) = 16$, $f \circ g(3) = f(6) = 36$, $f \circ g(\sqrt{2}) = f(2\sqrt{2}) = 8$.</p>
+Par exemple, si $f : x \mapsto x^2$ et $g : x \mapsto 2x$, $f \circ g(2) = f(4) = 16$, $f \circ g(3) = f(6) = 36$, $f \circ g$($\sqrt{2}$) = f(2$\sqrt{2}$) = 8.</p>
 
 <p>Une fonction $f$ est croissante si, pour tous les réels $x$ et $y$, lorsque $x$ est plus grand que $y$, $f(x)$ est plus grand que $f(y)$ (que l’on note $f(x) \geq f(y)$).</p>
 
@@ -352,7 +350,7 @@ Par exemple, si $f : x \mapsto x^2$ et $g : x \mapsto 2x $, $f \circ g(2) = f(4)
 
 <p>$f \circ g$ est donc croissante (conclusion)</p>
 
-<p>Nous avons une démontration correcte de notre énoncé, qui est donc vrai.</p>
+<p>Nous avons une démonstration correcte de notre énoncé, qui est donc vrai.</p>
 
 <p>Notations :</p>
 
