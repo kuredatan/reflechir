@@ -28,6 +28,14 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 J'écris ici seulement l'essentiel :
 
+* Faire une liste : à la place de flèches, utiliser *, - ou +.
+
+* Souligner mot : écrire _mot_
+
+* Mettre en gras mot : **mot**
+
+* Mettre en italique mot : *mot*
+
 * Ajouter une image : mettre l'image dans le dossier "images" et écrire
 <img src="/images/[nom de l'image].[extension]" style="float: center"/> 
 
