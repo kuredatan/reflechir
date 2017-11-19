@@ -2,6 +2,7 @@
 title: "Le monde fascinant des corbeaux"
 date: 2017-11-17
 ---
+<img src="/images/Lu_et_approuv.png" style="float: center"/> 
 
 Gifts of the Crow : How Perception, Emotion, and Thought Allow Smart Birds to Behave Like Humans (2012) de John Marzluff et Tony Angell est un livre de vulgarisation qui présente le monde merveilleux des corneilles et des corbeaux, ces oiseaux remarquablement intelligents et sociaux.
 
