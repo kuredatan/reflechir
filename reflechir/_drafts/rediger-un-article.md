@@ -39,6 +39,8 @@ J'écris ici seulement l'essentiel :
 * Ajouter une image : mettre l'image dans le dossier "images" et écrire
 <img src="/images/[nom de l'image].[extension]" style="float: center"/> 
 
+* Faire un tableau : voir les liens précédents ou https://www.tablesgenerator.com/markdown_tables
+
 (ignorer : ![Légende]({{ "/images/[nom de l'image].[extension]" | absolute_url }}))
 
 * Ajouter un document PDF : mettre le document dans le dossier "pdfs" et écrire

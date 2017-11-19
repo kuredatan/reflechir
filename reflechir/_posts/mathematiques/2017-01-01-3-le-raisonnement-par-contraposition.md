@@ -9,92 +9,56 @@ Pour cela, on va définir ou, et, non par des tables de vérité. A est vrai si 
 
 La table de vérité de ou est la suivante :
 
-$$\begin{tabular}{|c|c|c|}
-\hline
-A & B & A ou B\\
-\hline
-0 & 0 & 0\\
-\hline
-0 & 1 & 1\\
-\hline
-1 & 0 & 1\\
-\hline
-1 & 1 & 1\\
-\hline
-\end{tabular}$$
-
+| A  | B  | A ou B |
+| -- |:--:| ------:|
+| 0  | 0  | 0      |
+| 0  | 1  |   1    |
+| 1  | 0  |    1   |
+| 1  | 1  |    1   |
 
 Cette table correspond bien à l'utilisation habituelle du ou : "A ou B" est vrai si et seulement si au moins l'un des deux est vrai.
 
 La table de vérité de et est la suivante :
 
-$$\begin{tabular}{|c|c|c|}
-\hline
-A & B & A et B\\
-\hline
-0 & 0 & 0\\
-\hline
-0 & 1 & 0\\
-\hline
-1 & 0 & 0\\
-\hline
-1 & 1 & 1\\
-\hline
-\end{tabular}$$
+| A  | B  | A et B |
+| -- |:--:| ------:|
+| 0  | 0  | 0      |
+| 0  | 1  |   0    |
+| 1  | 0  |    0   |
+| 1  | 1  |    1   |
 
 
 Cette table correspond bien à l'utilisation habituelle du et : "A et B" est vrai si et seulement si les deux sont vrais.
 
 La table de vérité de non est la suivante :
 
-$$\begin{tabular}{|c|c|}
-\hline
-A & non A\\
-\hline
-0 & 1\\
-\hline
-1 & 0\\
-\hline
-\end{tabular}$$
-
+| A  | non A  |
+| -- |-------:|
+| 0  | 1      |
+| 1  | 0      |
 
 Cette table correspond bien à l'utilisation habituelle du non : non A est vrai si et seulement si A est faux. On remarque que non(non A) est équivalent à A (ils ont la même table de vérité, en d'autres termes A est vrai si et seulement si non(non A) est vrai).
 
 On définit "Si A alors B" (ou "A implique B", noté A $\Rightarrow$ B) par la table de vérité suivante :
 
-$$\begin{tabular}{|c|c|c|}
-\hline
-A & B & A $\Rightarrow$ B\\
-\hline
-0 & 0 & 1\\
-\hline
-0 & 1 & 1\\
-\hline
-1 & 1 & 1\\
-\hline
-1 & 0 & 0\\
-\hline
-\end{tabular}$$
+| A  | B  | A $\Rightarrow$ B |
+| -- |:--:| -----------------:|
+| 0  | 0  | 1                 |
+| 0  | 1  |   1               |
+| 1  | 0  |    0              |
+| 1  | 1  |    1              |
 
 
 Cette table correspond bien à l'utilisation habituelle de "Si A alors B" : lorsque A est faux, B peut être vrai ou faux, lorsque A est vrai, B est vrai.
 
 Considérons à présent la table de vérité de "(non A) ou B".
 
-$$\begin{tabular}{|c|c|c|}
-\hline
-A & B & (non A) ou B\\
-\hline
-0 & 0 & 1\\
-\hline
-0 & 1 & 1\\
-\hline
-1 & 1 & 1\\
-\hline
-1 & 0 & 0\\
-\hline
-\end{tabular}$$
-
+| A  | B  | (non A) ou B      |
+| -- |:--:| -----------------:|
+| 0  | 0  | 1                 |
+| 0  | 1  |   1               |
+| 1  | 0  |    0              |
+| 1  | 1  |    1              |
 
 C'est la même table de vérité que celle de "A implique B". En d'autres termes, "A implique B" est équivalent à "(non A) ou B".
 

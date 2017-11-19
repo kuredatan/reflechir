@@ -1,6 +1,5 @@
 ---
 title: "5. Arithmétique"
-date: 2017-11-19
 ---
 
 L'arithmétique est la branche des mathématiques qui s'intéresse aux nombres ($\alpha \rho \iota \theta \mu o \varsigma$ ou arithmos en grec signifie nombre). Elle est prolongée par la théorie des nombres (il n'y a pas de consensus sur où s'arrête précisément l'arithmétique et où commence précisément la théorie des nombres, mais en général quand on utilise des outils d'algèbre ou d'analyse (voir articles 9 et 10) on parle de théorie des nombres et sinon on parle d'arithmétique). 

@@ -27,14 +27,15 @@ MathJax.Hub.Config({
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
   <title>
-      
-     Réfléchir
+     
+     
+     Réfléchir - 2. Le raisonnement par récurrence
      
   </title>
   <meta name="description" content="Ce site s&#39;adresse à tous et a pour but de susciter la réflexion, autant par l&#39;analyse des actualités que par la découverte des sciences et des sciences humai...">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/404/">
+  <link rel="canonical" href="http://localhost:4000/math%C3%A9matiques/sciences/2016/11/01/2-le-raisonnement-par-recurrence/">
   <link rel="alternate" type="application/rss+xml" title="Réfléchir" href="/feed.xml">
   
   <script>
@@ -272,27 +273,123 @@ header
           <div class="content container">
             <div class="row">
               <div class="col-md-8">
-                <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+                <style type="text/css">
+#share-buttons img {
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+ 
 </style>
 
-<div class="container">
-  <h1>404</h1>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <p><strong>Page non trouvée :(</strong></p>
-  <p><center>Désolé, la page que vous cherchez n'existe pas, ou n'existe plus.</center></p>
-  <p><center><a href="http://localhost:4000" style="color: #000000">Retourner à l'accueil du site</a></center></p>
-</div>
+  <p><center><a href="/" style="color: #000000">Retourner à l'accueil du site</a></center></p>
+
+    <h2>
+     <b>
+        2. Le raisonnement par récurrence
+     </b>
+    </h2>
+            <h5>
+        <font color="grey">Publié le
+        1
+        
+        novembre
+        
+        2016
+        
+        dans les catégories :
+        
+	
+        <span class="post-tag"><b>mathématiques </b></span>
+        
+	
+        <span class="post-tag"><b>sciences </b></span>
+        
+        
+        </font>
+        </h5>
+
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Lorsqu’on veut démontrer une propriété qu’ont tous les entiers naturels (c’est-à-dire les entiers positifs, $0, 1, 2$ etc) il est parfois pratique d’utiliser un raisonnement par récurrence. Ce type de raisonnement consiste à montrer que la propriété est vérifiée par $0$ (initialisation) puis de montrer que si elle est vérifiée par un entier naturel $n$ alors elle est vérifiée par $n + 1$ (hérédité).</p>
+
+<p>Pour une propriété qui n’est vérifiée qu’à partir d’un certain rang, c’est-à-dire pour les entiers supérieurs à un entier fixé $N$, on montre que la propriété est vérifiée par $N$ (initialisation) puis que si elle est vérifiée par un entier naturel $n$ alors elle est vérifiée par $n + 1$ (hérédité).</p>
+
+<p>Il existe une variante pour la phase d’hérédité, dans ce qu’on appelle la récurrence forte. Au lieu de seulement supposer que la propriété est vérifiée par un entier naturel $n$, on suppose qu’elle est vérifiée par tous les entiers naturels inférieurs à $n$, et on montre qu’elle est alors vérifiée par $n + 1$.</p>
+
+<p>Définition : Un entier naturel $p$ supérieur à $2$ est premier s’il n’existe pas d’entiers naturels $a$ et $b$ tels que $p = a\times b$, $a \neq 1$ et $b \neq 1$ (c’est-à-dire tels que $p$ soit égal au produit de $a$ et de $b$ avec $a$ et $b$ différents de $1$).</p>
+
+<p>Notation : On note $\mathbb{N}$ l’ensemble des entiers naturels.</p>
+
+<p>$n \in \mathbb{N}$ signifie $n$ appartient à $\mathbb{N}$ c’est-à-dire $n$ est un entier naturel.</p>
+
+<p>Remarque : Si $n = a\times b$ avec $n,a,b \in \mathbb{N}$ non nuls alors $n \geq a$ (car $b \geq 1$) et $n \geq b$ (car $a \geq 1$). Pour savoir si $p \in \mathbb{N}$ est premier, il suffit donc de calculer $a\times b$ pour tous les couples $(a,b)$ d’entiers compris strictement entre $1$ et $p$ : si l’un de ces produits est égal à $p$ alors $p$ n’est pas premier, sinon $p$ est premier.</p>
+
+<p>Exemples : $2$ est premier (il n’y a pas de couple d’entiers $(a,b)$ tel que $1&lt;a&lt;2$ et $1&lt;b&lt;2$)</p>
+
+<p>$3$ est premier (le seul couple d’entiers à considérer est $(2,2)$ et $2 \times 2 = 4$)</p>
+
+<p>$4$ n’est pas premier (car $2 \times 2 = 4$)</p>
+
+<p>Énoncé : Tout entier naturel $n$ supérieur à $2$ admet une décomposition en facteurs premiers. En d’autres mots, si $n \in \mathbb{N}$ est supérieur à $2$ alors il existe $m \in \mathbb{N}$ supérieur à $1$ et $p_1 \leq … \leq p_m$ $m$ nombres premiers tels que $n = p_1 \times … \times p_m$.</p>
+
+<p>Démontrons cet énoncé par récurrence (forte).</p>
+
+<p>Initialisation : $2$ est premier, d’où l’existence de la décomposition en facteurs premiers de $2$.</p>
+
+<p>Hérédité : Soit $n \in \mathbb{N}$ supérieur à $2$. Supposons que, pour tout $2 \leq m \leq n$, $m$ admet une décomposition en facteurs premiers.</p>
+
+<p>Si $n + 1$ est premier, $n + 1$ admet une décompositon en facteurs premiers.</p>
+
+<p>Sinon, il existe $ 1 &lt; a &lt; n + 1$ et $ 1 &lt; b &lt; n + 1$ tels que $n + 1 = a \times b$.</p>
+
+<p>Par hypothèse de récurrence (cf. “Supposons que …” plus haut), $a$ et $b$ admettent une décomposition en facteurs premiers, notons $a = p_1 \times … \times p_k$ avec $k \in \mathbb{N}$, $p_1, …, p_k$ premiers et $b = q_1 \times … \times q_l $ avec $l \in \mathbb{N}$, $q_1, …, q_l$ premiers.</p>
+
+<p>$n + 1 = a \times b = p_1 \times … \times p_k \times q_1 \times … \times q_l$ donc $n + 1$ admet une décomposition en facteurs premiers.</p>
+
+<h2 id="quelques-notations-pour-la-suite">Quelques notations pour la suite.</h2>
+
+<p>On a introduit dans cet article la notation pour l’ensemble des entiers naturels, $\mathbb{N}$.</p>
+
+<p>L’ensemble des entiers relatifs, c’est-à-dire des entiers négatifs et positifs, se note $\mathbb{Z}$. $\mathbb{Z}$ contient $0, 1, 2$ etc mais aussi $-1, -2$ etc.</p>
+
+<p>L’ensemble des rationnels, c’est-à-dire des fractions d’entiers, se note $\mathbb{Q}$. $\mathbb{Q}$ contient $\frac{1}{2}$, $-4$, $\frac{33}{16}$, $0$, $\frac{3}{4}$, $2$ etc.</p>
+
+<p>L’ensemble des réels se note $\mathbb{R}$. C’est l’ensemble des longueurs possibles d’un segment (la longueur du rebord de votre table est un réel).</p>
+
+<p>Il existe bien évidemment des manières plus rigoureuses de définir ces ensembles (notamment pour $\mathbb{R}$…) mais elles seront abordées beaucoup plus tard (afin de donner du temps au lecteur pour se familiariser avec les mathématiques).</p>
+
+<p>Tout élément de $\mathbb{N}$ appartient à $\mathbb{Z}$, on dit que $\mathbb{N}$ est inclus dans $\mathbb{Z}$, et on note $\mathbb{N} \subset \mathbb{Z}$. On a aussi $\mathbb{Z} \subset \mathbb{Q}$ et $\mathbb{Q} \subset \mathbb{R}$.</p>
+
+<p>Une autre notation utile est $\setminus$ qui se lit “privé de”. Si A et B sont deux ensembles, A$\setminus$B est l’ensemble des éléments qui appartiennent à A mais pas à B. $\mathbb{Z} \setminus \mathbb{N}$ est l’ensemble des entiers strictements négatifs.</p>
+
+<p>${0}$ est l’ensemble constitué de $0$. ${0, 8, -3}$ est l’ensemble constitué de $0, 8$ et $-3$. D’une manière plus générale, ${x}$ est l’ensemble constitué de $x$, ${x_1, x_2}$ est l’ensemble constitué de $x_1$ et $x_2$, et ainsi de suite.</p>
+
+<p>Dans la Remarque, plutôt que d’écrire $n,a,b \in \mathbb{N}$ non nuls, on pouvait écrire $n,a,b \in \mathbb{N}\setminus{0}$.</p>
+
+<p>Dans l’Énoncé, plutôt que d’écrire si $n \in \mathbb{N}$ est supérieur à $2$, on pouvait écrire si $n \in \mathbb{N}\setminus{0, 1}$.</p>
+
+<p>Ces notations ensemblistes seront très utiles dans les prochains articles.</p>
+
+<p>Clémentine Lemarié–Rieusset</p>
+
+  </div>
+  <div id="share-buttons">
+          <h3>Partager cet article : </h3>
+          <a href="http://www.facebook.com/sharer.php?url=" +  + ";" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+          <a href="https://twitter.com/share?url=" +  + ";" target="_blank">
+            <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+          </a>
+    </div>
+
+</article>
 
               </div>
             </div>
