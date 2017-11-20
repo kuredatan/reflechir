@@ -76,7 +76,7 @@ Pour les énoncés de la forme "B" (avec B les conclusions), on peut également 
 
 Énoncé : Il y a une infinité de nombres premiers.
 
-Supposons qu'il y a un nombre fini de nombres premiers, notons-les $p_1,...,p_n$ avec $n\in\mathbb{N} \setminus \{0\}$. Notons $p = p_1 \times ... \times p_n + 1$. Le produit des $p_i$ est supérieur à 1 donc $p$ est supérieur à 2. $p$ admet donc une décomposition en facteurs premiers (voir article 2). Il existe donc $i \in \{1,...,n\}$ tel que $p = p_i \times q$ avec $q$ un entier. Notons $m$ le produit des $p_j$ différents de $p_i$. On a donc :
+Supposons qu'il y a un nombre fini de nombres premiers, notons-les $p_1,...,p_n$ avec $n\in\mathbb{N} \setminus${$0$}. Notons $p = p_1 \times ... \times p_n + 1$. Le produit des $p_i$ est supérieur à 1 donc $p$ est supérieur à 2. $p$ admet donc une décomposition en facteurs premiers (voir article 2). Il existe donc $i \in${$1,...,n$} tel que $p = p_i \times q$ avec $q$ un entier. Notons $m$ le produit des $p_j$ différents de $p_i$. On a donc :
 $$1 = p - p_i \times m = p_i \times (q - m) $$
 Or $p_i \geq 2$ (car $p_i$ est premier) et $q-m$ est un entier (car $q$ et $m$ sont des entiers) strictement positif (car c'est $\frac{1}{p_i}$) donc $(q-m) \geq 1$ donc $1 \geq 2$ : ceci est absurde (c'est la proposition toujours fausse).
 On en déduit qu'il y a une infinité de nombres premiers.
