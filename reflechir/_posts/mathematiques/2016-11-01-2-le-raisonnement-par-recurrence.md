@@ -55,11 +55,11 @@ Tout élément de $\mathbb{N}$ appartient à $\mathbb{Z}$, on dit que $\mathbb{N
 
 Une autre notation utile est $\setminus$ qui se lit "privé de". Si A et B sont deux ensembles, A$\setminus$B est l'ensemble des éléments qui appartiennent à A mais pas à B. $\mathbb{Z} \setminus \mathbb{N}$ est l'ensemble des entiers strictements négatifs.
 
-$\{0\}$ est l'ensemble constitué de $0$. $\{0, 8, -3\}$ est l'ensemble constitué de $0, 8$ et $-3$. D'une manière plus générale, $\{x\}$ est l'ensemble constitué de $x$, $\{x_1, x_2\}$ est l'ensemble constitué de $x_1$ et $x_2$, et ainsi de suite.
+{$0$} est l'ensemble constitué de $0$. {$0, 8, -3$} est l'ensemble constitué de $0, 8$ et $-3$. D'une manière plus générale, {$x$} est l'ensemble constitué de $x$, {$x_1, x_2$} est l'ensemble constitué de $x_1$ et $x_2$, et ainsi de suite.
 
-Dans la Remarque, plutôt que d'écrire $n,a,b \in \mathbb{N}$ non nuls, on pouvait écrire $n,a,b \in \mathbb{N}\setminus\{0\}$.
+Dans la Remarque, plutôt que d'écrire $n,a,b \in \mathbb{N}$ non nuls, on pouvait écrire $n,a,b \in \mathbb{N}\setminus${$0$}.
 
-Dans l'Énoncé, plutôt que d'écrire si $n \in \mathbb{N}$ est supérieur à $2$, on pouvait écrire si $n \in \mathbb{N}\setminus\{0, 1\}$.
+Dans l'Énoncé, plutôt que d'écrire si $n \in \mathbb{N}$ est supérieur à $2$, on pouvait écrire si $n \in \mathbb{N}\setminus${$0, 1$}.
 
 Ces notations ensemblistes seront très utiles dans les prochains articles.
 
