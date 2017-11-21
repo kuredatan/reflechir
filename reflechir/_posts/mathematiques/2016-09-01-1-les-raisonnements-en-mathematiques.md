@@ -14,12 +14,12 @@ $\mathbb{R}$ est l'ensemble des nombres réels $1$, $-8$, $\sqrt{2}$, $\frac{3}{
  
 Une fonction $f$ de $\mathbb{R}$ dans $\mathbb{R}$ associe à chaque réel un réel.
 
-La fonction $f : x \mapsto x^2$ ("$x$ donne $x^2$") associe à chaque réel son carré : en 2 elle vaut 4 $f(2) = 4$), en 3 elle vaut 9 $f(3) = 9$), en $\sqrt{2}$ elle vaut 2 ($f$(\sqrt{2}) = 2$) et ainsi de suite.
+La fonction $f : x \mapsto x^2$ ("$x$ donne $x^2$") associe à chaque réel son carré : en $2$ elle vaut $4$ ($f(2) = 4$), en $3$ elle vaut $9$ ($f(3) = 9$), en $\sqrt{2}$ elle vaut $2$ ($f(\sqrt{2}) = 2$) et ainsi de suite.
 
-La fonction $g : x \mapsto 2x$ ("$x$ donne $2 \times x$") associe à chaque réel son double : en 2 elle vaut 4, en 3 elle vaut 6, en $\sqrt{2}$ elle vaut $2\sqrt{2}$ et ainsi de suite.
+La fonction $g : x \mapsto 2x$ ("$x$ donne $2 \times x$") associe à chaque réel son double : en $2$ elle vaut $4$, en $3$ elle vaut $6$, en $\sqrt{2}$ elle vaut $2\sqrt{2}$ et ainsi de suite.
 
 La composée $f \circ g$ des fonctions $f$ et $g$ est la fonction qui à $x$ associe $f(g(x))$.
-Par exemple, si $f : x \mapsto x^2$ et $g : x \mapsto 2x$, $f \circ g(2) = f(4) = 16$, $f \circ g(3) = f(6) = 36$, $f \circ g$($\sqrt{2}$) = f(2$\sqrt{2}$) = 8.
+Par exemple, si $f : x \mapsto x^2$ et $g : x \mapsto 2x$, $f \circ g(2) = f(4) = 16$, $f \circ g(3) = f(6) = 36$, $f \circ g(\sqrt{2}) = f(2\sqrt{2}) = 8$.
 
 Une fonction $f$ est croissante si, pour tous les réels $x$ et $y$, lorsque $x$ est plus grand que $y$, $f(x)$ est plus grand que $f(y)$ (que l'on note $f(x) \geq f(y)$).
 
