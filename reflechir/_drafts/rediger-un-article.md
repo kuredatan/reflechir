@@ -21,7 +21,7 @@ Pour obtenir le lien avec "bitlink", il suffit d'écrire dans la boîte de dialo
 
 ## Petit guide des choses utiles        ##
 
-Pour visualiser les éléments suivants, cliquer sur l'icône "Raw".
+Pour visualiser les éléments suivants, cliquer sur l'icône "Raw". Si vous avez un peu de mal avec Markdown, vous pouvez écrire votre post là-dedans : http://markdownlivepreview.com/ et visualiser le résultat directement.
 
 Pour une liste des choses possibles : 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
