@@ -14,9 +14,9 @@ Commençons par quelques définitions.
 
 Soient $a,b \in \mathbb{N}$ (l'ensemble des entiers naturels : 0, 1, 2 etc).
 
- _Déf_ : $a$ est divisible par $b$ s'il existe $c \in \mathbb{N}$ tel que $a = b \times c$. On dit aussi que $a$ est un multiple de $b$ ou que $b$ divise $a$. On note ceci $b$ div $a$ (lire "$b$ divise $a$").
+ _Déf_ : $a$ est divisible par $b$ s'il existe $c \in \mathbb{N}$ tel que $a = b \times c$. On dit aussi que $a$ est un multiple de $b$ ou que $b$ divise $a$.
 
-_Remarque_ : Si $b$ div $a$ et si $a \neq 0$ alors $b \leq a$. En effet on a alors $a = b \times c$ avec $c \geq 1$ (on est juste en train de dire que $b, 2b, 3b$ etc sont supérieurs à $b$).
+_Remarque_ : Si $b$ divise $a$ et si $a \neq 0$ alors $b \leq a$. En effet on a alors $a = b \times c$ avec $c \geq 1$ (on est juste en train de dire que $b, 2b, 3b$ etc sont supérieurs à $b$).
 Le seul entier divisible par 0 est 0 et 0 est divisible par tous les entiers (car pour tout $c \in \mathbb{N} \ 0 \times c = 0$). Tous les entiers sont divisibles par 1 (car pour tout $c \in \mathbb{N} \ 1 \times c = c$) et 1 n'est divisible que par 1.
 
 _Thm_ : Soient $a \in \mathbb{N}$ et $b \in \mathbb{N} \setminus${$0$}. Il existe un unique couple d'entiers naturels $(q,r)$ tel que $0 \leq r < b$ et $a = qb + r$ (division euclidienne de $a$ par $b$).
@@ -42,22 +42,22 @@ Si $a < b$ alors $q = 0$ et $r = a$ conviennent. Sinon, $a - b \geq 0$ donc $0 \
 
 On peut désormais définir le plus grand commun diviseur de deux entiers :
 
-_Déf_ : Le plus grand commun diviseur de $a \in \mathbb{N}$ et de $b \in \mathbb{N}$, noté pgcd$(a,b)$, est l'entier $d \in \mathbb{N}$ qui vérifie $d$ div $a$, $d$ div $b$ et si $c$ div $a$ et $c$ div $b$ alors $c$ div $d$.
+_Déf_ : Le plus grand commun diviseur de $a \in \mathbb{N}$ et de $b \in \mathbb{N}$, noté pgcd$(a,b)$, est l'entier $d \in \mathbb{N}$ qui vérifie $d$ divise $a$, $d$ divise $b$ et si $c$ divise $a$ et $c$ divise $b$ alors $c$ divise $d$.
 
 Pour que cette définition soit correcte, il faut et il suffit qu'il existe un unique entier $d$ vérifiant ces propriétés (s'il n'y en a pas on est en train de donner un nom à quelque chose qui n'existe pas et s'il y en a plusieurs notre définition est ambigüe car elle désigne plusieurs entiers et pas un seul).
 
 Montrons que cette définition est correcte.
 
 Commençons par l'unicité :
-Si $d_1$ et $d_2$ vérifient les propriétés de pgcd de $a$ et de $b$ alors, comme $d_1$ div $a$ et $d_1$ div $b$ on a $d_1$ div $d_2$ et comme $d_2$ div $a$ et $d_2$ div $b$ on a $d_2$ div $d_1$.
-Si $d_1 = 0$ alors comme $d_1$ div $d_2$ on a $d_2 = 0$. De même, si $d_2 = 0$ alors $d_1 = 0$.
-Si $d_1 \neq 0$ et $d_2 \neq 0$ alors on a $d_1 \leq d_2$ et $d_1 \geq d_2$ (car $d_1$ div $d_2$ et $d_2$ div $d_1$) donc on a $d_1 = d_2$.
+Si $d_1$ et $d_2$ vérifient les propriétés de pgcd de $a$ et de $b$ alors, comme $d_1$ divise $a$ et $d_1$ divise $b$ on a $d_1$ divise $d_2$ et comme $d_2$ divise $a$ et $d_2$ divise $b$ on a $d_2$ divise $d_1$.
+Si $d_1 = 0$ alors comme $d_1$ divise $d_2$ on a $d_2 = 0$. De même, si $d_2 = 0$ alors $d_1 = 0$.
+Si $d_1 \neq 0$ et $d_2 \neq 0$ alors on a $d_1 \leq d_2$ et $d_1 \geq d_2$ (car $d_1$ divise $d_2$ et $d_2$ divise $d_1$) donc on a $d_1 = d_2$.
 On a prouvé l'unicité du pgcd par disjonction de cas.
 
 Montrons à présent l'existence du pgcd.
 On remarque que si pgcd($a,b$) existe alors pgcd($b,a$) aussi et pgcd($a,b$) = pgcd($b,a$) (cf. la définition du pgcd (cf signifie confer c'est-à-dire allez voir)).
 On peut donc supposer $b \geq a$ (quitte à échanger $a$ et $b$).
-Si $a=0$ alors $b \ | \ a$ et $b \ | \ b$ et si $c \ | \ a$ et $c \ | \ b$ alors $c \ | \ b$ donc $b = \text{pgcd}(a,b)$.\\
+Si $a=0$ alors $b$ divise $a$ et $b$ divise $b$ et si $c$ divise $a$ et $c$ divise $b$ alors $c$ divise $b$ donc $b =$ pgcd($a,b$).
 Sinon, effectuons la division euclidienne de $b$ par $a$ : soient $q_0,r_0 \in \mathbb{N}$ tels que $b = q_0a + r_0$ et $0 \leq r_0 < a$. Montrons que pgcd$(a,b) =$ pgcd$(r_0,a)$.
 pgcd$(r_0,a)$ divise $r_0$ et $a$ donc divise $b = q_0a + r_0$ et $a$ donc divise pgcd$(a,b)$.
 pgcd$(a,b)$ divise $a$ et $b$ donc divise $r_0 = b - q_0a$ et $a$ donc divise pgcd$(r_0,a)$.
@@ -65,7 +65,7 @@ Ainsi pgcd$(a,b) =$ pgcd$(r_0,a)$. Avec le cas précédent on remarque que si $r
 _Exercice :_ Terminer la preuve de l'existence du pgcd. Vous pouvez pour cela construire $q_1,q_2,\dots$ et $r_1,r_2,\dots$ tels que $a = q_1r_0 + r_1$, $r_0 = q_2r_1 + r_2$ etc (on construit $q_n$ et $r_n$ quand $r_{n-1} \neq 0$) et utiliser le lemme précédent.
 Cet exercice sera corrigé dans le prochain article (5 bis).
 
-_Déf_ : Soit $n \in \mathbb{N} \setminus${$0,1$}. Soient $a_1,\dots,a_n \in \mathbb{N}$. Le plus grand commun diviseur de $a_1,\dots,a_n$, noté pgcd$(a_1,\dots,a_n)$, est l'entier $d \in \mathbb{N}$ qui vérifie $d \ | \ a_1$, \dots, $d \ | \ a_n$ et si $c \ | \ a_1$, \dots, $c \ | \ a_n$ alors $c \ | \ d$.
+_Déf_ : Soit $n \in \mathbb{N} \setminus${$0,1$}. Soient $a_1,\dots,a_n \in \mathbb{N}$. Le plus grand commun diviseur de $a_1,\dots,a_n$, noté pgcd$(a_1,\dots,a_n)$, est l'entier $d \in \mathbb{N}$ qui vérifie $d$ divise $a_1$,..., $d$ divise $a_n$ et si $c$ divise $a_1$,..., $c$ divise $a_n$ alors $c$ divise $d$.
 
 _Exercice_ : Montrer que cette définition est correcte.
 Pour l'existence pour $n > 2$ on pourra vérifier que pgcd(pgcd$(a_1,...,a_{n-1}),a_n$) vérifie les hypothèses de pgcd$(a_1,...,a_n)$.
@@ -74,26 +74,26 @@ Démontrons à présent une proposition bien utile.
 
 _Prop_ : Soient $a,b \in \mathbb{N}$. Soit $c \in \mathbb{N} \setminus${$0$}. pgcd$(ca,cb) =$ $c$ pgcd$(a,b)$.
 
-_Dém_ : Notons $d =$ pgcd$(a,b)$. $d \ | \ a$ et $d \ | \ b$ donc $cd \ | \ ca$ et $cd \ | \ cb$.
-Ainsi, $cd \ | \ $pgcd$(ca,cb)$. $c \ | \ ca$ et $c \ | \ cb$ donc $c \ | \ $pgcd$(ca,cb)$. Soit $e \in \mathbb{N}$ tel que pgcd$(ca,cb) = ce$.
+_Dém_ : Notons $d =$ pgcd$(a,b)$. $d$ divise $a$ et $d$ divise $b$ donc $cd$ divise $ca$ et $cd$ divise $cb$.
+Ainsi, $cd$ divise pgcd$(ca,cb)$. $c$ divise $ca$ et $c$ divise $cb$ donc $c$ divise pgcd$(ca,cb)$. Soit $e \in \mathbb{N}$ tel que pgcd$(ca,cb) = ce$.
 Soient $a',b' \in \mathbb{N}$ tels que $ca = $pgcd$(ca,cb)a'$ et $cb = $pgcd$(ca,cb)b'$.
 $ca = cea'$ et $cb = ceb'$. En multipliant par $\frac{1}{c}$ on a :
 $a = ea'$ et $b = eb'$ donc $e$ divise $a$ et $b$ donc $e$ divise $d = $pgcd$(a,b)$.
-Ainsi pgcd$(ca,cb) = ce \ | \ cd$ or on avait $cd \ | \ $pgcd$(ca,cb)$ d'où l'égalité.
+Ainsi pgcd$(ca,cb) = ce$ divise $cd$ or on avait $cd$ divise pgcd$(ca,cb)$ d'où l'égalité.
 
-_Déf_ : Soit $n \in \N \setminus${$0,1$}. On dit que $a_1,\dots, a_n$ sont premiers entre eux si pgcd$(a_1,\dots, a_n) = 1$.
+_Déf_ : Soit $n \in \mathbb{N} \setminus${$0,1$}. On dit que $a_1,\dots, a_n$ sont premiers entre eux si pgcd$(a_1,\dots, a_n) = 1$.
 
 Démontrons le lemme de Gauss (mathématicien de la première moitié du XIXe siècle) puis deux autres lemmes qui en découlent.
 
-_Lemme de Gauss_ : Si $a$ et $b$ sont premiers entre eux et si $a | bc$ alors $a | c$. 
+_Lemme de Gauss_ : Si $a$ et $b$ sont premiers entre eux et si $a$ divise $bc$ alors $a$ divise $c$. 
 
-_Dém_ : $a \ | \ ac$ et $a \ | \ bc$ donc $a \ | \ $pgcd$(ac,bc) =$ pgcd$(a,b)c = c$ car pgcd$(a,b) = 1$ (on a utilisé la proposition précédente et $ca = ac$ etc).
+_Dém_ : $a$ divise $ac$ et $a$ divise $bc$ donc $a$ divise pgcd$(ac,bc) =$ pgcd$(a,b)c = c$ car pgcd$(a,b) = 1$ (on a utilisé la proposition précédente et $ca = ac$ etc).
 
-_Lemme_ : Si $a$ et $b$ sont premiers entre eux tels que $a | c$ et $b | c$ alors $ab | c$.
+_Lemme_ : Si $a$ et $b$ sont premiers entre eux tels que $a$ divise $c$ et $b$ divise $c$ alors $ab$ divise $c$.
 
-_Dém_ : $b \ | \ c$ donc il existe $d \in \mathbb{N}$ tel que $c = bd$. $a \ | \ c = bd$ et $a$ et $b$ sont premiers entre eux donc, avec le lemme précédent, $a \ | \ d$ donc il existe $e \in \mathbb{N}$ tel que $d = ae$ donc $c = bd = bae = abe$ donc $ab \ | \ c$.  
+_Dém_ : $b$ divise $c$ donc il existe $d \in \mathbb{N}$ tel que $c = bd$. $a$ divise $c = bd$ et $a$ et $b$ sont premiers entre eux donc, avec le lemme précédent, $a$ divise $d$ donc il existe $e \in \mathbb{N}$ tel que $d = ae$ donc $c = bd = bae = abe$ donc $ab$ divise $c$.  
 
-_Lemme_ : Soit $p$ un nombre premier. Soit $n \in \mathbb{N} \setminus${$0$}. Soient $a_1,\dots,a_n \in \mathbb{N}$. Si $p \ | \ a_1 \times \dots \times a_n$ alors $p \ | \ a_1$ ou \dots \ ou $p \ | \ a_n$.
+_Lemme_ : Soit $p$ un nombre premier. Soit $n \in \mathbb{N} \setminus${$0$}. Soient $a_1,\dots,a_n \in \mathbb{N}$. Si $p$ divise $a_1 \times \dots \times a_n$ alors $p$ divise $a_1$ ou ... ou $p$ divise $a_n$.
 
 _Exercice_ : Démontrer ce lemme en utilisant le lemme de Gauss et le fait que si $p$ est un nombre premier et $c \in \mathbb{N}$ alors pgcd$(p,c) = 1$ ou $p$ (cette dernière affirmation se démontre aisément avec la définition de nombre premier (voir article 2)).
 
@@ -106,11 +106,13 @@ _Dém_ : Raisonnons par récurrence sur le maximum de $m$ et de $n$, noté max$(
 Si max$(m,n) = 1$ alors on a $m = 1$ et $n = 1$ donc $m = n$ et $p_1 = q_1$.
 
 Supposons le résultat établi pour $k \in \mathbb{N} \setminus${$0$}.
+
 Soient $m,n \in \mathbb{N} \setminus${$0$} tels que max$(m,n) = k+1$.
-Si $p_1 < q_1$ alors $p_1 \not \in$ {$q_1,\dots,q_n$} or $p_1 \ | \ q_1 \times \dots \times q_n$ donc avec le lemme précédent $p_1 \ | \ q_1$ ou \dots \ ou $p_1 \ | \ q_n$ (car $p_1$ premier) donc $p_1 = q_1$ ou  \dots \ ou $p_1 = q_n$ (car $q_1,\dots,q_n$ premiers et $p_1 \neq 1$) ce qui contredit $p_1 \not \in$ {$q_1,\dots,q_n$}.
+
+Si $p_1 < q_1$ alors $p_1 \not \in$ {$q_1,\dots,q_n$} or $p_1$ divise $q_1 \times \dots \times q_n$ donc avec le lemme précédent $p_1$ divise $q_1$ ou ... ou $p_1$ divise $q_n$ (car $p_1$ premier) donc $p_1 = q_1$ ou ... ou $p_1 = q_n$ (car $q_1,\dots,q_n$ premiers et $p_1 \neq 1$) ce qui contredit $p_1 \not \in$ {$q_1,\dots,q_n$}.
 (En d'autres mots, $p_1 < q_1$ implique $p_1 \not \in$ {$q_1,\dots,q_n$} et $p_1 \in$ {$q_1,\dots,q_n$} proposition toujours fausse, d'où $p_1 \geq q_1$)
-Si $q_1 < p_1$ alors $q_1 \not \in$ {$p_1,\dots,p_m$} or $q_1 \ | \ p_1 \times \dots \times p_m$ donc avec le lemme précédent $q_1 \ | \ p_1$ ou \dots \ ou $q_1 \ | \ p_m$ (car $q_1$ premier) donc $q_1 = p_1$ ou  \dots \ ou $q_1 = p_m$ (car $p_1,\dots,p_m$ premiers et $q_1 \neq 1$) ce qui contredit $q_1 \not \in$ {$p_1,\dots,p_m$}.
-Ainsi $p_1 = q_1$. On a donc $p_2 \times \dots \times p_m = q_2 \times \dots \times q_n$ donc, comme à gauche on a $m-1$ termes et à droite $n-1$ et que max$(m-1,n-1) = $ max$(m,n) - 1 = k$, par hypothèse de récurrence $m = n$ et $p_2 = q_2$, \dots, $p_m = q_m$.
+Si $q_1 < p_1$ alors $q_1 \not \in$ {$p_1,\dots,p_m$} or $q_1$ divise $p_1 \times \dots \times p_m$ donc avec le lemme précédent $q_1$ divise $p_1$ ou ... ou $q_1$ divise $p_m$ (car $q_1$ premier) donc $q_1 = p_1$ ou ... ou $q_1 = p_m$ (car $p_1,\dots,p_m$ premiers et $q_1 \neq 1$) ce qui contredit $q_1 \not \in$ {$p_1,\dots,p_m$}.
+Ainsi $p_1 = q_1$. On a donc $p_2 \times \dots \times p_m = q_2 \times \dots \times q_n$ donc, comme à gauche on a $m-1$ termes et à droite $n-1$ et que max$(m-1,n-1) = $ max$(m,n) - 1 = k$, par hypothèse de récurrence $m = n$ et $p_2 = q_2$,..., $p_m = q_m$.
 
 ## II) Triplets pythagoriciens et cas $n = 3$ et $n = 4$ du grand théorème de Fermat. ##
 
