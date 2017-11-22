@@ -1,6 +1,7 @@
 ---
 title: "3. Le raisonnement par contraposition"
 date: 2017-01-01
+bitlink: http://bit.ly/2iFBBQF
 ---
 
 Pour comprendre le raisonnement par contraposition, il est utile de préciser ce que l'on entend par "Si A alors B" (A représentant les hypothèses de l'énoncé et B ses conclusions).
@@ -9,31 +10,30 @@ Pour cela, on va définir ou, et, non par des tables de vérité. A est vrai si 
 
 La table de vérité de ou est la suivante :
 
-| A  | B  | A ou B |
-|:--:|:--:|:------:|
-| 0  | 0  | 0      |
-| 0  | 1  |   1    |
-| 1  | 0  |    1   |
-| 1  | 1  |    1   |
+| A| B|A ou B|
+|---|---|----|
+| 0| 0| 0    |
+| 0| 1|   1  |
+| 1| 0|    1 |
+| 1| 1|    1 |
 
 Cette table correspond bien à l'utilisation habituelle du ou : "A ou B" est vrai si et seulement si au moins l'un des deux est vrai.
 
 La table de vérité de et est la suivante :
 
 | A  | B  | A et B |
-|:--:|:--:|:------:|
+|---|---|------|
 | 0  | 0  | 0      |
 | 0  | 1  |   0    |
 | 1  | 0  |    0   |
 | 1  | 1  |    1   |
-
 
 Cette table correspond bien à l'utilisation habituelle du et : "A et B" est vrai si et seulement si les deux sont vrais.
 
 La table de vérité de non est la suivante :
 
 | A  | non A  |
-|:--:|:------:|
+|---|-------|
 | 0  | 1      |
 | 1  | 0      |
 
@@ -42,7 +42,7 @@ Cette table correspond bien à l'utilisation habituelle du non : non A est vrai 
 On définit "Si A alors B" (ou "A implique B", noté A $\Rightarrow$ B) par la table de vérité suivante :
 
 | A  | B  | A $\Rightarrow$ B |
-|:--:|:--:|:-----------------:|
+|---|---|-----------------|
 | 0  | 0  | 1                 |
 | 0  | 1  |   1               |
 | 1  | 0  |    0              |
@@ -54,7 +54,7 @@ Cette table correspond bien à l'utilisation habituelle de "Si A alors B" : lors
 Considérons à présent la table de vérité de "(non A) ou B".
 
 | A  | B  | (non A) ou B      |
-|:--:|:--:|:-----------------:|
+|---|---|-----------------|
 | 0  | 0  | 1                 |
 | 0  | 1  |   1               |
 | 1  | 0  |    0              |

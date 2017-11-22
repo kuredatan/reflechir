@@ -1,4 +1,229 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr"><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="fr" /><updated>2017-11-19T21:10:47+01:00</updated><id>http://localhost:4000/</id><title type="html">Réfléchir</title><subtitle>Ce site s'adresse à tous et a pour but de susciter la réflexion, autant par l'analyse des actualités que par la découverte des sciences et des sciences humaines.</subtitle><entry><title type="html">Le monde fascinant des corbeaux</title><link href="http://localhost:4000/lu%20et%20approuv%C3%A9/sciences%20humaines/2017/11/17/le-monde-fascinant-des-corbeaux/" rel="alternate" type="text/html" title="Le monde fascinant des corbeaux" /><published>2017-11-17T00:00:00+01:00</published><updated>2017-11-17T00:00:00+01:00</updated><id>http://localhost:4000/lu%20et%20approuv%C3%A9/sciences%20humaines/2017/11/17/le-monde-fascinant-des-corbeaux</id><content type="html" xml:base="http://localhost:4000/lu%20et%20approuv%C3%A9/sciences%20humaines/2017/11/17/le-monde-fascinant-des-corbeaux/">&lt;p&gt;&lt;img src=&quot;/images/Lu_et_approuv.png&quot; style=&quot;float: center&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr"><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="fr" /><updated>2017-11-22T02:57:49+01:00</updated><id>http://localhost:4000/</id><title type="html">Réfléchir</title><subtitle>Ce site s'adresse à tous et a pour but de susciter la réflexion, autant par l'analyse des actualités que par la découverte des sciences et des sciences humaines.</subtitle><entry><title type="html">5. Arithmétique</title><link href="http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique/" rel="alternate" type="text/html" title="5. Arithmétique" /><published>2017-11-20T00:00:00+01:00</published><updated>2017-11-20T00:00:00+01:00</updated><id>http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique</id><content type="html" xml:base="http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique/">&lt;p&gt;L’arithmétique est la branche des mathématiques qui s’intéresse aux nombres ($\alpha \rho \iota \theta \mu o \varsigma$ ou arithmos en grec signifie nombre). Elle est prolongée par la théorie des nombres (il n’y a pas de consensus sur où s’arrête précisément l’arithmétique et où commence précisément la théorie des nombres, mais en général quand on utilise des outils d’algèbre ou d’analyse (voir articles 9 et 10) on parle de théorie des nombres et sinon on parle d’arithmétique).&lt;/p&gt;
+
+&lt;h2 id=&quot;i-lemme-de-gauss-et-théorème-dunicité-de-la-décomposition-en-facteurs-premiers&quot;&gt;I) Lemme de Gauss et théorème d’unicité de la décomposition en facteurs premiers.&lt;/h2&gt;
+
+&lt;p&gt;Dans les articles précédents, on démontrait des “énoncés”. On va désormais être plus précis : on peut démontrer une proposition, un lemme, un théorème ou un corollaire. Un théorème est un énoncé très important, une proposition un énoncé moins important (mais important quand même, sinon on ne se fatiguerait pas à le démontrer), un lemme est un énoncé qui va servir à démontrer un théorème et un corollaire est un énoncé qui va se démontrer grâce à un théorème. Certains manuels scolaires désignent des énoncés comme étant des “propriétés”, mais dans les cursus universitaires et le monde de la recherche on ne démontre jamais une “propriété” (vous pouvez remplacer vos “propriétés” par des propositions, ou des lemmes si elles servent à démontrer un théorème). Le lemme de Gauss sert à démontrer beaucoup de théorèmes, notamment le théorème d’unicité de la décomposition en facteurs premiers.&lt;/p&gt;
+
+&lt;p&gt;Commençons par quelques définitions.&lt;/p&gt;
+
+&lt;p&gt;Soient $a,b \in \mathbb{N}$ (l’ensemble des entiers naturels : 0, 1, 2 etc).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Déf&lt;/em&gt; : $a$ est divisible par $b$ s’il existe $c \in \mathbb{N}$ tel que $a = b \times c$. On dit aussi que $a$ est un multiple de $b$ ou que $b$ divise $a$. On note ceci $b \&lt;/td&gt;
+      &lt;td&gt;\ a$ (lire “$b$ divise $a$”).&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;Remarque&lt;/em&gt; : Si $b \ | \ a$ et si $a \neq 0$ alors $b \leq a$. En effet on a alors $a = b \times c$ avec $c \geq 1$ (on est juste en train de dire que $b, 2b, 3b$ etc sont supérieurs à $b$).
+Le seul entier divisible par 0 est 0 et 0 est divisible par tous les entiers (car pour tout $c \in \mathbb{N} \ 0 \times c = 0$). Tous les entiers sont divisibles par 1 (car pour tout $c \in \mathbb{N} \ 1 \times c = c$) et 1 n’est divisible que par 1.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thm&lt;/em&gt; : Soient $a \in \mathbb{N}$ et $b \in \mathbb{N} \setminus${$0$}. Il existe un unique couple d’entiers naturels $(q,r)$ tel que $0 \leq r &amp;lt; b$ et $a = qb + r$ (division euclidienne de $a$ par $b$).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Dém&lt;/em&gt; : Démontrons tout d’abord l’unicité : si $(q,r)$ et $(p,s)$ conviennent, alors $qb + r = pb + s$ et $0 \leq r &amp;lt; b$, $0 \leq s &amp;lt; b$, donc $(q-p)b = s-r$ donc $s-r$ est un multiple de $b$ donc $s-r = 0$ ou $b \leq s-r$ or $s-r \leq s &amp;lt; b$ (voir inégalités ci-dessus) donc $s-r = 0$ donc $(q-p)b = 0$ or $b \neq 0$ donc $q-p = 0$ : ainsi $r = s$ et $q = p$.&lt;/p&gt;
+
+&lt;p&gt;Pour démontrer l’existence, on va d’abord démontrer ce lemme par récurrence :&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Lemme&lt;/em&gt; : Toute partie non vide de $\mathbb{N}$ admet un plus petit élément (c’est-à-dire que si $A \subset \mathbb{N}$ n’est pas vide alors il existe $n \in A$ tel que pour tout $a \in A$ $n \leq a$).&lt;/p&gt;
+
+&lt;p&gt;Soit $A \subset \mathbb{N}$. On veut montrer que si $A$ est non vide alors $A$ admet un plus petit élément.
+Démontrons la contraposée (cf. article 3) :
+Si $A$ n’admet pas de plus petit élément alors $A$ est vide.
+Supposons que pour tout $n \in A$ il existe $m \in A$ tel que $m &amp;lt; n$. Montrons par récurrence forte sur $k \in \mathbb{N}$ que $k \not \in A$ ($k$ n’appartient pas à $A$).
+$0 \not \in A$ car pour tout $m \in \mathbb{N}$ $0 \leq m$ donc en particulier pour tout $m \in A$ $0 \leq m$.
+Supposons que pour tout $l \leq k$ $l \not \in A$.
+Pour tout $m \in A$ $k+1 \leq m$ (car sinon $m \in${0,\dots,k$}) donc $k+1 \not \in A$.
+Ainsi, pour tout $k \in \mathbb{N}$, $k \not \in A$, donc $A$ est vide.&lt;/p&gt;
+
+&lt;p&gt;On remarque que le plus petit élément est unique, car si $a_1$ et $a_2$ sont des plus petits éléments de $A$ alors $a_1 \leq a_2$ (car $a_1$ plus petit élément de $A$ et $a_2 \in A$) et $a_2 \leq a_1$ (car $a_2$ plus petit élément de $A$ et $a_1 \in A$) donc $a_1 = a_2$.&lt;/p&gt;
+
+&lt;p&gt;Si $a &amp;lt; b$ alors $q = 0$ et $r = a$ conviennent. Sinon, $a - b \geq 0$ donc $0 \not \in A =$ {$n \in \mathbb{N}, a - nb &amp;lt; 0$} $\subset \mathbb{N}$ qui est non vide car $a + 1 \in A$ (car $a + 1 &amp;gt; a$ et $b \geq 1$ (car $b \in \mathbb{N} \setminus${$0$})) donc, avec le lemme précédent, il existe un plus petit élément $n$ de $A$. $a - nb &amp;lt; 0$ (car $n \in A$) et $a - (n-1)b \geq 0$ (car $n-1 &amp;lt; n$ donc $n-1 \not \in A$ car $n$ est le plus petit élément de $A$). Posons $q = n - 1$ et $r = a - qb$. $q \in \mathbb{N}$ et $r$ est un entier vérifiant $0 \leq r &amp;lt; b$.&lt;/p&gt;
+
+&lt;p&gt;On peut désormais définir le plus grand commun diviseur de deux entiers :&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Déf&lt;/em&gt; : Le plus grand commun diviseur de $a \in \mathbb{N}$ et de $b \in \mathbb{N}$, noté pgcd$(a,b)$, est l’entier $d \in \mathbb{N}$ qui vérifie $d \&lt;/td&gt;
+      &lt;td&gt;\ a$, $d \&lt;/td&gt;
+      &lt;td&gt;\ b$ et si $c \&lt;/td&gt;
+      &lt;td&gt;\ a$ et $c \&lt;/td&gt;
+      &lt;td&gt;\ b$ alors $c \&lt;/td&gt;
+      &lt;td&gt;\ d$.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Pour que cette définition soit correcte, il faut et il suffit qu’il existe un unique entier $d$ vérifiant ces propriétés (s’il n’y en a pas on est en train de donner un nom à quelque chose qui n’existe pas et s’il y en a plusieurs notre définition est ambigüe car elle désigne plusieurs entiers et pas un seul).&lt;/p&gt;
+
+&lt;p&gt;Montrons que cette définition est correcte.&lt;/p&gt;
+
+&lt;p&gt;Commençons par l’unicité :
+Si $d_1$ et $d_2$ vérifient les propriétés de pgcd de $a$ et de $b$ alors, comme $d_1 \ | \ a$ et $d_1 \ | \ b$ on a $d_1 \ | \ d_2$ et comme $d_2 \ | \ a$ et $d_2 \ | \ b$ on a $d_2 \ | \ d_1$.&lt;br /&gt;
+Si $d_1 = 0$ alors comme $d_1 \ | \ d_2$ on a $d_2 = 0$. De même, si $d_2 = 0$ alors $d_1 = 0$.&lt;br /&gt;
+Si $d_1 \neq 0$ et $d_2 \neq 0$ alors on a $d_1 \leq d_2$ et $d_1 \geq d_2$ (car $d_1 \ | \ d_2$ et $d_2 \ | \ d_1$) donc on a $d_1 = d_2$.
+On a prouvé l’unicité du pgcd par disjonction de cas.&lt;/p&gt;
+
+&lt;p&gt;Montrons à présent l’existence du pgcd.
+On remarque que si pgcd($a,b$) existe alors pgcd($b,a$) aussi et pgcd($a,b$) = pgcd($b,a$) (cf. la définition du pgcd (cf signifie confer c’est-à-dire allez voir)).
+On peut donc supposer $b \geq a$ (quitte à échanger $a$ et $b$).
+Si $a=0$ alors $b \ | \ a$ et $b \ | \ b$ et si $c \ | \ a$ et $c \ | \ b$ alors $c \ | \ b$ donc $b = \text{pgcd}(a,b)$.&lt;br /&gt;
+Sinon, effectuons la division euclidienne de $b$ par $a$ : soient $q_0,r_0 \in \mathbb{N}$ tels que $b = q_0a + r_0$ et $0 \leq r_0 &amp;lt; a$. Montrons que pgcd$(a,b) =$ pgcd$(r_0,a)$.
+pgcd$(r_0,a)$ divise $r_0$ et $a$ donc divise $b = q_0a + r_0$ et $a$ donc divise pgcd$(a,b)$.
+pgcd$(a,b)$ divise $a$ et $b$ donc divise $r_0 = b - q_0a$ et $a$ donc divise pgcd$(r_0,a)$.
+Ainsi pgcd$(a,b) =$ pgcd$(r_0,a)$. Avec le cas précédent on remarque que si $r_0 = 0$ alors pgcd$(r_0,a) = a$ donc pgcd$(a,b) = a$.
+&lt;em&gt;Exercice :&lt;/em&gt; Terminer la preuve de l’existence du pgcd. Vous pouvez pour cela construire $q_1,q_2,\dots$ et $r_1,r_2,\dots$ tels que $a = q_1r_0 + r_1$, $r_0 = q_2r_1 + r_2$ etc (on construit $q_n$ et $r_n$ quand $r_{n-1} \neq 0$) et utiliser le lemme précédent.
+Cet exercice sera corrigé dans le prochain article (5 bis).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Déf&lt;/em&gt; : Soit $n \in \mathbb{N} \setminus${$0,1$}. Soient $a_1,\dots,a_n \in \mathbb{N}$. Le plus grand commun diviseur de $a_1,\dots,a_n$, noté pgcd$(a_1,\dots,a_n)$, est l’entier $d \in \mathbb{N}$ qui vérifie $d \&lt;/td&gt;
+      &lt;td&gt;\ a_1$, \dots, $d \&lt;/td&gt;
+      &lt;td&gt;\ a_n$ et si $c \&lt;/td&gt;
+      &lt;td&gt;\ a_1$, \dots, $c \&lt;/td&gt;
+      &lt;td&gt;\ a_n$ alors $c \&lt;/td&gt;
+      &lt;td&gt;\ d$.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;Exercice&lt;/em&gt; : Montrer que cette définition est correcte.
+Pour l’existence pour $n &amp;gt; 2$ on pourra vérifier que pgcd(pgcd$(a_1,…,a_{n-1}),a_n$) vérifie les hypothèses de pgcd$(a_1,…,a_n)$.&lt;/p&gt;
+
+&lt;p&gt;Démontrons à présent une proposition bien utile.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prop&lt;/em&gt; : Soient $a,b \in \mathbb{N}$. Soit $c \in \mathbb{N} \setminus${$0$}. pgcd$(ca,cb) =$ $c$ pgcd$(a,b)$.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Dém&lt;/em&gt; : Notons $d =$ pgcd$(a,b)$. $d \ | \ a$ et $d \ | \ b$ donc $cd \ | \ ca$ et $cd \ | \ cb$.
+Ainsi, $cd \ | \ $pgcd$(ca,cb)$. $c \ | \ ca$ et $c \ | \ cb$ donc $c \ | \ $pgcd$(ca,cb)$. Soit $e \in \mathbb{N}$ tel que pgcd$(ca,cb) = ce$.
+Soient $a’,b’ \in \mathbb{N}$ tels que $ca = $pgcd$(ca,cb)a’$ et $cb = $pgcd$(ca,cb)b’$.
+$ca = cea’$ et $cb = ceb’$. En multipliant par $\frac{1}{c}$ on a :
+$a = ea’$ et $b = eb’$ donc $e$ divise $a$ et $b$ donc $e$ divise $d = $pgcd$(a,b)$.
+Ainsi pgcd$(ca,cb) = ce \ | \ cd$ or on avait $cd \ | \ $pgcd$(ca,cb)$ d’où l’égalité.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Déf&lt;/em&gt; : Soit $n \in \N \setminus${$0,1$}. On dit que $a_1,\dots, a_n$ sont premiers entre eux si pgcd$(a_1,\dots, a_n) = 1$.&lt;/p&gt;
+
+&lt;p&gt;Démontrons le lemme de Gauss (mathématicien de la première moitié du XIXe siècle) puis deux autres lemmes qui en découlent.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Lemme de Gauss&lt;/em&gt; : Si $a$ et $b$ sont premiers entre eux et si $a&lt;/td&gt;
+      &lt;td&gt;bc$ alors $a&lt;/td&gt;
+      &lt;td&gt;c$.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Dém&lt;/em&gt; : $a \&lt;/td&gt;
+      &lt;td&gt;\ ac$ et $a \&lt;/td&gt;
+      &lt;td&gt;\ bc$ donc $a \&lt;/td&gt;
+      &lt;td&gt;\ $pgcd$(ac,bc) =$ pgcd$(a,b)c = c$ car pgcd$(a,b) = 1$ (on a utilisé la proposition précédente et $ca = ac$ etc).&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Lemme&lt;/em&gt; : Si $a$ et $b$ sont premiers entre eux tels que $a&lt;/td&gt;
+      &lt;td&gt;c$ et $b&lt;/td&gt;
+      &lt;td&gt;c$ alors $ab&lt;/td&gt;
+      &lt;td&gt;c$.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Dém&lt;/em&gt; : $b \&lt;/td&gt;
+      &lt;td&gt;\ c$ donc il existe $d \in \mathbb{N}$ tel que $c = bd$. $a \&lt;/td&gt;
+      &lt;td&gt;\ c = bd$ et $a$ et $b$ sont premiers entre eux donc, avec le lemme précédent, $a \&lt;/td&gt;
+      &lt;td&gt;\ d$ donc il existe $e \in \mathbb{N}$ tel que $d = ae$ donc $c = bd = bae = abe$ donc $ab \&lt;/td&gt;
+      &lt;td&gt;\ c$.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Lemme&lt;/em&gt; : Soit $p$ un nombre premier. Soit $n \in \mathbb{N} \setminus${$0$}. Soient $a_1,\dots,a_n \in \mathbb{N}$. Si $p \&lt;/td&gt;
+      &lt;td&gt;\ a_1 \times \dots \times a_n$ alors $p \&lt;/td&gt;
+      &lt;td&gt;\ a_1$ ou \dots \ ou $p \&lt;/td&gt;
+      &lt;td&gt;\ a_n$.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;Exercice&lt;/em&gt; : Démontrer ce lemme en utilisant le lemme de Gauss et le fait que si $p$ est un nombre premier et $c \in \mathbb{N}$ alors pgcd$(p,c) = 1$ ou $p$ (cette dernière affirmation se démontre aisément avec la définition de nombre premier (voir article 2)).&lt;/p&gt;
+
+&lt;p&gt;Si $x \in \mathbb{R}$ et $n \in \mathbb{N} \setminus${$0$} on note $x^n = x \times \dots \times x \ n$ fois ($x^1 = x, x^2 = x \times x, x^3 = x \times x \times x$ etc). Si $x \in \mathbb{R}$ on note $x^0 = 1$.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thm&lt;/em&gt; : Soient $m,n \in \mathbb{N} \setminus${$0$}. Soient $p_1 \leq \dots \leq p_m, \, q_1 \leq \dots \leq q_n$ des nombres premiers. Si $p_1 \times \dots \times p_m = q_1 \times \dots \times q_n$ alors $m = n$, $p_1 = q_1, \dots, p_m = q_m$. C’est l’unicité de la décomposition en facteurs premiers.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Dém&lt;/em&gt; : Raisonnons par récurrence sur le maximum de $m$ et de $n$, noté max$(m,n)$ (max$(m,n) = m$ si $m \geq n$ et $n$ sinon).&lt;/p&gt;
+
+&lt;p&gt;Si max$(m,n) = 1$ alors on a $m = 1$ et $n = 1$ donc $m = n$ et $p_1 = q_1$.&lt;/p&gt;
+
+&lt;p&gt;Supposons le résultat établi pour $k \in \mathbb{N} \setminus${$0$}.
+Soient $m,n \in \mathbb{N} \setminus${$0$} tels que max$(m,n) = k+1$.
+Si $p_1 &amp;lt; q_1$ alors $p_1 \not \in$ {$q_1,\dots,q_n$} or $p_1 \ | \ q_1 \times \dots \times q_n$ donc avec le lemme précédent $p_1 \ | \ q_1$ ou \dots \ ou $p_1 \ | \ q_n$ (car $p_1$ premier) donc $p_1 = q_1$ ou  \dots \ ou $p_1 = q_n$ (car $q_1,\dots,q_n$ premiers et $p_1 \neq 1$) ce qui contredit $p_1 \not \in$ {$q_1,\dots,q_n$}.
+(En d’autres mots, $p_1 &amp;lt; q_1$ implique $p_1 \not \in$ {$q_1,\dots,q_n$} et $p_1 \in$ {$q_1,\dots,q_n$} proposition toujours fausse, d’où $p_1 \geq q_1$)
+Si $q_1 &amp;lt; p_1$ alors $q_1 \not \in$ {$p_1,\dots,p_m$} or $q_1 \ | \ p_1 \times \dots \times p_m$ donc avec le lemme précédent $q_1 \ | \ p_1$ ou \dots \ ou $q_1 \ | \ p_m$ (car $q_1$ premier) donc $q_1 = p_1$ ou  \dots \ ou $q_1 = p_m$ (car $p_1,\dots,p_m$ premiers et $q_1 \neq 1$) ce qui contredit $q_1 \not \in$ {$p_1,\dots,p_m$}.
+Ainsi $p_1 = q_1$. On a donc $p_2 \times \dots \times p_m = q_2 \times \dots \times q_n$ donc, comme à gauche on a $m-1$ termes et à droite $n-1$ et que max$(m-1,n-1) = $ max$(m,n) - 1 = k$, par hypothèse de récurrence $m = n$ et $p_2 = q_2$, \dots, $p_m = q_m$.&lt;/p&gt;
+
+&lt;h2 id=&quot;ii-triplets-pythagoriciens-et-cas-n--3-et-n--4-du-grand-théorème-de-fermat&quot;&gt;II) Triplets pythagoriciens et cas $n = 3$ et $n = 4$ du grand théorème de Fermat.&lt;/h2&gt;
+
+&lt;p&gt;En géométrie, le théorème de Pythagore stipule que si $x,y,z$ sont les longueurs des côtés d’un triangle rectangle, avec $z$ la longueur de l’hypoténuse, alors $x^2 + y^2 = z^2$ (voir l’article 7. Géométrie). La réciproque du théorème de Pythagore stipule que si $x,y,z$ sont les longueurs des côtés d’un triangle et vérifient $x^2 + y^2 = z^2$ alors ce triangle est rectangle et son hypoténuse est le côté de longueur $z$. On peut se demander quels triplets d’entiers naturels non nuls $(x,y,z)$ vérifient l’équation $x^2 + y^2 = z^2$ (ce qui revient à se demander quels sont les triangles rectangles dont les longueurs des côtés sont des entiers). On appelle de tels triplets des “triplets pythagoriciens”.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Exo&lt;/em&gt; : Résolution de l’équation de Pythagore $x^2 + y^2 = z^2$ avec $x,y,z \in \mathbb{N} \setminus${$0$}.&lt;/p&gt;
+
+&lt;p&gt;1) Montrer que $(x,y,z)$ est solution si et seulement si, en notant $d =$ pgcd$(x,y,z)$, $(\frac{x}{d},\frac{y}{d},\frac{z}{d})$ est solution.&lt;/p&gt;
+
+&lt;p&gt;2) Soit $(x,y,z)$ une solution de pgcd 1. Déterminer le reste dans la division euclidienne de $z^2$ par 4 (en considérant les différentes possibilités pour ceux de $x^2$ et $y^2$) et en déduire que $z$ est impair, $x$ ou $y$ est pair et l’autre est impair.&lt;/p&gt;
+
+&lt;p&gt;3) Soit $(x,y,z)$ une solution de pgcd 1. Si $x$ est pair et $y$ est impair, montrer que pgcd($\frac{z-y}{2},\frac{z+y}{2}) = 1$. En déduire, puisque $(z-y)(z+y) = z^2 - y^2 = x^2$, que $\frac{z-y}{2}$ et $\frac{z+y}{2}$ sont des carrés d’entiers, puis une expression de $x$, $y$ et $z$.&lt;/p&gt;
+
+&lt;p&gt;4) Donner toutes les solutions de l’équation $x^2 + y^2 = z^2$ dans $\mathbb{N} \setminus${$0$}.&lt;/p&gt;
+
+&lt;p&gt;Cet exercice et les suivants seront corrigés dans l’article 5 bis. Si vous bloquez sur une question n’hésitez pas à la sauter pour faire les autres questions (quitte à réessayer plus tard, souvent la nuit porte conseil).&lt;/p&gt;
+
+&lt;p&gt;Une question que l’on peut naturellement se poser est de savoir s’il existe $x,y,z \in \mathbb{N} \setminus${$0$} tels que $x^3 + y^3 = z^3$ ou $x^4 + y^4 = z^4$ etc. Pierre de Fermat (1601-1665) a énoncé la conjecture suivante (appelée grand théorème de Fermat ou dernier théorème de Fermat) : pour tout $n \geq 3$, il n’existe pas $x,y,z \in \mathbb{N} \setminus${$0$} tels que $x^n + y^n = z^n$. Andrew Wiles (1953-) l’a démontrée en 1995 grâce à des mathématiques très sophistiquées (le documentaire &lt;a href=&quot;http://topdocumentaryfilms.com/fermats-last-theorem/&quot;&gt;Fermat’s Last Theorem&lt;/a&gt; présente l’aventure de la preuve au grand public). Les cas $n = 3$ et $n = 4$ sont faciles à montrer et font l’objet des exercices suivants. 
+Ensuite il suffit de montrer le résultat pour $n \geq 5$ premier (prouvez-le ! ce sera corrigé dans l’article 5 bis, tout comme les exercices suivants), c’est ce qu’a fait Wiles (je dis “il suffit” mais c’est très difficile (sinon le grand théorème de Fermat n’aurait pas attendu plus de 300 ans avant d’être prouvé)).&lt;/p&gt;
+
+&lt;p&gt;Pour le cas $n = 4$ on montre même qu’il n’y a pas de solution dans $\mathbb{N} \setminus${$0$} à $x^4+y^4=z^2$ (ce qui implique le cas $n = 4$ en prenant $z$ un carré d’entier).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Exo&lt;/em&gt; : Il n’y a pas de solution dans $\mathbb{N} \setminus${$0$} à $x^4+y^4=z^2$.&lt;/p&gt;
+
+&lt;p&gt;1) Se ramener à $x^2,y^2,z$ de pgcd 1 (comme dans l’exercice précédent).&lt;/p&gt;
+
+&lt;p&gt;2) Utiliser l’exercice précédent pour avoir une expression de $x^2,y^2,z$.&lt;/p&gt;
+
+&lt;p&gt;3) Vérifier que $y$ et les deux paramètres de la question 2) forment un triplet pythagoricien et en déduire une expression avec deux nouveaux paramètres.&lt;/p&gt;
+
+&lt;p&gt;4) Utiliser le fait que toute partie non vide de $\mathbb{N}$ admet un plus petit élément pour conclure.&lt;/p&gt;
+
+&lt;p&gt;Passons au cas $n = 3$.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Exo&lt;/em&gt; : Il n’y a pas de solution dans $\mathbb{N} \setminus${$0$} à $x^3+y^3=z^3$.&lt;/p&gt;
+
+&lt;p&gt;1) Se ramener à $x,y,z$ de pgcd 1 (comme dans l’exercice précédent).&lt;/p&gt;
+
+&lt;p&gt;2) Montrer que s’il existe $x,y,z$ de pgcd 1 tels que  $x^3+y^3=z^3$ alors il existe $u,v \in \mathbb{N} \setminus${$0$} de pgcd 1 tels que $u$ et $v$ sont de parité opposée (l’un est pair et l’autre est impair) et $2u(u^2+3v^2)$ est un cube d’entier.&lt;/p&gt;
+
+&lt;p&gt;3) Montrer que pgcd$(2u,u^2+3v^2) = 1$ ou 3.&lt;/p&gt;
+
+&lt;p&gt;4) Utiliser le fait que toute partie non vide de $\mathbb{N}$ admet un plus petit élément pour conclure.&lt;/p&gt;
+
+&lt;p&gt;Clémentine Lemarié–Rieusset&lt;/p&gt;</content><author><name></name></author><category term="[&quot;mathématiques&quot;, &quot;sciences&quot;]" /><summary type="html">L’arithmétique est la branche des mathématiques qui s’intéresse aux nombres ($\alpha \rho \iota \theta \mu o \varsigma$ ou arithmos en grec signifie nombre). Elle est prolongée par la théorie des nombres (il n’y a pas de consensus sur où s’arrête précisément l’arithmétique et où commence précisément la théorie des nombres, mais en général quand on utilise des outils d’algèbre ou d’analyse (voir articles 9 et 10) on parle de théorie des nombres et sinon on parle d’arithmétique).</summary></entry><entry><title type="html">Le monde fascinant des corbeaux</title><link href="http://localhost:4000/lu%20et%20approuv%C3%A9/sciences%20humaines/2017/11/17/le-monde-fascinant-des-corbeaux/" rel="alternate" type="text/html" title="Le monde fascinant des corbeaux" /><published>2017-11-17T00:00:00+01:00</published><updated>2017-11-17T00:00:00+01:00</updated><id>http://localhost:4000/lu%20et%20approuv%C3%A9/sciences%20humaines/2017/11/17/le-monde-fascinant-des-corbeaux</id><content type="html" xml:base="http://localhost:4000/lu%20et%20approuv%C3%A9/sciences%20humaines/2017/11/17/le-monde-fascinant-des-corbeaux/">&lt;p&gt;&lt;img src=&quot;/images/Lu_et_approuv.png&quot; style=&quot;float: center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Gifts of the Crow : How Perception, Emotion, and Thought Allow Smart Birds to Behave Like Humans (2012) de John Marzluff et Tony Angell est un livre de vulgarisation qui présente le monde merveilleux des corneilles et des corbeaux, ces oiseaux remarquablement intelligents et sociaux.&lt;/p&gt;
 
@@ -971,83 +1196,5 @@ Il a lancé le 10 février 2016 le mouvement La France Insoumise afin de candida
 &lt;p&gt;Macron propose que les horaires effectifs de travail soient “définis par accord majoritaire ou par référendum d’entreprise”. Il opte donc pour plus de “dialogue social” et de compétitivité et moins de protection des travailleurs par l’Etat, tout en n’allant pas aussi loin que Fillon qui propose de mettre fin à la durée légale du travail à 35 heures. Macron et Fillon, en suivant la ligne initiée par la loi Travail, s’opposent ainsi à Mélenchon, Hamon et Le Pen, qui veulent abroger ou remplacer la loi Travail.
 Macron propose également un grand plan d’investissements de 50 milliards d’euros pour relancer l’économie; Mélenchon propose un grand plan d’investissements de 100 milliards d’euros, et Hamon propose de consacrer 60 milliards d’euros à la R&amp;amp;D et 100 milliards d’euros à la rénovation urbaine et technique. Le Pen et Fillon ne proposent pas de grand plan d’investissements.
 Macron, Mélenchon, Hamon, Fillon et Le Pen veulent tous développer les énergies renouvelables (à l’exception des éoliennes pour Le Pen). Mélenchon et Hamon ont pour but dans le long terme de sortir du nucléaire, contrairement à Macron, Fillon et Le Pen.&lt;/p&gt;
-
-&lt;p&gt;L’image vient du site bfmtv.com&lt;/p&gt;</content><author><name></name></author><category term="[&quot;évènements&quot;, &quot;actualités&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Présidentielle 2017 : Emmanuel Macron (deuxième partie)</title><link href="http://localhost:4000/%C3%A9v%C3%A8nements/actualit%C3%A9s/2017/04/04/presidentielle-2017-macron-emmanuel-partie-2/" rel="alternate" type="text/html" title="Présidentielle 2017 : Emmanuel Macron (deuxième partie)" /><published>2017-04-04T00:00:00+02:00</published><updated>2017-04-04T00:00:00+02:00</updated><id>http://localhost:4000/%C3%A9v%C3%A8nements/actualit%C3%A9s/2017/04/04/presidentielle-2017-macron-emmanuel-partie-2</id><content type="html" xml:base="http://localhost:4000/%C3%A9v%C3%A8nements/actualit%C3%A9s/2017/04/04/presidentielle-2017-macron-emmanuel-partie-2/">&lt;p&gt;&lt;img src=&quot;/images/21e61bb6f3f978d3d1c96e89c9d9f.jpeg&quot; style=&quot;float: center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Voir les &lt;a href=&quot;/%C3%A9v%C3%A8nements/actualit%C3%A9s/2017/04/04/presidentielle-2017-macron-emmanuel-partie-1/&quot;&gt;première&lt;/a&gt; et &lt;a href=&quot;/%C3%A9v%C3%A8nements/actualit%C3%A9s/2017/04/04/presidentielle-2017-macron-emmanuel-partie-3/&quot;&gt;troisième&lt;/a&gt; parties. Le programme d’Emmanuel Macron est disponible sur cette &lt;a href=&quot;http://www.en-marche.fr/emmanuel-macron/le-programme&quot;&gt;page&lt;/a&gt;. Synthèse : &lt;a href=&quot;http://www.cnewsmatin.fr/politique/2017-03-19/presidentielle-2017-le-programme-demmanuel-macron-744341&quot;&gt;ici&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;iv-mesures-écologiques&quot;&gt;IV) Mesures écologiques&lt;/h2&gt;
-
-&lt;h3 id=&quot;sortir-des-énergies-fossiles&quot;&gt;Sortir des énergies fossiles&lt;/h3&gt;
-
-&lt;h4 id=&quot;fermeture-en-5-ans-des-centrales-électriques-à-charbon-interdiction-dexploration-des-gaz-de-schistes-et-des-hydrocarbures-augmentation-de-la-taxe-carbone&quot;&gt;Fermeture en 5 ans des centrales électriques à charbon. Interdiction d’exploration des gaz de schistes et des hydrocarbures. Augmentation de la taxe Carbone.&lt;/h4&gt;
-
-&lt;h4 id=&quot;doublement-de-la-capacité-en-éolien-et-énergies-photovoltaïques-en-5-ans-objectif--que-lénergie-nucléaire-ne-représente-que-50-des-sources-dénergies-en-2022&quot;&gt;Doublement de la capacité en éolien et énergies photovoltaïques en 5 ans. Objectif : que l’énergie nucléaire ne représente que 50% des sources d’énergies en 2022.&lt;/h4&gt;
-
-&lt;h3 id=&quot;economie-circulaire-et-pollution&quot;&gt;Economie circulaire et pollution&lt;/h3&gt;
-
-&lt;h4 id=&quot;lutte-contre-lobsolescence-programmée-promotion-du-recyclage-et-du-tri-par-des-indications-sur-les-produits-qui-seront-imposées-aux-industriels&quot;&gt;Lutte contre l’obsolescence programmée, promotion du recyclage et du tri par des indications sur les produits qui seront imposées aux industriels.&lt;/h4&gt;
-
-&lt;p&gt;L’obsolescence programmée est “une stratégie visant à réduire la durée de vie d’un produit pour augmenter son taux de remplacement et provoquer un nouvel achat prématurément” (&lt;a href=&quot;http://obsolescence-programmee.fr/&quot;&gt;source&lt;/a&gt;) et donc d’augmenter le chiffre d’affaires d’une entreprise.&lt;/p&gt;
-
-&lt;h4 id=&quot;taxation-du-diesel-comme-de-lessence-renforcement-des-normes-et-contrôles-anti-pollution-européens&quot;&gt;Taxation du diesel comme de l’essence, renforcement des normes et contrôles anti-pollution européens.&lt;/h4&gt;
-
-&lt;h4 id=&quot;séparation-des-activités-de-vente-de-pesticides-et-de-conseil-aux-agriculteurs&quot;&gt;Séparation des activités de vente de pesticides et de conseil aux agriculteurs.&lt;/h4&gt;
-
-&lt;h4 id=&quot;interdiction-des-perturbateurs-endocriniens&quot;&gt;Interdiction des perturbateurs endocriniens.&lt;/h4&gt;
-
-&lt;h4 id=&quot;soutien-financier-aux-régions-si-et-seulement-si-elles-jouent-le-rôle-qui-leur-est-assigné-dans-la-transition-écologique-dans-le-cadre-de-la-pac-les-agriculteurs-jouant-un-rôle-dans-la-transition-écologique-obtiendront-des-rémunérations-incitatives&quot;&gt;Soutien financier aux régions si et seulement si elles jouent le rôle qui leur est assigné dans la transition écologique. Dans le cadre de la PAC, les agriculteurs jouant un rôle dans la transition écologique obtiendront des rémunérations incitatives.&lt;/h4&gt;
-
-&lt;p&gt;## V) Santé ##&lt;/p&gt;
-
-&lt;h3 id=&quot;promouvoir-la-prévention-sanitaire&quot;&gt;Promouvoir la prévention sanitaire&lt;/h3&gt;
-
-&lt;h4 id=&quot;objectif-de-remboursement-à-100-du-prix-des-lunettes-et-prothèses-dentaires-et-auditives-sans-augmenter-la-concurrence-des-mutuelles-mais-en-augmentant-la-concurrence-entre-elles-remboursement-à-100-aussi-des-soins-liés-à-lhypertension-artérielle&quot;&gt;Objectif de remboursement à 100% du prix des lunettes, et prothèses dentaires et auditives, sans augmenter la concurrence des mutuelles mais en augmentant la concurrence entre elles. Remboursement à 100% aussi des soins liés à l’hypertension artérielle.&lt;/h4&gt;
-
-&lt;h3 id=&quot;une-meilleure-répartition-des-soins-sur-le-territoire&quot;&gt;Une meilleure répartition des soins sur le territoire&lt;/h3&gt;
-
-&lt;h4 id=&quot;lutte-contre-les-déserts-médicaux-par-une-réforme-du-numerus-clausus-qui-est-le-nombre-par-an-détudiants-de-médecine-de-première-année-admis-à-passer-à-lannée-supérieure-à-lissue-du-concours&quot;&gt;Lutte contre les déserts médicaux par une réforme du numerus clausus, qui est le nombre (par an) d’étudiants de médecine de première année admis à passer à l’année supérieure à l’issue du concours.&lt;/h4&gt;
-
-&lt;h4 id=&quot;déploiement-des-groupes-hospitaliers-sur-le-territoire-et-réduction-de-la-tarification-à-lactivité-au-profit-dune-rémunération-globale-des-soignants&quot;&gt;Déploiement des groupes hospitaliers sur le territoire et réduction de la tarification à l’activité au profit d’une rémunération globale des soignants.&lt;/h4&gt;
-
-&lt;p&gt;## VI) Enseignement supérieur et Recherche ##&lt;/p&gt;
-
-&lt;h4 id=&quot;favoriser-le-regroupement-des-universités-en-pôles-de-recherche&quot;&gt;Favoriser le regroupement des universités en pôles de recherche.&lt;/h4&gt;
-
-&lt;h4 id=&quot;développement-des-licences-en-alternance-plus-de-liberté-aux-universités-dans-le-choix-de-laménagement-des-parcours-diversification-des-sources-de-financement-des-universités&quot;&gt;Développement des licences en alternance. Plus de liberté aux universités dans le choix de l’aménagement des parcours. Diversification des sources de financement des universités.&lt;/h4&gt;
-
-&lt;p&gt;## VII) Justice ##&lt;/p&gt;
-
-&lt;h4 id=&quot;une-justice-plus-lisible-et-accessible--un-tribunal-de-grande-instance-dans-chaque-département-création-de-centres-daccueil-unique-du-justiciable&quot;&gt;Une justice plus lisible et accessible : un tribunal de grande instance dans chaque département. Création de centres d’accueil unique du justiciable.&lt;/h4&gt;
-
-&lt;h4 id=&quot;limiter-le-délai-entre-le-jugement-principal-et-lappel-pour-éviter-létalement-dun-procès&quot;&gt;Limiter le délai entre le jugement principal et l’appel pour éviter l’étalement d’un procès.&lt;/h4&gt;
-
-&lt;h4 id=&quot;simplification-de-la-tutelle-pour-les-personnes-âgées-et-le-traitement-de-la-procédure-pénale&quot;&gt;Simplification de la tutelle pour les personnes âgées et le traitement de la procédure pénale.&lt;/h4&gt;
-
-&lt;h4 id=&quot;création-dun-site-public-numérique-de-la-justice-et-de-plateformes-de-règlements-amiables-de-litiges-de-la-vie-quotidienne-animées-par-des-notaires-et-avocats&quot;&gt;Création d’un site public numérique de la justice et de plateformes de règlements amiables de litiges de la vie quotidienne, animées par des notaires et avocats.&lt;/h4&gt;
-
-&lt;h4 id=&quot;une-justice-plus-stricte--suppression-du-principe-dautomaticité-de-lexamen-de-laménagement-de-peine-toutefois-examen-automatique-de-laménagement-de-peine-aux-deux-tiers-de-la-peine&quot;&gt;Une justice plus stricte : suppression du principe d’automaticité de l’examen de l’aménagement de peine. Toutefois, examen automatique de l’aménagement de peine aux deux tiers de la peine.&lt;/h4&gt;
-
-&lt;p&gt;L’examen de l’aménagement de peine permet de déterminer si le prisonnier est apte à bénéficier des adoucissements de peine suivants (&lt;a href=&quot;http://prisonjustice44.free.fr/w_Fiche_13-1_sortir_de_prison_amenagement_de_peines.pdf&quot;&gt;source&lt;/a&gt;) : les permissions de sortie, le placement sous surveillance électronique, la libération conditionnelle, …&lt;/p&gt;
-
-&lt;h4 id=&quot;rénovation-des-bâtiments-pénitentiaires-et-aménagement-de-15-000-places-supplémentaires&quot;&gt;Rénovation des bâtiments pénitentiaires et aménagement de 15 000 places supplémentaires.&lt;/h4&gt;
-
-&lt;p&gt;## VIII) Relations internationales ##&lt;/p&gt;
-
-&lt;h4 id=&quot;dissuasion-nucléaire--importance-stratégique-donc-maintien-et-modernisation-des-forces-de-dissuasion-dont-les-forces-aériennes&quot;&gt;Dissuasion nucléaire : importance stratégique donc maintien et modernisation des forces de dissuasion dont les forces aériennes.&lt;/h4&gt;
-
-&lt;h4 id=&quot;maintien-de-la-france-dans-le-commandement-intégré-de-lotan-mais-opposition-à-de-nouveaux-élargissements-favoriser-le-renforcement-de-leurope-de-la-défense-tout-en-évitant-lengagement-dans-de-nouveaux-conflits&quot;&gt;Maintien de la France dans le commandement intégré de l’OTAN mais opposition à de nouveaux élargissements. Favoriser le renforcement de l’Europe de la défense tout en évitant l’engagement dans de nouveaux conflits.&lt;/h4&gt;
-
-&lt;h4 id=&quot;percevoir-les-etats-unis-et-le-maghreb-comme-des-alliés-la-russie-la-turquie-et-le-moyen-orient-comme-des-partenaires-de-négociations&quot;&gt;Percevoir les Etats-Unis et le Maghreb comme des alliés, la Russie, la Turquie et le Moyen-Orient comme des partenaires de négociations.&lt;/h4&gt;
-
-&lt;p&gt;## IX) Immigration ##&lt;/p&gt;
-
-&lt;h4 id=&quot;intégration--formation-des-immigrants-au-français-niveau-b1-réduction-des-délais-pour-les-visas-talents---pour-attirer-les-talents-étrangers-simplification-des-modalités-daccès-à-lemploi-pour-les-étrangers-diplômés-en-france&quot;&gt;Intégration : formation des immigrants au français niveau B1. Réduction des délais pour les visas “talents” - pour attirer les “talents étrangers”. Simplification des modalités d’accès à l’emploi pour les étrangers diplômés en France.&lt;/h4&gt;
-
-&lt;p&gt;Niveau B1 : “Peut comprendre les points essentiels quand un langage clair et standard est utilisé et s’il s’agit de choses familières […] Peut […] exposer brièvement […] une idée.” (&lt;a href=&quot;http://www.france-langue.fr/page/niveaux-de-francais-7&quot;&gt;source&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h4 id=&quot;réforme-des-conditions-dexamen-des-dossiers-dasile--traitement-plus-rapide-et-réponse-définitive&quot;&gt;Réforme des conditions d’examen des dossiers d’asile : traitement plus rapide et réponse définitive.&lt;/h4&gt;
-
-&lt;h4 id=&quot;renforcement-du-contrôle-de-la-police-aux-frontières-de-leurope&quot;&gt;Renforcement du contrôle de la police aux frontières de l’Europe.&lt;/h4&gt;
 
 &lt;p&gt;L’image vient du site bfmtv.com&lt;/p&gt;</content><author><name></name></author><category term="[&quot;évènements&quot;, &quot;actualités&quot;]" /><summary type="html"></summary></entry></feed>

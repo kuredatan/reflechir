@@ -1,6 +1,7 @@
 ---
 title: "5. Arithmétique"
 date: 2017-11-20
+bitlink: http://bit.ly/2zVUJn1
 ---
 
 L'arithmétique est la branche des mathématiques qui s'intéresse aux nombres ($\alpha \rho \iota \theta \mu o \varsigma$ ou arithmos en grec signifie nombre). Elle est prolongée par la théorie des nombres (il n'y a pas de consensus sur où s'arrête précisément l'arithmétique et où commence précisément la théorie des nombres, mais en général quand on utilise des outils d'algèbre ou d'analyse (voir articles 9 et 10) on parle de théorie des nombres et sinon on parle d'arithmétique). 
@@ -155,3 +156,4 @@ _Exo_ : Il n'y a pas de solution dans $\mathbb{N} \setminus${$0$} à $x^3+y^3=z^
 4) Utiliser le fait que toute partie non vide de $\mathbb{N}$ admet un plus petit élément pour conclure.
 
 Clémentine Lemarié--Rieusset
+

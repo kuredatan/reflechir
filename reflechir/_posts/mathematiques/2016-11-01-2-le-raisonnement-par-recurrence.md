@@ -1,6 +1,7 @@
 ---
 title: "2. Le raisonnement par récurrence"
 date: 2016-11-01
+bitlink: http://bit.ly/2jNcQFn
 ---
 
 Lorsqu'on veut démontrer une propriété qu'ont tous les entiers naturels (c'est-à-dire les entiers positifs, $0, 1, 2$ etc) il est parfois pratique d'utiliser un raisonnement par récurrence. Ce type de raisonnement consiste à montrer que la propriété est vérifiée par $0$ (initialisation) puis de montrer que si elle est vérifiée par un entier naturel $n$ alors elle est vérifiée par $n + 1$ (hérédité). 
