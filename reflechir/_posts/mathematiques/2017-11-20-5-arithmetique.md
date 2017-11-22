@@ -14,9 +14,9 @@ Commençons par quelques définitions.
 
 Soient $a,b \in \mathbb{N}$ (l'ensemble des entiers naturels : 0, 1, 2 etc).
 
- _Déf_ : $a$ est divisible par $b$ s'il existe $c \in \mathbb{N}$ tel que $a = b \times c$. On dit aussi que $a$ est un multiple de $b$ ou que $b$ divise $a$. On note ceci $b \  | \ a$ (lire "$b$ divise $a$").
+ _Déf_ : $a$ est divisible par $b$ s'il existe $c \in \mathbb{N}$ tel que $a = b \times c$. On dit aussi que $a$ est un multiple de $b$ ou que $b$ divise $a$. On note ceci $b$ div $a$ (lire "$b$ divise $a$").
 
-_Remarque_ : Si $b \ | \ a$ et si $a \neq 0$ alors $b \leq a$. En effet on a alors $a = b \times c$ avec $c \geq 1$ (on est juste en train de dire que $b, 2b, 3b$ etc sont supérieurs à $b$).
+_Remarque_ : Si $b$ div $a$ et si $a \neq 0$ alors $b \leq a$. En effet on a alors $a = b \times c$ avec $c \geq 1$ (on est juste en train de dire que $b, 2b, 3b$ etc sont supérieurs à $b$).
 Le seul entier divisible par 0 est 0 et 0 est divisible par tous les entiers (car pour tout $c \in \mathbb{N} \ 0 \times c = 0$). Tous les entiers sont divisibles par 1 (car pour tout $c \in \mathbb{N} \ 1 \times c = c$) et 1 n'est divisible que par 1.
 
 _Thm_ : Soient $a \in \mathbb{N}$ et $b \in \mathbb{N} \setminus${$0$}. Il existe un unique couple d'entiers naturels $(q,r)$ tel que $0 \leq r < b$ et $a = qb + r$ (division euclidienne de $a$ par $b$).
@@ -33,7 +33,7 @@ Si $A$ n'admet pas de plus petit élément alors $A$ est vide.
 Supposons que pour tout $n \in A$ il existe $m \in A$ tel que $m < n$. Montrons par récurrence forte sur $k \in \mathbb{N}$ que $k \not \in A$ ($k$ n'appartient pas à $A$).
 $0 \not \in A$ car pour tout $m \in \mathbb{N}$ $0 \leq m$ donc en particulier pour tout $m \in A$ $0 \leq m$.
 Supposons que pour tout $l \leq k$ $l \not \in A$.
-Pour tout $m \in A$ $k+1 \leq m$ (car sinon $m \in${0,\dots,k$}) donc $k+1 \not \in A$.
+Pour tout $m \in A$ $k+1 \leq m$ (car sinon $m \in${$0,\dots,k$}) donc $k+1 \not \in A$.
 Ainsi, pour tout $k \in \mathbb{N}$, $k \not \in A$, donc $A$ est vide. 
 
 On remarque que le plus petit élément est unique, car si $a_1$ et $a_2$ sont des plus petits éléments de $A$ alors $a_1 \leq a_2$ (car $a_1$ plus petit élément de $A$ et $a_2 \in A$) et $a_2 \leq a_1$ (car $a_2$ plus petit élément de $A$ et $a_1 \in A$) donc $a_1 = a_2$.
@@ -42,16 +42,16 @@ Si $a < b$ alors $q = 0$ et $r = a$ conviennent. Sinon, $a - b \geq 0$ donc $0 \
 
 On peut désormais définir le plus grand commun diviseur de deux entiers :
 
-_Déf_ : Le plus grand commun diviseur de $a \in \mathbb{N}$ et de $b \in \mathbb{N}$, noté pgcd$(a,b)$, est l'entier $d \in \mathbb{N}$ qui vérifie $d \ | \ a$, $d \ | \ b$ et si $c \ | \ a$ et $c \ | \ b$ alors $c \ | \ d$.
+_Déf_ : Le plus grand commun diviseur de $a \in \mathbb{N}$ et de $b \in \mathbb{N}$, noté pgcd$(a,b)$, est l'entier $d \in \mathbb{N}$ qui vérifie $d$ div $a$, $d$ div $b$ et si $c$ div $a$ et $c$ div $b$ alors $c$ div $d$.
 
 Pour que cette définition soit correcte, il faut et il suffit qu'il existe un unique entier $d$ vérifiant ces propriétés (s'il n'y en a pas on est en train de donner un nom à quelque chose qui n'existe pas et s'il y en a plusieurs notre définition est ambigüe car elle désigne plusieurs entiers et pas un seul).
 
 Montrons que cette définition est correcte.
 
 Commençons par l'unicité :
-Si $d_1$ et $d_2$ vérifient les propriétés de pgcd de $a$ et de $b$ alors, comme $d_1 \ | \ a$ et $d_1 \ | \ b$ on a $d_1 \ | \ d_2$ et comme $d_2 \ | \ a$ et $d_2 \ | \ b$ on a $d_2 \ | \ d_1$.\\
-Si $d_1 = 0$ alors comme $d_1 \ | \ d_2$ on a $d_2 = 0$. De même, si $d_2 = 0$ alors $d_1 = 0$.\\
-Si $d_1 \neq 0$ et $d_2 \neq 0$ alors on a $d_1 \leq d_2$ et $d_1 \geq d_2$ (car $d_1 \ | \ d_2$ et $d_2 \ | \ d_1$) donc on a $d_1 = d_2$.
+Si $d_1$ et $d_2$ vérifient les propriétés de pgcd de $a$ et de $b$ alors, comme $d_1$ div $a$ et $d_1$ div $b$ on a $d_1$ div $d_2$ et comme $d_2$ div $a$ et $d_2$ div $b$ on a $d_2$ div $d_1$.
+Si $d_1 = 0$ alors comme $d_1$ div $d_2$ on a $d_2 = 0$. De même, si $d_2 = 0$ alors $d_1 = 0$.
+Si $d_1 \neq 0$ et $d_2 \neq 0$ alors on a $d_1 \leq d_2$ et $d_1 \geq d_2$ (car $d_1$ div $d_2$ et $d_2$ div $d_1$) donc on a $d_1 = d_2$.
 On a prouvé l'unicité du pgcd par disjonction de cas.
 
 Montrons à présent l'existence du pgcd.
