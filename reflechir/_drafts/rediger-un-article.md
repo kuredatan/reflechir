@@ -54,6 +54,8 @@ Exemple :
 
 (mettre AU MOINS 3 tirets pour séparer titre des colonnes et contenu, sinon le layout hurle)
 
+Pour prévenir les erreurs d'affichage : mettre les tableaux au même endroit, si possible, et mettre au moins 5 lignes entre le début de l'article et le premier tableau (heuristique plus ou moins fiable)
+
 (ignorer : ![Légende]({{ "/images/[nom de l'image].[extension]" | absolute_url }}))
 
 * Ajouter un document PDF : mettre le document dans le dossier "pdfs" et écrire
