@@ -79,7 +79,7 @@ Ajout : "Alléger les cotisations pour les entreprises respectant l’égalité 
 
 L'emprunt auprès de la Banque de France permet d'emprunter sans taux d'intérêts, contrairement à ce qui se passe avec les banques privées. Cependant cette loi n'est pas dans la réglementation française (la loi de 1973 a été abrogée par la loi de 1993([source](https://fr.wikipedia.org/wiki/Loi_de_janvier_1973_sur_la_Banque_de_France#Abrogation))), mais est présente dans le traité de Lisbonne, donc c’est une loi européenne.
 
-## I) Mesures sociales et fiscales ##
+## II) Mesures sociales et fiscales ##
 
 ###  FISC ###
 
@@ -105,7 +105,7 @@ Ajout : "La loi Sapin 2 prévoit d’autoriser le Haut conseil de la stabilité 
 
 Bloquer les fonds placés en assurance-vie permet aux banques de les utiliser, notamment en cas de crise financière. Techniquement, le détenteur de l'assurance-vie possède les fonds, mais il ne peut en disposer.
 
-## I) Unité sociale ##
+## III) Unité sociale ##
 
 ###  INEGALITE ENTRE REGIONS ###
 
@@ -148,7 +148,7 @@ Ajout : “Conditionner le droit du sol et demander, à sa majorité, au jeune n
 
 ###  VIOLENCES FAITES AUX FEMMES ###
 
-## Il est dommage de constater que la section ne se focalise que sur les femmes, alors que les seniors, les enfants, les hommes sont aussi victimes de violence. ##
+### Il est dommage de constater que la section ne se focalise que sur les femmes, alors que les seniors, les enfants, les hommes sont aussi victimes de violence. ###
 
 ####  "Créer un centre d’hébergement d’urgence (par intercommunalité) pour répondre à la détresse des femmes victimes de violences" ####
 
