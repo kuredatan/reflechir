@@ -32,7 +32,7 @@ Visiblement, François Fillon compte sur la hausse de la TVA (voir mesures préc
 
 François Fillon semble faire allusion à la privatisation d'organismes publics.
 
-## XI) Culture ##
+## XI) Culture ##
 
 #### "Préserver la rémunération de la création à travers le système français du droit d’auteur en confortant l’Hadopi et en luttant efficacement contre la contrefaçon commerciale des œuvres musicales, littéraires ou audiovisuelles" ####
 
@@ -40,7 +40,7 @@ La loi Hadopi, ou loi Création et Internet (2009), a pour objectif de mettre un
 
 #### "Dématérialiser l’intégralité des procédures administratives d’ici à la fin du quinquennat pour engager la France dans l’e-démocratie" ####
 
-## XII) Education ##
+## XII) Education ##
 
 #### "Commencer la scolarité obligatoire à cinq ans" ####
 
@@ -96,7 +96,7 @@ La police municipale est déjà beaucoup plus armée qu'avant  ([source](http://
 
 #### "Créer une école nationale de formation des polices municipales, dans laquelle des formateurs de la police nationale et de la gendarmerie interviendraient" ####
 
-## Comparaison ##
+## Comparaison ##
 
 Vis-à-vis des relations internationales, François Fillon, comme Emmanuel Macron, n’aborde pas le sujet des traités de libre-échange transatlantiques (CETA avec le Canada, et TAFTA avec les Etats-Unis) contrairement à Jean-Luc Mélenchon, Benoît Hamon et Marine Le Pen qui s’y opposent formellement.
 Comme Emmanuel Macron et Benoît Hamon, François Fillon est pour le maintien inconditionnel dans l'Union européenne, contrairement à Jean-Luc Mélenchon et Marine Le Pen qui proposent de négocier de nouveaux traités avec l'Union européenne puis d'organiser un référendum sur la sortie.
