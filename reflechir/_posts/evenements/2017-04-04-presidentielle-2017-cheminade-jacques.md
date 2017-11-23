@@ -6,7 +6,7 @@ bitlink: http://bit.ly/2mld1J2
 
 <img src="/images/220px-Jacques-Cheminade_2.jpg" style="float: center"/> 
 
-Le programme de Jacques Cheminade est disponible sur [ici](http://www.cheminade2017.fr/-Projet-2017-).
+Le programme de Jacques Cheminade est disponible [ici](http://www.cheminade2017.fr/-Projet-2017-).
 
 ## Contexte ##
 
@@ -53,7 +53,7 @@ Cette mesure est déjà appliquée aux Etats-Unis. ([source](https://fr.wikipedi
 
 #### « Accroître de trois points le taux de TVA pour les produits de luxe, à coût unitaire élevé, ainsi que les produits qui ne sont pas de première nécessité. » ####
 
-## III) Unité sociale ##
+## III) Unité sociale ##
 
 #### « Un système de bonus/malus sera mis en place pour susciter le relèvement des salaires féminins conduisant progressivement au niveau de ceux de leurs collègues masculins. » ####
 
@@ -102,7 +102,7 @@ Cheminade n'est pas convaincu par les énergies renouvelables.
 
 #### « Garantie de l’accès au dossier pour toute personne mise en examen et limitation de la détention provisoire à six mois en matière correctionnelle et à un an en matière criminelle » ####
 
-## VIII) Relations internationales ##
+## VIII) Relations internationales ##
 
 #### « Quitter l’OTAN » ####
 
@@ -114,7 +114,7 @@ L'OTAN (Organisation du Traité de l'Atlantique Nord) est une alliance militaire
 
 #### « Nous devons coopérer avec la Chine pour de grands projets d’infrastructure à une échelle panafricaine et au Moyen-Orient, dans un nouvel ordre gagnant-gagnant. » ####
 
-### EUROPE ###
+### EUROPE ###
 
 #### « Sortir de l'UE et de l'euro » (UE : Union européenne) ####
 
@@ -124,13 +124,13 @@ L'OTAN (Organisation du Traité de l'Atlantique Nord) est une alliance militaire
 
 #### « Aider les pays africains à développer des médicaments génériques bon marché » afin de lutter contre les épidémies. ####
 
-### MOYEN-ORIENT ###
+### MOYEN-ORIENT ###
 
 #### « Entreprendre avec les pays disposés à le faire, notamment la Chine, l’Inde et tout autre participant, la reconstruction de la Syrie et de l’Irak » ####
 
 #### « Parvenir à une paix négociée, en portant conjointement avec la Russie et les Etats-Unis une politique d’éradication du terrorisme djihadiste » ####
 
-## IX) Immigration ##
+## IX) Immigration ##
 
 #### « L’immigration doit être progressivement organisée par métiers, dans le cadre d’un dialogue entre pays européens et pays méditerranéens et africains. Des objectifs indicatifs seront fixés lors d’un débat au Parlement. » ####
 
