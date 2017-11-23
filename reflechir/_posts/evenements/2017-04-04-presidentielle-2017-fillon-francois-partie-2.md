@@ -54,7 +54,7 @@ Le tiers payant permet aux patients de ne pas régler la consultation ou le méd
 
 Il est à noter que cette mesure est singulièrement contradictoire avec les deux précédentes.
 
-## VI) Enseignement supérieur et Recherche ##
+## VI) Enseignement supérieur et Recherche ##
 
 #### "Dans la limite d’un plafond national, les conseils d’administration pourront fixer les frais de scolarité applicables en master et doctorat [...] Les étudiants boursiers resteront exonérés des frais de scolarité" ####
 
@@ -112,7 +112,7 @@ Il est à noter que pour les crimes les plus graves, les juges peuvent déjà fa
 
 François Fillon ne précise pas le cas des délinquants mineurs.
 
-## VIII) Relations internationales ##
+## VIII) Relations internationales ##
 
 ### Français de l'étranger ###
 
@@ -140,7 +140,7 @@ Le Fond Monétaire International a été créé en 1944 ([source](http://www.imf
 
 #### "En finir avec les élargissements permanents de l’Union européenne. Il est urgent de définir ses frontières. La Turquie n’a pas sa place dans l’UE. Il faut élaborer avec ce grand pays les bases d’un partenariat renouvelé, fondé sur des objectifs partagés : coopération contre le terrorisme, union douanière, grands projets dans le domaine de l’énergie et des transports" ####
 
-## Alliances ##
+### Alliances ###
 
 #### "La France sera un allié loyal et indépendant des Etats-Unis. Je jugerai la nouvelle administration américaine sur ses décisions et établirai un dialogue exigeant avec elle" ####
 
