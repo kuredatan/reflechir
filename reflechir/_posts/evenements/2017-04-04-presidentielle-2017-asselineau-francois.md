@@ -30,7 +30,7 @@ François Asselineau est un autre "petit candidat" avec Jean Lassalle, Jacques C
 
 Toutes les mesures décrites ici sont exclusivement extraites du programme de François Asselineau, disponible sur le site upr.fr et vu à la date du 25/03/2017. Dans un souci de lisibilité, toutes les mesures du candidat ne sont pas présentées ici, et toutes les mesures présentées ne sont pas commentées. Le choix des mesures a été fait avec le plus d'objectivité possible et l'auteur de l'article a essayé d'inclure toutes les mesures les plus importantes des différentes parties du programme.
 
-## I) Mesures économiques ##
+## I) Mesures économiques ##
 
 #### Sortie de la monnaie euro #### 
 
@@ -86,11 +86,11 @@ François Asselineau semble dire que les mesures du plan Vigipirate n'ont pas se
 
 (*)(18:58)
 
-## IX) Immigration ##
+## IX) Immigration ##
 
 Dans la partie consacrée au programme présidentiel, aucune mesure concernant ce sujet n'est abordée.
 
-X) Mesures institutionnelles
+## X) Mesures institutionnelles ##
 
 #### Prendre en compte le vote blanc ####
 
@@ -134,7 +134,7 @@ But : Le plan Vigipirate, selon François Asselineau, menace les libertés indiv
 
 Il est à noter que le déficit de la France était à plus de 3,3% du PIB en 2016. François Asselineau affirme que c'est pour faire face à "l'augmentation du budget militaire" de la Chine, de la Russie et des Etats-Unis, et "assurer notre indépendance".(*)(1:40:05)
 
-## Comparaison ##
+## Comparaison ##
 
 Comme Marine Le Pen, François Asselineau est pour une sortie de l'Union Européenne. Il s'oppose également à la loi NOTRe de réorganisation du territoire, comme Jean Lassalle.
 
