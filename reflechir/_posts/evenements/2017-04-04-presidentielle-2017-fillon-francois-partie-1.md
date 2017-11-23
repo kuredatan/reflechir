@@ -83,10 +83,10 @@ Suisse 3.6% 17.92% Non connu 58 389
 
 Il est difficile d'évaluer une tendance à l'oeil nu (d'autant plus avec des valeurs manquantes...). On utilise donc le coefficient de Pearson, qui est un calcul courant en statistiques, qui permet de calculer la corrélation entre deux quantités x et y. Ce coefficient est compris entre -1 et 1. Si ce coefficient vaut -1, alors x et y sont inversement corrélés (autrement dit, x diminue quand y augmente, et inversement). Si ce coefficient vaut 0, il n'y a pas de corrélation a priori. Si ce coefficient vaut 1, alors x et y sont corrélés positivement (x et y augmentent et diminuent en même temps). Voir (4) pour la description du calcul. Il est à noter que ce coefficient n'a été calculé que pour les pays ci-dessus sans valeur manquante, en prenant le maximum des valeurs lorsque la colonne comporte un intervalle. L'intérêt de ne l'avoir calculé que pour ces pays-là réside dans le fait qu'ils ont un niveau de vie pour la classe moyenne relativement proche. Il serait bien sûr préférable de le faire rigoureusement pour tous les pays ayant un index de développement dépassant un certain niveau par exemple.
 
-Calcul : http://www.socscistatistics.com/tests/pearson/Default2.aspx
-Coefficient de Pearson pour taux de chômage/charges salariales : 0.5002
-Coefficient de Pearson pour taux de chômage/charges des entreprises : 0.5126
-Coefficient de Pearson pour taux de charges salariales/revenu annuel moyen : -0.3952
+Calcul : http://www.socscistatistics.com/tests/pearson/Default2.aspx \\
+Coefficient de Pearson pour taux de chômage/charges salariales : 0.5002 \\
+Coefficient de Pearson pour taux de chômage/charges des entreprises : 0.5126 \\
+Coefficient de Pearson pour taux de charges salariales/revenu annuel moyen : -0.3952 \\
 Coefficient de Pearson pour taux de charges des entreprises/revenu annuel moyen : -0.1959
 
 Conclusion : Avec les réserves sur les données et sur le calcul, on peut conclure au vu des coefficients calculés précédemment qu'il y a pour ces pays plutôt une corrélation positive entre taux de chômage et charges salariales/charges des entreprises, mais une corrélation plutôt négative entre taux de charges et revenu annuel moyen... Autrement dit, diminuer les charges diminue le chômage, mais pas le revenu. La question de la relation entre charges et revenu, et emploi, reste très largement débattue encore entre économistes. Il est à noter aussi que si les entreprises gagnant la différence d’argent due à la baisse des charges, cela ne ferait augmenter le revenu annuel moyen que si cette somme est reversée (en partie ou en intégralité) aux employés. Il serait plus judicieux alors d’étudier la corrélation baisse des charges/écart-type des revenus annuels plus que baisse des charges/moyenne des revenus annuels, mais dû à l’absence de données, nous ne pouvons pas conclure.
@@ -145,7 +145,7 @@ Les pensions de réversion (François Fillon ne précise quelles sont les “pet
 
 Cependant, François Fillon ne précise pas le montant exact de ce plafond. Ce qu’il sous-entend par “assistance” est le total des allocations qu’un individu peut recevoir.
 
-### FISCALITE ###
+### FISCALITE ###
 
 #### "Relever progressivement le plafond du quotient familial à 3 000 euros pour réduire l’impôt sur le revenu des familles" ####
 
@@ -173,19 +173,19 @@ But : "[...] Financer la baisse des charges pesant sur les salaires pour redonne
 
 Il est intéressant de remarquer que François Fillon cherche à minimiser le montant des impôts et charges, et à combler le déficit de plusieurs organismes comme l'Unédic, et la dette publique, tout en ne comptant apparemment que sur l'augmentation de la TVA (et les réductions du nombre de fonctionnaires) pour financer la perte. Il serait aussi utile de se demander à quelle catégorie de la population française ces mesures sont les plus utiles (voir le grand oral devant les patrons de François Fillon), et de quelle façon elles seront appliquées. De plus, la TVA est la même pour toutes les franges de la population (puisque c’est un impôt qui porte sur les produits), alors que les impôts et les charges sont proportionnels au revenu...
 
-### LOGEMENT ###
+### LOGEMENT ###
 
 #### "Réduire les délais d’expulsion en cas de non-paiement du loyer" ####
 
 Ajout : "près de 3 ans aujourd’hui", "En contrepartie, il sera interdit au propriétaire de demander aux locataires certaines garanties excessivement contraignantes."
 
-### RETRAITES ###
+### RETRAITES ###
 
 #### "Faire passer progressivement l’âge légal à 65 ans" (63 ans pour les carrières longues) "L’âge maximal du taux plein sera maintenu à 67 ans" ####
 
 L’âge légal de la retraite aujourd’hui est de 62 ans pour les personnes nées après 1955 ([source](https://www.service-public.fr/particuliers/vosdroits/F14043)).
 
-### RÉGIONS ###
+### RÉGIONS ###
 
 #### "Garantir un déploiement du numérique à l’ensemble des Français en très haut débit d’ici à 2022" ####
 
@@ -207,7 +207,7 @@ Il est intéressant de remarquer que cette dernière affirmation ne repose pas s
 
 #### "Lutter de manière implacable contre le sexisme en politique, en appliquant une tolérance zéro et en s’engageant à mettre en place des mesures législatives et une politique pénale pour exclure de son mandat et rendre inéligible tout élu ou membre de l’exécutif en cas de condamnation pour harcèlement sexiste ou agressions sexuelles" ####
 
-### LAÏCITÉ ###
+### LAÏCITÉ ###
 
 #### "Rendre obligatoire pour toute religion la constitution d’association cultuelle (ou son équivalent l’association diocésaine) pour la gestion des lieux de culte" ####
 
