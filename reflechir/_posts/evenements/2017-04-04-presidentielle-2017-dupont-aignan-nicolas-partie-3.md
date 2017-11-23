@@ -28,7 +28,7 @@ Le principe du référendum d'initiative populaire est de proposer une question 
 
 #### "Revenir au septennat" pour le mandat présidentiel ####
 
-## XI) Culture ##
+## XI) Culture ##
 
 #### "Consacrer 1% du budget de la nation à la culture" ####
 
