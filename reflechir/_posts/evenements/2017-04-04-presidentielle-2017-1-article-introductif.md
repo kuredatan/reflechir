@@ -27,7 +27,7 @@ Les articles sont présentés ainsi :
 
 Cette partie vise à présenter le candidat, en particulier ses diplômes, les postes qu’il/elle a occupés, les affaires judiciaires ou les controverses dans lesquelles il/elle a été impliqué(e), et les réformes qu’il a faites ou sa position sur certains débats récents.
 
-## I) Mesures économiques ##
+## I) Mesures économiques ##
 
 Cette partie fait référence aux mesures touchant les entreprises, la croissance du pays, son attractivité et/ou sa compétitivité.
 
@@ -35,11 +35,11 @@ Cette partie fait référence aux mesures touchant les entreprises, la croissanc
 
 Cette partie regroupe les mesures sociales autres que celles concernant la santé, l’éducation, la recherche, la culture ou l’unité sociale (voir parties consacrées) ainsi que les mesures fiscales, qui ont aussi un aspect social puisque les choix fiscaux de l’Etat réduisent plus ou moins les inégalités (par exemple, la TVA est la même pour tous alors que les impôts dépendent du revenu ou du patrimoine, certains impôts comme l’ISF visent particulièrement les plus riches afin de redistribuer les richesses, etc).
 
-## III) Unité sociale ##
+## III) Unité sociale ##
 
 Cette partie introduit principalement les mesures qui ont pour but de renforcer l’unité sociale, en luttant par exemple sur le sujet des discriminations, ou en définissant et privilégiant une “identité nationale”. La question de la laïcité et celle de la Gestation Pour Autrui (GPA), par exemple, sont également évoquées.
 
-## IV) Mesures écologiques ##
+## IV) Mesures écologiques ##
 
 Cette partie présente les mesures portant sur la production et la consommation d'énergie, le réchauffement climatique, la question de la sécurité des infrastructures nucléaires, etc.
 
@@ -47,7 +47,7 @@ Cette partie présente les mesures portant sur la production et la consommation 
 
 Cette partie introduit les mesures portant sur la gestion des hôpitaux, du personnel médical, des remboursements de soins médicaux, etc.
 
-## VI) Recherche ##
+## VI) Recherche ##
 
 Cette partie présente les mesures portant sur la recherche (industrielle ou publique), et l'enseignement supérieur : gestion des admissions dans le supérieur, gestion des facultés et universités...
 
@@ -59,15 +59,15 @@ Cette partie fait état des mesures portant sur la magistrature, le code pénal,
 
 Cette partie expose les mesures liées à l'Union Européenne, à la place de la France dans le monde politique actuel et aux problématiques mondiales actuelles.
 
-## IX) Immigration ##
+## IX) Immigration ##
 
 Cette partie expose les mesures concernant la gestion des immigrés sur le sol français et des “pull factors” (les raisons qui poussent les immigrés à venir en France plutôt que dans un autre pays). Pour les mesures concernant les “push factors” (les raisons qui poussent les immigrés à quitter leur pays), voir la partie Relations internationales.
 
-## X) Mesures institutionnelles ##
+## X) Mesures institutionnelles ##
 
 Cette partie présente les mesures liées au fonctionnement de la démocratie : 6ème République, Parlement, Sénat... et également les mesures portant sur la gestion de la fonction publique.
 
-## XI) Culture ##
+## XI) Culture ##
 
 Cette partie expose les mesures liées à la culture : promotion de l'art par exemple, sauvegarde ou création de musées, place de la culture sur le marché mondial, etc.
 
@@ -75,7 +75,7 @@ Cette partie expose les mesures liées à la culture : promotion de l'art par ex
 
 Cette partie s'attache à décrire les mesures portant sur l'école élémentaire, le collège et le lycée, ainsi que sur les professeurs y exerçant.
 
-## XIII) Outre-Mer ##
+## XIII) Outre-Mer ##
 
 Cette partie présente les mesures spécifiques aux DROM-COM (départements-régions et collectivités d’Outre-Mer).
 
@@ -83,6 +83,8 @@ Cette partie présente les mesures spécifiques aux DROM-COM (départements-rég
 
 Cette partie porte sur les mesures concernant les forces de l'ordre.
 
-## Comparaison avec les autres candidats ##
+## Comparaison avec les autres candidats ##
 
 Cette partie permet de souligner des points de convergence et des points de divergence entre le programme du candidat et ceux des autres candidats.
+
+L'image vient du site http://www.rfi.fr/france/20170323-presidentielle-francaise-2017-candidats-ont-publie-leur-patrimoine 
