@@ -111,7 +111,9 @@ Soient $m,n \in \mathbb{N} \setminus${$0$} tels que max$(m,n) = k+1$.
 
 Si $p_1 < q_1$ alors $p_1 \not \in$ {$q_1,\dots,q_n$} or $p_1$ divise $q_1 \times \dots \times q_n$ donc avec le lemme précédent $p_1$ divise $q_1$ ou ... ou $p_1$ divise $q_n$ (car $p_1$ premier) donc $p_1 = q_1$ ou ... ou $p_1 = q_n$ (car $q_1,\dots,q_n$ premiers et $p_1 \neq 1$) ce qui contredit $p_1 \not \in$ {$q_1,\dots,q_n$}.
 (En d'autres mots, $p_1 < q_1$ implique $p_1 \not \in$ {$q_1,\dots,q_n$} et $p_1 \in$ {$q_1,\dots,q_n$} proposition toujours fausse, d'où $p_1 \geq q_1$)
+
 Si $q_1 < p_1$ alors $q_1 \not \in$ {$p_1,\dots,p_m$} or $q_1$ divise $p_1 \times \dots \times p_m$ donc avec le lemme précédent $q_1$ divise $p_1$ ou ... ou $q_1$ divise $p_m$ (car $q_1$ premier) donc $q_1 = p_1$ ou ... ou $q_1 = p_m$ (car $p_1,\dots,p_m$ premiers et $q_1 \neq 1$) ce qui contredit $q_1 \not \in$ {$p_1,\dots,p_m$}.
+
 Ainsi $p_1 = q_1$. On a donc $p_2 \times \dots \times p_m = q_2 \times \dots \times q_n$ donc, comme à gauche on a $m-1$ termes et à droite $n-1$ et que max$(m-1,n-1) = $ max$(m,n) - 1 = k$, par hypothèse de récurrence $m = n$ et $p_2 = q_2$,..., $p_m = q_m$.
 
 ## II) Triplets pythagoriciens et cas $n = 3$ et $n = 4$ du grand théorème de Fermat. ##
