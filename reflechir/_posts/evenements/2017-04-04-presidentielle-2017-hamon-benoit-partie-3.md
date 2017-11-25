@@ -34,7 +34,7 @@ But : Protéger "[...] les sources des journalistes" entre autres
 
 #### Mise en place "dès l'été 2017" d'une "conférence pour une VIème république, réunissant parlementaires, sages [sic] et citoyens" ####
 
-But : "[...] Un septennat présidentiel non-renouvelable et [la limitation de] l’utilisation du 49.3 et [du] cumul dans le temps des mandats des élus"
+But : "[...] Un septennat présidentiel non-renouvelable et (la limitation de) l’utilisation du 49.3 et (du) cumul dans le temps des mandats des élus"
 
 Il n’y a pas davantage de précisions sur le sujet.
 

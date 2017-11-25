@@ -76,7 +76,7 @@ L’examen de l’aménagement de peine permet de déterminer si le prisonnier e
 
 #### Intégration : formation des immigrants au français niveau B1. Réduction des délais pour les visas “talents” - pour attirer les “talents étrangers”. Simplification des modalités d’accès à l’emploi pour les étrangers diplômés en France. ####
 
-Niveau B1 : “Peut comprendre les points essentiels quand un langage clair et standard est utilisé et s'il s'agit de choses familières [...] Peut [...] exposer brièvement [...] une idée.” ([source](http://www.france-langue.fr/page/niveaux-de-francais-7)). 
+Niveau B1 : “Peut comprendre les points essentiels quand un langage clair et standard est utilisé et s'il s'agit de choses familières (...) Peut (...) exposer brièvement (...) une idée.” ([source](http://www.france-langue.fr/page/niveaux-de-francais-7)). 
 
 #### Réforme des conditions d’examen des dossiers d’asile : traitement plus rapide et réponse définitive. ####
 

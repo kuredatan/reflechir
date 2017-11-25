@@ -14,16 +14,20 @@ Jean Lassalle est le candidat à la présidence de la République Française pou
 
 Il a été affecté aux postes suivants durant sa carrière : ([source](https://fr.wikipedia.org/wiki/Jean_Lassalle))
 
-- Conseiller général des Pyrénées-Atlantiques (21 mars 1982 – 29 mars 2015)
-- Vice-président du conseil général des Pyrénées-Atlantiques (1er janvier 1991 – 18 janvier 2001)
-- Maire de Lourdios-Ichère (26 mars 1977-présent)
-- Député des Pyrénées-Atlantiques (20 juin 2002-présent)
+<p>
+* Conseiller général des Pyrénées-Atlantiques (21 mars 1982 – 29 mars 2015)<br>
+* Vice-président du conseil général des Pyrénées-Atlantiques (1er janvier 1991 – 18 janvier 2001)<br>
+* Maire de Lourdios-Ichère (26 mars 1977-présent)<br>
+* Député des Pyrénées-Atlantiques (20 juin 2002-présent)
+</p>
 
 Il a notamment participé aux évènements suivants :
 
-- Organisation en novembre 2008 d'un appel dénonçant "la dégradation des services publics dans les campagnes, l'absence de financement pour les espaces ruraux dans la politique d'aménagement du territoire, l’endettement des communes rurales sous le poids des normes et le manque de crédit supprimant la possibilité de toute vision d'avenir pour les élus, la disparition des agriculteurs suivi du départ des artisans"([source](https://fr.wikipedia.org/wiki/Jean_Lassalle))
-- Grève de la faim de 39 jours à partir du 7 mars 2006 pour éviter la fermeture d'une usine dans les Pyrénées-Atlantiques;
-- Vote en 2016 de la motion de censure face à l'utilisation de l'article 49 alinéa 3 par le gouvernement pour faire adopter la loi "Travail".
+<p>
+* Organisation en novembre 2008 d'un appel dénonçant "la dégradation des services publics dans les campagnes, l'absence de financement pour les espaces ruraux dans la politique d'aménagement du territoire, l’endettement des communes rurales sous le poids des normes et le manque de crédit supprimant la possibilité de toute vision d'avenir pour les élus, la disparition des agriculteurs suivi du départ des artisans"([source](https://fr.wikipedia.org/wiki/Jean_Lassalle))<br>
+* Grève de la faim de 39 jours à partir du 7 mars 2006 pour éviter la fermeture d'une usine dans les Pyrénées-Atlantiques;<br>
+* Vote en 2016 de la motion de censure face à l'utilisation de l'article 49 alinéa 3 par le gouvernement pour faire adopter la loi "Travail".
+</p>
 
 Aucune affaire judiciaire où il serait impliqué n'est connue à ce jour.
 

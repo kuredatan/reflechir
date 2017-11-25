@@ -13,16 +13,21 @@ Voir les [deuxième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentie
 Ancien élève de la classe préparatoire B/L du lycée Henri IV, il obtient un DEA de philosophie à l’université de Nanterre avant d’intégrer un master de Sciences Po puis l’ENA en 2002.
 
 Il a occupé les postes suivants :
-- Inspection Générale des Finances (2004 - 2016)
-- Banquier d’affaires chez Rothschild & Cie (2008 - 2012)
-- Secrétaire général adjoint de la Présidence de la République (2012 - 2014)
-- Ministre de l’Economie, de l’Industrie et du Numérique (2014 - 2016)
+<p>
+* Inspection Générale des Finances (2004 - 2016)<br>
+* Banquier d’affaires chez Rothschild & Cie (2008 - 2012)<br>
+* Secrétaire général adjoint de la Présidence de la République (2012 - 2014)<br>
+* Ministre de l’Economie, de l’Industrie et du Numérique (2014 - 2016)
+</p>
 
 Les évènements majeurs de sa carrière politique :
-- Rôle majeur (en tant que Secrétaire général adjoint de la Présidence de la République) dans le crédit d’impôt pour la compétitivité et l’emploi et le pacte de responsabilité et de solidarité
-- En tant que Ministre de l’Economie : responsable principal de l’élaboration du projet de loi pour la croissance, l'activité et l'égalité des chances économiques, aussi appelé « loi Macron », avec pour mesures phares celles sur le travail dominical et les professions réglementées. Elle est adoptée en 2014 par la procédure dite du “49-3”.
-- En tant que Ministre de l’Economie : Rôle dans l’élaboration de la loi Travail : réécriture du licenciement économique et plafonnement des indemnités prud’homales.
-- Le 6 avril 2016, fondation du mouvement “En Marche” qui se veut “transpartisan”. Démission de son poste de ministre en août 2016 pour se consacrer à ce mouvement.
+
+<p>
+* Rôle majeur (en tant que Secrétaire général adjoint de la Présidence de la République) dans le crédit d’impôt pour la compétitivité et l’emploi et le pacte de responsabilité et de solidarité<br>
+* En tant que Ministre de l’Economie : responsable principal de l’élaboration du projet de loi pour la croissance, l'activité et l'égalité des chances économiques, aussi appelé « loi Macron », avec pour mesures phares celles sur le travail dominical et les professions réglementées. Elle est adoptée en 2014 par la procédure dite du “49-3”.<br>
+* En tant que Ministre de l’Economie : Rôle dans l’élaboration de la loi Travail : réécriture du licenciement économique et plafonnement des indemnités prud’homales.<br>
+* Le 6 avril 2016, fondation du mouvement “En Marche” qui se veut “transpartisan”. Démission de son poste de ministre en août 2016 pour se consacrer à ce mouvement.
+</p>
 
 Controverse : en 2016, d’après les journalistes Marion L’Hour et Frédéric Says, E. Macron aurait utilisé à lui seul 80 % de l’enveloppe annuelle des frais de représentation accordée à son ministère, soit plus de 120 000 euros en huit mois en organisant de nombreux dîners avec des personnalités très diverses. Il est alors accusé par les députés Christian Jacob (LR) et Philippe Vigier (UDI) d'avoir utilisé cet argent pour mettre en avant son mouvement En marche !. Il affirme n'avoir rien à se reprocher et que les 120 000 euros dépensés lui ont servi à « recevoir [ses] homologues, des entrepreneurs, des femmes et des hommes de la vie française » dans le cadre de son rôle de ministre. Selon Le Monde, Macron aurait pu cibler « des interlocuteurs plus susceptibles de l'aider à préparer sa future campagne présidentielle qu'à alimenter ses activités de ministre » et dépensé 80 % du budget annuel de fonctionnement de son ministère en huit mois, mais il est peu probable qu'il soit poursuivi.  (Source : Maxime Vaudano, « Emmanuel Macron peut-il être inquiété dans l’affaire des « frais de bouche » ? », Le Monde.fr,‎ 3 février 2017)
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr"><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="fr" /><updated>2017-11-22T03:25:15+01:00</updated><id>http://localhost:4000/</id><title type="html">Réfléchir</title><subtitle>Ce site s'adresse à tous et a pour but de susciter la réflexion, autant par l'analyse des actualités que par la découverte des sciences et des sciences humaines.</subtitle><entry><title type="html">5. Arithmétique</title><link href="http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique/" rel="alternate" type="text/html" title="5. Arithmétique" /><published>2017-11-20T00:00:00+01:00</published><updated>2017-11-20T00:00:00+01:00</updated><id>http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique</id><content type="html" xml:base="http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique/">&lt;p&gt;L’arithmétique est la branche des mathématiques qui s’intéresse aux nombres ($\alpha \rho \iota \theta \mu o \varsigma$ ou arithmos en grec signifie nombre). Elle est prolongée par la théorie des nombres (il n’y a pas de consensus sur où s’arrête précisément l’arithmétique et où commence précisément la théorie des nombres, mais en général quand on utilise des outils d’algèbre ou d’analyse (voir articles 9 et 10) on parle de théorie des nombres et sinon on parle d’arithmétique).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr"><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="fr" /><updated>2017-11-25T19:32:40+01:00</updated><id>http://localhost:4000/</id><title type="html">Réfléchir</title><subtitle>Ce site s'adresse à tous et a pour but de susciter la réflexion, autant par l'analyse des actualités que par la découverte des sciences et des sciences humaines.</subtitle><entry><title type="html">5. Arithmétique</title><link href="http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique/" rel="alternate" type="text/html" title="5. Arithmétique" /><published>2017-11-20T00:00:00+01:00</published><updated>2017-11-20T00:00:00+01:00</updated><id>http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique</id><content type="html" xml:base="http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique/">&lt;p&gt;L’arithmétique est la branche des mathématiques qui s’intéresse aux nombres ($\alpha \rho \iota \theta \mu o \varsigma$ ou arithmos en grec signifie nombre). Elle est prolongée par la théorie des nombres (il n’y a pas de consensus sur où s’arrête précisément l’arithmétique et où commence précisément la théorie des nombres, mais en général quand on utilise des outils d’algèbre ou d’analyse (voir articles 9 et 10) on parle de théorie des nombres et sinon on parle d’arithmétique).&lt;/p&gt;
 
 &lt;h2 id=&quot;i-lemme-de-gauss-et-théorème-dunicité-de-la-décomposition-en-facteurs-premiers&quot;&gt;I) Lemme de Gauss et théorème d’unicité de la décomposition en facteurs premiers.&lt;/h2&gt;
 
@@ -8,16 +8,9 @@
 
 &lt;p&gt;Soient $a,b \in \mathbb{N}$ (l’ensemble des entiers naturels : 0, 1, 2 etc).&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;Déf&lt;/em&gt; : $a$ est divisible par $b$ s’il existe $c \in \mathbb{N}$ tel que $a = b \times c$. On dit aussi que $a$ est un multiple de $b$ ou que $b$ divise $a$. On note ceci $b \&lt;/td&gt;
-      &lt;td&gt;\ a$ (lire “$b$ divise $a$”).&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Déf&lt;/em&gt; : $a$ est divisible par $b$ s’il existe $c \in \mathbb{N}$ tel que $a = b \times c$. On dit aussi que $a$ est un multiple de $b$ ou que $b$ divise $a$.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Remarque&lt;/em&gt; : Si $b \ | \ a$ et si $a \neq 0$ alors $b \leq a$. En effet on a alors $a = b \times c$ avec $c \geq 1$ (on est juste en train de dire que $b, 2b, 3b$ etc sont supérieurs à $b$).
+&lt;p&gt;&lt;em&gt;Remarque&lt;/em&gt; : Si $b$ divise $a$ et si $a \neq 0$ alors $b \leq a$. En effet on a alors $a = b \times c$ avec $c \geq 1$ (on est juste en train de dire que $b, 2b, 3b$ etc sont supérieurs à $b$).
 Le seul entier divisible par 0 est 0 et 0 est divisible par tous les entiers (car pour tout $c \in \mathbb{N} \ 0 \times c = 0$). Tous les entiers sont divisibles par 1 (car pour tout $c \in \mathbb{N} \ 1 \times c = c$) et 1 n’est divisible que par 1.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Thm&lt;/em&gt; : Soient $a \in \mathbb{N}$ et $b \in \mathbb{N} \setminus${$0$}. Il existe un unique couple d’entiers naturels $(q,r)$ tel que $0 \leq r &amp;lt; b$ et $a = qb + r$ (division euclidienne de $a$ par $b$).&lt;/p&gt;
@@ -34,7 +27,7 @@ Si $A$ n’admet pas de plus petit élément alors $A$ est vide.
 Supposons que pour tout $n \in A$ il existe $m \in A$ tel que $m &amp;lt; n$. Montrons par récurrence forte sur $k \in \mathbb{N}$ que $k \not \in A$ ($k$ n’appartient pas à $A$).
 $0 \not \in A$ car pour tout $m \in \mathbb{N}$ $0 \leq m$ donc en particulier pour tout $m \in A$ $0 \leq m$.
 Supposons que pour tout $l \leq k$ $l \not \in A$.
-Pour tout $m \in A$ $k+1 \leq m$ (car sinon $m \in${0,\dots,k$}) donc $k+1 \not \in A$.
+Pour tout $m \in A$ $k+1 \leq m$ (car sinon $m \in${$0,\dots,k$}) donc $k+1 \not \in A$.
 Ainsi, pour tout $k \in \mathbb{N}$, $k \not \in A$, donc $A$ est vide.&lt;/p&gt;
 
 &lt;p&gt;On remarque que le plus petit élément est unique, car si $a_1$ et $a_2$ sont des plus petits éléments de $A$ alors $a_1 \leq a_2$ (car $a_1$ plus petit élément de $A$ et $a_2 \in A$) et $a_2 \leq a_1$ (car $a_2$ plus petit élément de $A$ et $a_1 \in A$) donc $a_1 = a_2$.&lt;/p&gt;
@@ -43,33 +36,22 @@ Ainsi, pour tout $k \in \mathbb{N}$, $k \not \in A$, donc $A$ est vide.&lt;/p&gt
 
 &lt;p&gt;On peut désormais définir le plus grand commun diviseur de deux entiers :&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;Déf&lt;/em&gt; : Le plus grand commun diviseur de $a \in \mathbb{N}$ et de $b \in \mathbb{N}$, noté pgcd$(a,b)$, est l’entier $d \in \mathbb{N}$ qui vérifie $d \&lt;/td&gt;
-      &lt;td&gt;\ a$, $d \&lt;/td&gt;
-      &lt;td&gt;\ b$ et si $c \&lt;/td&gt;
-      &lt;td&gt;\ a$ et $c \&lt;/td&gt;
-      &lt;td&gt;\ b$ alors $c \&lt;/td&gt;
-      &lt;td&gt;\ d$.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Déf&lt;/em&gt; : Le plus grand commun diviseur de $a \in \mathbb{N}$ et de $b \in \mathbb{N}$, noté pgcd$(a,b)$, est l’entier $d \in \mathbb{N}$ qui vérifie $d$ divise $a$, $d$ divise $b$ et si $c$ divise $a$ et $c$ divise $b$ alors $c$ divise $d$.&lt;/p&gt;
 
 &lt;p&gt;Pour que cette définition soit correcte, il faut et il suffit qu’il existe un unique entier $d$ vérifiant ces propriétés (s’il n’y en a pas on est en train de donner un nom à quelque chose qui n’existe pas et s’il y en a plusieurs notre définition est ambigüe car elle désigne plusieurs entiers et pas un seul).&lt;/p&gt;
 
 &lt;p&gt;Montrons que cette définition est correcte.&lt;/p&gt;
 
 &lt;p&gt;Commençons par l’unicité :
-Si $d_1$ et $d_2$ vérifient les propriétés de pgcd de $a$ et de $b$ alors, comme $d_1 \ | \ a$ et $d_1 \ | \ b$ on a $d_1 \ | \ d_2$ et comme $d_2 \ | \ a$ et $d_2 \ | \ b$ on a $d_2 \ | \ d_1$.&lt;br /&gt;
-Si $d_1 = 0$ alors comme $d_1 \ | \ d_2$ on a $d_2 = 0$. De même, si $d_2 = 0$ alors $d_1 = 0$.&lt;br /&gt;
-Si $d_1 \neq 0$ et $d_2 \neq 0$ alors on a $d_1 \leq d_2$ et $d_1 \geq d_2$ (car $d_1 \ | \ d_2$ et $d_2 \ | \ d_1$) donc on a $d_1 = d_2$.
+Si $d_1$ et $d_2$ vérifient les propriétés de pgcd de $a$ et de $b$ alors, comme $d_1$ divise $a$ et $d_1$ divise $b$ on a $d_1$ divise $d_2$ et comme $d_2$ divise $a$ et $d_2$ divise $b$ on a $d_2$ divise $d_1$.
+Si $d_1 = 0$ alors comme $d_1$ divise $d_2$ on a $d_2 = 0$. De même, si $d_2 = 0$ alors $d_1 = 0$.
+Si $d_1 \neq 0$ et $d_2 \neq 0$ alors on a $d_1 \leq d_2$ et $d_1 \geq d_2$ (car $d_1$ divise $d_2$ et $d_2$ divise $d_1$) donc on a $d_1 = d_2$.
 On a prouvé l’unicité du pgcd par disjonction de cas.&lt;/p&gt;
 
 &lt;p&gt;Montrons à présent l’existence du pgcd.
 On remarque que si pgcd($a,b$) existe alors pgcd($b,a$) aussi et pgcd($a,b$) = pgcd($b,a$) (cf. la définition du pgcd (cf signifie confer c’est-à-dire allez voir)).
 On peut donc supposer $b \geq a$ (quitte à échanger $a$ et $b$).
-Si $a=0$ alors $b \ | \ a$ et $b \ | \ b$ et si $c \ | \ a$ et $c \ | \ b$ alors $c \ | \ b$ donc $b = \text{pgcd}(a,b)$.&lt;br /&gt;
+Si $a=0$ alors $b$ divise $a$ et $b$ divise $b$ et si $c$ divise $a$ et $c$ divise $b$ alors $c$ divise $b$ donc $b =$ pgcd($a,b$).
 Sinon, effectuons la division euclidienne de $b$ par $a$ : soient $q_0,r_0 \in \mathbb{N}$ tels que $b = q_0a + r_0$ et $0 \leq r_0 &amp;lt; a$. Montrons que pgcd$(a,b) =$ pgcd$(r_0,a)$.
 pgcd$(r_0,a)$ divise $r_0$ et $a$ donc divise $b = q_0a + r_0$ et $a$ donc divise pgcd$(a,b)$.
 pgcd$(a,b)$ divise $a$ et $b$ donc divise $r_0 = b - q_0a$ et $a$ donc divise pgcd$(r_0,a)$.
@@ -77,18 +59,7 @@ Ainsi pgcd$(a,b) =$ pgcd$(r_0,a)$. Avec le cas précédent on remarque que si $r
 &lt;em&gt;Exercice :&lt;/em&gt; Terminer la preuve de l’existence du pgcd. Vous pouvez pour cela construire $q_1,q_2,\dots$ et $r_1,r_2,\dots$ tels que $a = q_1r_0 + r_1$, $r_0 = q_2r_1 + r_2$ etc (on construit $q_n$ et $r_n$ quand $r_{n-1} \neq 0$) et utiliser le lemme précédent.
 Cet exercice sera corrigé dans le prochain article (5 bis).&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;Déf&lt;/em&gt; : Soit $n \in \mathbb{N} \setminus${$0,1$}. Soient $a_1,\dots,a_n \in \mathbb{N}$. Le plus grand commun diviseur de $a_1,\dots,a_n$, noté pgcd$(a_1,\dots,a_n)$, est l’entier $d \in \mathbb{N}$ qui vérifie $d \&lt;/td&gt;
-      &lt;td&gt;\ a_1$, \dots, $d \&lt;/td&gt;
-      &lt;td&gt;\ a_n$ et si $c \&lt;/td&gt;
-      &lt;td&gt;\ a_1$, \dots, $c \&lt;/td&gt;
-      &lt;td&gt;\ a_n$ alors $c \&lt;/td&gt;
-      &lt;td&gt;\ d$.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Déf&lt;/em&gt; : Soit $n \in \mathbb{N} \setminus${$0,1$}. Soient $a_1,\dots,a_n \in \mathbb{N}$. Le plus grand commun diviseur de $a_1,\dots,a_n$, noté pgcd$(a_1,\dots,a_n)$, est l’entier $d \in \mathbb{N}$ qui vérifie $d$ divise $a_1$,…, $d$ divise $a_n$ et si $c$ divise $a_1$,…, $c$ divise $a_n$ alors $c$ divise $d$.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Exercice&lt;/em&gt; : Montrer que cette définition est correcte.
 Pour l’existence pour $n &amp;gt; 2$ on pourra vérifier que pgcd(pgcd$(a_1,…,a_{n-1}),a_n$) vérifie les hypothèses de pgcd$(a_1,…,a_n)$.&lt;/p&gt;
@@ -97,71 +68,26 @@ Pour l’existence pour $n &amp;gt; 2$ on pourra vérifier que pgcd(pgcd$(a_1,�
 
 &lt;p&gt;&lt;em&gt;Prop&lt;/em&gt; : Soient $a,b \in \mathbb{N}$. Soit $c \in \mathbb{N} \setminus${$0$}. pgcd$(ca,cb) =$ $c$ pgcd$(a,b)$.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Dém&lt;/em&gt; : Notons $d =$ pgcd$(a,b)$. $d \ | \ a$ et $d \ | \ b$ donc $cd \ | \ ca$ et $cd \ | \ cb$.
-Ainsi, $cd \ | \ $pgcd$(ca,cb)$. $c \ | \ ca$ et $c \ | \ cb$ donc $c \ | \ $pgcd$(ca,cb)$. Soit $e \in \mathbb{N}$ tel que pgcd$(ca,cb) = ce$.
+&lt;p&gt;&lt;em&gt;Dém&lt;/em&gt; : Notons $d =$ pgcd$(a,b)$. $d$ divise $a$ et $d$ divise $b$ donc $cd$ divise $ca$ et $cd$ divise $cb$.
+Ainsi, $cd$ divise pgcd$(ca,cb)$. $c$ divise $ca$ et $c$ divise $cb$ donc $c$ divise pgcd$(ca,cb)$. Soit $e \in \mathbb{N}$ tel que pgcd$(ca,cb) = ce$.
 Soient $a’,b’ \in \mathbb{N}$ tels que $ca = $pgcd$(ca,cb)a’$ et $cb = $pgcd$(ca,cb)b’$.
 $ca = cea’$ et $cb = ceb’$. En multipliant par $\frac{1}{c}$ on a :
 $a = ea’$ et $b = eb’$ donc $e$ divise $a$ et $b$ donc $e$ divise $d = $pgcd$(a,b)$.
-Ainsi pgcd$(ca,cb) = ce \ | \ cd$ or on avait $cd \ | \ $pgcd$(ca,cb)$ d’où l’égalité.&lt;/p&gt;
+Ainsi pgcd$(ca,cb) = ce$ divise $cd$ or on avait $cd$ divise pgcd$(ca,cb)$ d’où l’égalité.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Déf&lt;/em&gt; : Soit $n \in \N \setminus${$0,1$}. On dit que $a_1,\dots, a_n$ sont premiers entre eux si pgcd$(a_1,\dots, a_n) = 1$.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Déf&lt;/em&gt; : Soit $n \in \mathbb{N} \setminus${$0,1$}. On dit que $a_1,\dots, a_n$ sont premiers entre eux si pgcd$(a_1,\dots, a_n) = 1$.&lt;/p&gt;
 
 &lt;p&gt;Démontrons le lemme de Gauss (mathématicien de la première moitié du XIXe siècle) puis deux autres lemmes qui en découlent.&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;Lemme de Gauss&lt;/em&gt; : Si $a$ et $b$ sont premiers entre eux et si $a&lt;/td&gt;
-      &lt;td&gt;bc$ alors $a&lt;/td&gt;
-      &lt;td&gt;c$.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Lemme de Gauss&lt;/em&gt; : Si $a$ et $b$ sont premiers entre eux et si $a$ divise $bc$ alors $a$ divise $c$.&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;Dém&lt;/em&gt; : $a \&lt;/td&gt;
-      &lt;td&gt;\ ac$ et $a \&lt;/td&gt;
-      &lt;td&gt;\ bc$ donc $a \&lt;/td&gt;
-      &lt;td&gt;\ $pgcd$(ac,bc) =$ pgcd$(a,b)c = c$ car pgcd$(a,b) = 1$ (on a utilisé la proposition précédente et $ca = ac$ etc).&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Dém&lt;/em&gt; : $a$ divise $ac$ et $a$ divise $bc$ donc $a$ divise pgcd$(ac,bc) =$ pgcd$(a,b)c = c$ car pgcd$(a,b) = 1$ (on a utilisé la proposition précédente et $ca = ac$ etc).&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;Lemme&lt;/em&gt; : Si $a$ et $b$ sont premiers entre eux tels que $a&lt;/td&gt;
-      &lt;td&gt;c$ et $b&lt;/td&gt;
-      &lt;td&gt;c$ alors $ab&lt;/td&gt;
-      &lt;td&gt;c$.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Lemme&lt;/em&gt; : Si $a$ et $b$ sont premiers entre eux tels que $a$ divise $c$ et $b$ divise $c$ alors $ab$ divise $c$.&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;Dém&lt;/em&gt; : $b \&lt;/td&gt;
-      &lt;td&gt;\ c$ donc il existe $d \in \mathbb{N}$ tel que $c = bd$. $a \&lt;/td&gt;
-      &lt;td&gt;\ c = bd$ et $a$ et $b$ sont premiers entre eux donc, avec le lemme précédent, $a \&lt;/td&gt;
-      &lt;td&gt;\ d$ donc il existe $e \in \mathbb{N}$ tel que $d = ae$ donc $c = bd = bae = abe$ donc $ab \&lt;/td&gt;
-      &lt;td&gt;\ c$.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Dém&lt;/em&gt; : $b$ divise $c$ donc il existe $d \in \mathbb{N}$ tel que $c = bd$. $a$ divise $c = bd$ et $a$ et $b$ sont premiers entre eux donc, avec le lemme précédent, $a$ divise $d$ donc il existe $e \in \mathbb{N}$ tel que $d = ae$ donc $c = bd = bae = abe$ donc $ab$ divise $c$.&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;em&gt;Lemme&lt;/em&gt; : Soit $p$ un nombre premier. Soit $n \in \mathbb{N} \setminus${$0$}. Soient $a_1,\dots,a_n \in \mathbb{N}$. Si $p \&lt;/td&gt;
-      &lt;td&gt;\ a_1 \times \dots \times a_n$ alors $p \&lt;/td&gt;
-      &lt;td&gt;\ a_1$ ou \dots \ ou $p \&lt;/td&gt;
-      &lt;td&gt;\ a_n$.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Lemme&lt;/em&gt; : Soit $p$ un nombre premier. Soit $n \in \mathbb{N} \setminus${$0$}. Soient $a_1,\dots,a_n \in \mathbb{N}$. Si $p$ divise $a_1 \times \dots \times a_n$ alors $p$ divise $a_1$ ou … ou $p$ divise $a_n$.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Exercice&lt;/em&gt; : Démontrer ce lemme en utilisant le lemme de Gauss et le fait que si $p$ est un nombre premier et $c \in \mathbb{N}$ alors pgcd$(p,c) = 1$ ou $p$ (cette dernière affirmation se démontre aisément avec la définition de nombre premier (voir article 2)).&lt;/p&gt;
 
@@ -173,12 +99,16 @@ Ainsi pgcd$(ca,cb) = ce \ | \ cd$ or on avait $cd \ | \ $pgcd$(ca,cb)$ d’où l
 
 &lt;p&gt;Si max$(m,n) = 1$ alors on a $m = 1$ et $n = 1$ donc $m = n$ et $p_1 = q_1$.&lt;/p&gt;
 
-&lt;p&gt;Supposons le résultat établi pour $k \in \mathbb{N} \setminus${$0$}.
-Soient $m,n \in \mathbb{N} \setminus${$0$} tels que max$(m,n) = k+1$.
-Si $p_1 &amp;lt; q_1$ alors $p_1 \not \in$ {$q_1,\dots,q_n$} or $p_1 \ | \ q_1 \times \dots \times q_n$ donc avec le lemme précédent $p_1 \ | \ q_1$ ou \dots \ ou $p_1 \ | \ q_n$ (car $p_1$ premier) donc $p_1 = q_1$ ou  \dots \ ou $p_1 = q_n$ (car $q_1,\dots,q_n$ premiers et $p_1 \neq 1$) ce qui contredit $p_1 \not \in$ {$q_1,\dots,q_n$}.
-(En d’autres mots, $p_1 &amp;lt; q_1$ implique $p_1 \not \in$ {$q_1,\dots,q_n$} et $p_1 \in$ {$q_1,\dots,q_n$} proposition toujours fausse, d’où $p_1 \geq q_1$)
-Si $q_1 &amp;lt; p_1$ alors $q_1 \not \in$ {$p_1,\dots,p_m$} or $q_1 \ | \ p_1 \times \dots \times p_m$ donc avec le lemme précédent $q_1 \ | \ p_1$ ou \dots \ ou $q_1 \ | \ p_m$ (car $q_1$ premier) donc $q_1 = p_1$ ou  \dots \ ou $q_1 = p_m$ (car $p_1,\dots,p_m$ premiers et $q_1 \neq 1$) ce qui contredit $q_1 \not \in$ {$p_1,\dots,p_m$}.
-Ainsi $p_1 = q_1$. On a donc $p_2 \times \dots \times p_m = q_2 \times \dots \times q_n$ donc, comme à gauche on a $m-1$ termes et à droite $n-1$ et que max$(m-1,n-1) = $ max$(m,n) - 1 = k$, par hypothèse de récurrence $m = n$ et $p_2 = q_2$, \dots, $p_m = q_m$.&lt;/p&gt;
+&lt;p&gt;Supposons le résultat établi pour $k \in \mathbb{N} \setminus${$0$}.&lt;/p&gt;
+
+&lt;p&gt;Soient $m,n \in \mathbb{N} \setminus${$0$} tels que max$(m,n) = k+1$.&lt;/p&gt;
+
+&lt;p&gt;Si $p_1 &amp;lt; q_1$ alors $p_1 \not \in$ {$q_1,\dots,q_n$} or $p_1$ divise $q_1 \times \dots \times q_n$ donc avec le lemme précédent $p_1$ divise $q_1$ ou … ou $p_1$ divise $q_n$ (car $p_1$ premier) donc $p_1 = q_1$ ou … ou $p_1 = q_n$ (car $q_1,\dots,q_n$ premiers et $p_1 \neq 1$) ce qui contredit $p_1 \not \in$ {$q_1,\dots,q_n$}.
+(En d’autres mots, $p_1 &amp;lt; q_1$ implique $p_1 \not \in$ {$q_1,\dots,q_n$} et $p_1 \in$ {$q_1,\dots,q_n$} proposition toujours fausse, d’où $p_1 \geq q_1$)&lt;/p&gt;
+
+&lt;p&gt;Si $q_1 &amp;lt; p_1$ alors $q_1 \not \in$ {$p_1,\dots,p_m$} or $q_1$ divise $p_1 \times \dots \times p_m$ donc avec le lemme précédent $q_1$ divise $p_1$ ou … ou $q_1$ divise $p_m$ (car $q_1$ premier) donc $q_1 = p_1$ ou … ou $q_1 = p_m$ (car $p_1,\dots,p_m$ premiers et $q_1 \neq 1$) ce qui contredit $q_1 \not \in$ {$p_1,\dots,p_m$}.&lt;/p&gt;
+
+&lt;p&gt;Ainsi $p_1 = q_1$. On a donc $p_2 \times \dots \times p_m = q_2 \times \dots \times q_n$ donc, comme à gauche on a $m-1$ termes et à droite $n-1$ et que max$(m-1,n-1) = $ max$(m,n) - 1 = k$, par hypothèse de récurrence $m = n$ et $p_2 = q_2$,…, $p_m = q_m$.&lt;/p&gt;
 
 &lt;h2 id=&quot;ii-triplets-pythagoriciens-et-cas-n--3-et-n--4-du-grand-théorème-de-fermat&quot;&gt;II) Triplets pythagoriciens et cas $n = 3$ et $n = 4$ du grand théorème de Fermat.&lt;/h2&gt;
 
@@ -247,82 +177,66 @@ Ensuite il suffit de montrer le résultat pour $n \geq 5$ premier (prouvez-le ! 
 
 &lt;p&gt;Neuf lois ont été votées pendant la session extraordinaire de 2017 (dont trois pour lesquelles les procédures de vote avaient débuté sous la XIVe législature et une pour laquelle la procédure de vote s’est terminée pendant la session ordinaire 2017-2018). Une de ces lois est une habilitation à prendre des mesures par ordonnances et une autre est une ratification d’ordonnances (une ordonnance est un règlement rédigé par le gouvernement qui peut devenir une loi ; le Parlement autorise le gouvernement à rédiger des ordonnances grâce à une loi d’habilitation ; les ordonnances paraissent au JO et ont valeur de règlement, puis de loi si elles sont validées par une loi de ratification au Parlement).&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Loi prorogeant l’application de la loi n°55-385 du 3 avril 1955 relative à l’état d’urgence (Sénat 4 juillet, Assemblée 6 juillet, JO 12 juillet).&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;
+* Loi prorogeant l'application de la loi n°55-385 du 3 avril 1955 relative à l'état d'urgence (Sénat 4 juillet, Assemblée 6 juillet, JO 12 juillet).&lt;br /&gt;
 
-&lt;p&gt;L’état d’urgence est prorogé, c’est-à-dire prolongé, jusqu’au 1er novembre 2017.
-C’est la sixième fois que l’état d’urgence est prorogé (il a commencé le 14 novembre 2015 à la suite des attentats de Paris du 13 novembre 2015).&lt;/p&gt;
+L'état d'urgence est prorogé, c'est-à-dire prolongé, jusqu'au 1er novembre 2017.
+C'est la sixième fois que l'état d'urgence est prorogé (il a commencé le 14 novembre 2015 à la suite des attentats de Paris du 13 novembre 2015).
 
-&lt;ul&gt;
-  &lt;li&gt;Loi d’habilitation à prendre par ordonnances les mesures pour le renforcement du dialogue social (Assemblée 13 juillet et 1er août, Sénat 27 juillet et 2 août, JO 16 septembre).&lt;/li&gt;
-&lt;/ul&gt;
+* Loi d'habilitation à prendre par ordonnances les mesures pour le renforcement du dialogue social (Assemblée 13 juillet et 1er août, Sénat 27 juillet et 2 août, JO 16 septembre).&lt;br /&gt;
 
-&lt;p&gt;Le Parlement autorise le Gouvernement à modifier le Code du travail par des ordonnances (publiées au JO du 23 septembre). Un article sur ce site présentera ces ordonnances.&lt;/p&gt;
+Le Parlement autorise le Gouvernement à modifier le Code du travail par des ordonnances (publiées au JO du 23 septembre). Un article sur ce site présentera ces ordonnances.
 
-&lt;ul&gt;
-  &lt;li&gt;Loi renforçant la sécurité intérieure et la lutte contre le terrorisme (Sénat 18 juillet et 18 octobre, Assemblée 3 et 11 octobre, JO 31 octobre).&lt;/li&gt;
-&lt;/ul&gt;
+* Loi renforçant la sécurité intérieure et la lutte contre le terrorisme (Sénat 18 juillet et 18 octobre, Assemblée 3 et 11 octobre, JO 31 octobre).&lt;br /&gt;
 
-&lt;p&gt;Cette loi crée les « périmètres de protection » : le représentant de l’Etat dans le département (à Paris c’est le préfet de police) peut instaurer, pour une durée d’au plus un mois (renouvelable), un périmètre de protection autour d’un lieu qui pourrait faire l’objet d’un attentat, à cause notamment de l’ « ampleur de sa fréquentation » (s’il y a beaucoup de gens qui y vont), à l’intérieur duquel il peut réglementer l’accès et la circulation et faire procéder des agents publics à des fouilles de bagages et palpations (par une personne de même sexe et avec l’accord des gens, qui seront reconduits à l’extérieur du périmètre de protection en cas de désaccord).&lt;/p&gt;
+Cette loi crée les « périmètres de protection » : le représentant de l'Etat dans le département (à Paris c'est le préfet de police) peut instaurer, pour une durée d'au plus un mois (renouvelable), un périmètre de protection autour d'un lieu qui pourrait faire l'objet d'un attentat, à cause notamment de l' « ampleur de sa fréquentation » (s'il y a beaucoup de gens qui y vont), à l'intérieur duquel il peut réglementer l'accès et la circulation et faire procéder des agents publics à des fouilles de bagages et palpations (par une personne de même sexe et avec l'accord des gens, qui seront reconduits à l'extérieur du périmètre de protection en cas de désaccord).
 
-&lt;p&gt;Le représentant de l’Etat dans le département peut également demander la fermeture, pour au plus six mois, d’un lieu de culte dans lequel « les propos qui sont tenus, les idées ou théories qui sont diffusées ou les activités qui se déroulent provoquent à la violence, à la haine ou à la discrimination, provoquent à la commission d’actes de terrorisme ou font l’apologie de tels actes ». Si le lieu de culte n’est pas fermé, la personne responsable peut avoir une peine de six mois d’emprisonnement et de 7500€ d’amende.&lt;/p&gt;
+Le représentant de l'Etat dans le département peut également demander la fermeture, pour au plus six mois, d'un lieu de culte dans lequel « les propos qui sont tenus, les idées ou théories qui sont diffusées ou les activités qui se déroulent provoquent à la violence, à la haine ou à la discrimination, provoquent à la commission d’actes de terrorisme ou font l’apologie de tels actes ». Si le lieu de culte n'est pas fermé, la personne responsable peut avoir une peine de six mois d'emprisonnement et de 7500€ d'amende.
 
-&lt;p&gt;Le ministre de l’intérieur peut imposer à une personne qui est suspectée d’adhérer « à des thèses incitant à la commission d’actes de terrorisme » de « ne pas se déplacer à l’extérieur d’un périmètre géographique déterminé, qui ne peut être inférieur au territoire de la commune », de « se présenter périodiquement aux services de police ou aux unités de gendarmerie, dans la limite d’une fois par jour » et « déclarer son lieu d’habitation et tout changement de lieu d’habitation » pour une durée d’au plus trois mois renouvelable une fois, ou plus s’il y a des « éléments nouveaux ou complémentaires » (mais sans excéder un an). Le ministre de l’intérieur peut proposer à la personne suspectée de la placer sous surveillance électronique mobile à la place de l’obligation de se présenter quotidiennement aux services de police (et la personne suspectée peut refuser). Si la personne suspectée accepte, le périmètre géographique imposé « ne peut être inférieur au territoire du département » (et non plus seulement de la commune). Il peut de plus imposer à la personne suspectée de ne plus avoir de contact avec des personnes (qu’il lui désigne explicitement) « dont il existe des raisons sérieuses de penser que leur comportement constitue une menace pour la sécurité publique » (avec les mêmes durées maximales). Si la personne suspectée ne respecte pas ces obligations, elle peut avoir une peine de trois ans d’emprisonnement et de 45000€ d’amende.&lt;/p&gt;
+Le ministre de l'intérieur peut imposer à une personne qui est suspectée d'adhérer « à des thèses incitant à la commission d’actes de terrorisme » de « ne pas se déplacer à l’extérieur d’un périmètre géographique déterminé, qui ne peut être inférieur au territoire de la commune », de « se présenter périodiquement aux services de police ou aux unités de gendarmerie, dans la limite d’une fois par jour » et « déclarer son lieu d’habitation et tout changement de lieu d’habitation » pour une durée d'au plus trois mois renouvelable une fois, ou plus s'il y a des « éléments nouveaux ou complémentaires » (mais sans excéder un an). Le ministre de l'intérieur peut proposer à la personne suspectée de la placer sous surveillance électronique mobile à la place de l'obligation de se présenter quotidiennement aux services de police (et la personne suspectée peut refuser). Si la personne suspectée accepte, le périmètre géographique imposé « ne peut être inférieur au territoire du département » (et non plus seulement de la commune). Il peut de plus imposer à la personne suspectée de ne plus avoir de contact avec des personnes (qu'il lui désigne explicitement) « dont il existe des raisons sérieuses de penser que leur comportement constitue une menace pour la sécurité publique » (avec les mêmes durées maximales). Si la personne suspectée ne respecte pas ces obligations, elle peut avoir une peine de trois ans d'emprisonnement et de 45000€ d'amende.
 
-&lt;p&gt;Le juge des libertés et de la détention du tribunal de grande instance de Paris peut, à la demande du représentant de l’Etat dans le département, autoriser la visite d’un lieu et la saisie des documents, objets et données qui s’y trouvent, « aux seules fins de prévenir la commission d’actes de terrorisme », sauf si le lieu en question est « affecté à l’exercice d’un mandat parlementaire ou à l’activité professionnelle des avocats, des magistrats ou des journalistes » ou est le domicile de l’une de ces personnes. On peut se demander pourquoi il est précisé que les visites et saisies ne peuvent pas concerner les pouvoirs législatifs, judiciaires et médiatiques si elles ne sont effectuées qu’« aux seules fins de prévenir la commission d’actes de terrorisme ». Une réponse possible est que les législateurs ont peur que le pouvoir exécutif utilise cette loi à d’autres fins que la prévention d’actes de terrorisme (c’est-à-dire comme outil de répression et pas seulement comme outil de sauvegarde de la sécurité intérieure) et décident de protéger les autres pouvoirs, à défaut de tous les citoyens, de cette répression possible. La visite a lieu en présence de l’occupant des lieux ou de son représentant ou, si c’est impossible, en présence de deux témoins qui ne sont pas placés sous l’autorité des agents chargés de la visite. La personne suspectée peut être retenue au plus quatre heures afin de fournir des renseignements concernant les objets, documents et données saisis (elle a le droit de garder le silence). Les données saisies le sont par copie si possible, par saisie du support matériel sinon.&lt;/p&gt;
+Le juge des libertés et de la détention du tribunal de grande instance de Paris peut, à la demande du représentant de l'Etat dans le département, autoriser la visite d'un lieu et la saisie des documents, objets et données qui s'y trouvent, « aux seules fins de prévenir la commission d'actes de terrorisme », sauf si le lieu en question est « affecté à l'exercice d'un mandat parlementaire ou à l'activité professionnelle des avocats, des magistrats ou des journalistes » ou est le domicile de l'une de ces personnes. On peut se demander pourquoi il est précisé que les visites et saisies ne peuvent pas concerner les pouvoirs législatifs, judiciaires et médiatiques si elles ne sont effectuées qu'« aux seules fins de prévenir la commission d'actes de terrorisme ». Une réponse possible est que les législateurs ont peur que le pouvoir exécutif utilise cette loi à d'autres fins que la prévention d'actes de terrorisme (c'est-à-dire comme outil de répression et pas seulement comme outil de sauvegarde de la sécurité intérieure) et décident de protéger les autres pouvoirs, à défaut de tous les citoyens, de cette répression possible. La visite a lieu en présence de l'occupant des lieux ou de son représentant ou, si c'est impossible, en présence de deux témoins qui ne sont pas placés sous l'autorité des agents chargés de la visite. La personne suspectée peut être retenue au plus quatre heures afin de fournir des renseignements concernant les objets, documents et données saisis (elle a le droit de garder le silence). Les données saisies le sont par copie si possible, par saisie du support matériel sinon.
 
-&lt;p&gt;Le Parlement est informé des mesures prises dans le cadre de ce qui a été décrit plus haut. Ces mesures ne peuvent d’ailleurs être prises que jusqu’au 31 décembre 2020 (à moins que le Parlement les prolonge).&lt;/p&gt;
+Le Parlement est informé des mesures prises dans le cadre de ce qui a été décrit plus haut. Ces mesures ne peuvent d'ailleurs être prises que jusqu'au 31 décembre 2020 (à moins que le Parlement les prolonge).
 
-&lt;p&gt;Cette loi élargit la possibilité pour les services de renseignement de « procéder à l’interception et à l’exploitation des communications électroniques empruntant exclusivement la voie hertzienne et n’impliquant pas l’intervention d’un opérateur de communications électroniques », « aux seules fins de la défense et de la promotion des intérêts fondamentaux de la Nation ».&lt;/p&gt;
+Cette loi élargit la possibilité pour les services de renseignement de « procéder à l'interception et à l'exploitation des communications électroniques empruntant exclusivement la voie hertzienne et n'impliquant pas l'intervention d'un opérateur de communications électroniques », « aux seules fins de la défense et de la promotion des intérêts fondamentaux de la Nation ».
 
-&lt;p&gt;Cette loi permet, pour une durée maximale de douze heures consécutives dans un même lieu, de faire des contrôles d’identité (non systématiques) dans un rayon maximal de dix kilomètres autour d’un port ou d’un aéroport désigné « en raison de l’importance de [sa] fréquentation et de [sa] vulnérabilité ». Si une autoroute commence dans la zone désignée, les contrôles d’identité peuvent avoir lieu jusqu’au premier péage, même s’il est situé à plus de dix kilomètres du port ou de l’aéroport.&lt;/p&gt;
+Cette loi permet, pour une durée maximale de douze heures consécutives dans un même lieu, de faire des contrôles d'identité (non systématiques) dans un rayon maximal de dix kilomètres autour d'un port ou d'un aéroport désigné « en raison de l'importance de [sa] fréquentation et de [sa] vulnérabilité ». Si une autoroute commence dans la zone désignée, les contrôles d'identité peuvent avoir lieu jusqu'au premier péage, même s'il est situé à plus de dix kilomètres du port ou de l'aéroport.
 
-&lt;ul&gt;
-  &lt;li&gt;Loi pour la confiance dans la vie politique (Sénat 12 juillet et 2 août, Assemblée 28 juillet et 3 août, JO 16 septembre).&lt;/li&gt;
-&lt;/ul&gt;
+* Loi pour la confiance dans la vie politique (Sénat 12 juillet et 2 août, Assemblée 28 juillet et 3 août, JO 16 septembre).&lt;br /&gt;
 
-&lt;p&gt;La peine complémentaire d’inéligibilité (pendant au plus 5 ans pour un délit et au plus 10 ans pour un crime) devient quasi systématique pour tout crime et pour les délits mentionnés dans cette loi (par exemple des actes violents qui entraînent une mutilation ou une infirmité permanente, agression sexuelle, harcèlement, discrimination, escroquerie, abus de confiance, recel, blanchiment).&lt;/p&gt;
+La peine complémentaire d'inéligibilité (pendant au plus 5 ans pour un délit et au plus 10 ans pour un crime) devient quasi systématique pour tout crime et pour les délits mentionnés dans cette loi (par exemple des actes violents qui entraînent une mutilation ou une infirmité permanente, agression sexuelle, harcèlement, discrimination, escroquerie, abus de confiance, recel, blanchiment).
 
-&lt;p&gt;Il est désormais interdit à un membre du Gouvernement d’avoir son conjoint, partenaire lié par un pacte civil de solidarité, ou concubin, les parents ou enfants de celui-ci ou ses propres parents ou enfants dans son cabinet. De même pour un parlementaire et ses collaborateurs parlementaires, et pour une autorité territoriale et son cabinet.&lt;/p&gt;
+Il est désormais interdit à un membre du Gouvernement d'avoir son conjoint, partenaire lié par un pacte civil de solidarité, ou concubin, les parents ou enfants de celui-ci ou ses propres parents ou enfants dans son cabinet. De même pour un parlementaire et ses collaborateurs parlementaires, et pour une autorité territoriale et son cabinet.
 
-&lt;p&gt;Un poste de médiateur du crédit aux candidats et aux partis politiques est créé : le rôle du médiateur du crédit est de favoriser les prêts par des établissements de crédit ou des sociétés de financement aux candidats et partis politiques qui ont besoin d’argent pour mener leur campagne électorale.&lt;/p&gt;
+Un poste de médiateur du crédit aux candidats et aux partis politiques est créé : le rôle du médiateur du crédit est de favoriser les prêts par des établissements de crédit ou des sociétés de financement aux candidats et partis politiques qui ont besoin d'argent pour mener leur campagne électorale.
 
-&lt;p&gt;Le Gouvernement est autorisé à prendre par ordonnance les mesures permettant d’assurer le financement des campagnes électorales des candidats et partis politiques (par exemple par un mécanisme spécifique de financement).&lt;/p&gt;
+Le Gouvernement est autorisé à prendre par ordonnance les mesures permettant d'assurer le financement des campagnes électorales des candidats et partis politiques (par exemple par un mécanisme spécifique de financement).
 
-&lt;ul&gt;
-  &lt;li&gt;Loi organique pour la confiance dans la vie politique (Sénat 13 juillet et 4 août, Assemblée 28 juillet, 3 août et 9 août, JO 16 septembre).&lt;/li&gt;
-&lt;/ul&gt;
+* Loi organique pour la confiance dans la vie politique (Sénat 13 juillet et 4 août, Assemblée 28 juillet, 3 août et 9 août, JO 16 septembre).&lt;br /&gt;
 
-&lt;p&gt;Une loi organique est une loi qui modifie l’organisation des pouvoirs publics ; elle a plus de contraintes pour devenir une loi (par exemple le Conseil constitutionnel doit la désigner comme étant conforme à la Constitution pour qu’elle soit promulguée et publiée au JO).&lt;/p&gt;
+Une loi organique est une loi qui modifie l'organisation des pouvoirs publics ; elle a plus de contraintes pour devenir une loi (par exemple le Conseil constitutionnel doit la désigner comme étant conforme à la Constitution pour qu'elle soit promulguée et publiée au JO).
 
-&lt;p&gt;Les députés sont désormais restreints dans les fonctions de conseil qu’ils peuvent exercer (par exemple ils ne peuvent pas commencer à exercer une nouvelle fonction de conseil) et dans le contrôle de sociétés de conseil, et ne peuvent pas représenter d’intérêts (ils ne peuvent pas avoir pour rôle d’influencer les décisions publiques afin de privilégier les intérêts d’une société par exemple).&lt;/p&gt;
+Les députés sont désormais restreints dans les fonctions de conseil qu'ils peuvent exercer (par exemple ils ne peuvent pas commencer à exercer une nouvelle fonction de conseil) et dans le contrôle de sociétés de conseil, et ne peuvent pas représenter d'intérêts (ils ne peuvent pas avoir pour rôle d'influencer les décisions publiques afin de privilégier les intérêts d'une société par exemple).
 
-&lt;p&gt;Il n’y a plus de réserve parlementaire ni de réserve ministérielle (qui permettaient au Parlement et au Gouvernement de subventionner des collectivités territoriales mais étaient considérées comme des formes de clientélisme par le nouveau Gouvernement).&lt;/p&gt;
+Il n'y a plus de réserve parlementaire ni de réserve ministérielle (qui permettaient au Parlement et au Gouvernement de subventionner des collectivités territoriales mais étaient considérées comme des formes de clientélisme par le nouveau Gouvernement).
 
-&lt;ul&gt;
-  &lt;li&gt;Loi de règlement du budget et d’approbation des comptes de l’année 2016 (Assemblée 18 juillet, Sénat 20 juillet, JO 1er août).&lt;/li&gt;
-&lt;/ul&gt;
+* Loi de règlement du budget et d'approbation des comptes de l'année 2016 (Assemblée 18 juillet, Sénat 20 juillet, JO 1er août).&lt;br /&gt;
 
-&lt;p&gt;C’est l’occasion pour le Parlement de constater quelles ont été les dépenses de l’Etat et leur écart par rapport à ce qui était prévu par la loi de finances initiale.&lt;/p&gt;
+C'est l'occasion pour le Parlement de constater quelles ont été les dépenses de l'Etat et leur écart par rapport à ce qui était prévu par la loi de finances initiale.
 
-&lt;p&gt;Si vous êtes intéressés par les recettes et dépenses de l’Etat, allez voir &lt;a href=&quot;http://www2.assemblee-nationale.fr/documents/notice/15/ta/ta0003/index/ta&quot;&gt;cette loi&lt;/a&gt;&lt;/p&gt;
+Si vous êtes intéressés par les recettes et dépenses de l'Etat, allez voir [cette loi](http://www2.assemblee-nationale.fr/documents/notice/15/ta/ta0003/index/ta)
 
-&lt;ul&gt;
-  &lt;li&gt;Loi ratifiant l’ordonnance n° 2016-1360 du 13 octobre 2016 modifiant la partie législative du code des juridictions financières (Assemblée 16 février (XIVe législature) et 2 août, Sénat 6 juillet, JO 9 août).&lt;/li&gt;
-&lt;/ul&gt;
+* Loi ratifiant l’ordonnance n° 2016-1360 du 13 octobre 2016 modifiant la partie législative du code des juridictions financières (Assemblée 16 février (XIVe législature) et 2 août, Sénat 6 juillet, JO 9 août).&lt;br /&gt;
 
-&lt;p&gt;Voir ce &lt;a href=&quot;http://emploi.lemondedudroit.fr/organisation-judiciaire-profession-avocat/224447-code-des-juridictions-financieres-adoption-en-2eme-lecture-a-lan.pdf&quot;&gt;lien&lt;/a&gt; pour des explications.&lt;/p&gt;
+Voir ce [lien](http://emploi.lemondedudroit.fr/organisation-judiciaire-profession-avocat/224447-code-des-juridictions-financieres-adoption-en-2eme-lecture-a-lan.pdf) pour des explications.
 
-&lt;ul&gt;
-  &lt;li&gt;Loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République algérienne démocratique et populaire relatif aux échanges de jeunes actifs (Sénat 16 février (XIVe législature), Assemblée 2 août, JO 10 août).&lt;/li&gt;
-&lt;/ul&gt;
+* Loi autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République algérienne démocratique et populaire relatif aux échanges de jeunes actifs (Sénat 16 février (XIVe législature), Assemblée 2 août, JO 10 août).&lt;br /&gt;
 
-&lt;p&gt;Voir ce &lt;a href=&quot;http://www.gouvernement.fr/conseil-des-ministres/2016-10-26/accord-entre-la-france-et-l-algerie-relatif-aux-echanges-de-&quot;&gt;lien&lt;/a&gt; pour des explications.&lt;/p&gt;
+Voir ce [lien](http://www.gouvernement.fr/conseil-des-ministres/2016-10-26/accord-entre-la-france-et-l-algerie-relatif-aux-echanges-de-) pour des explications.
 
-&lt;ul&gt;
-  &lt;li&gt;Loi autorisant la ratification du protocole additionnel à la convention du Conseil de l’Europe pour la prévention du terrorisme (Sénat 16 février (XIVe législature), Assemblée 2 août, JO 10 août).&lt;/li&gt;
-&lt;/ul&gt;
+* Loi autorisant la ratification du protocole additionnel à la convention du Conseil de l’Europe pour la prévention du terrorisme (Sénat 16 février (XIVe législature), Assemblée 2 août, JO 10 août).&lt;br /&gt;
+&lt;/p&gt;
 
 &lt;p&gt;Voir le &lt;a href=&quot;https://rm.coe.int/168047c5eb&quot;&gt;protocole&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="[&quot;évènements&quot;, &quot;actualités&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Le théâtre de Shaw</title><link href="http://localhost:4000/lu%20et%20approuv%C3%A9/sciences%20humaines/2017/08/24/le-theatre-de-shaw/" rel="alternate" type="text/html" title="Le théâtre de Shaw" /><published>2017-08-24T00:00:00+02:00</published><updated>2017-08-24T00:00:00+02:00</updated><id>http://localhost:4000/lu%20et%20approuv%C3%A9/sciences%20humaines/2017/08/24/le-theatre-de-shaw</id><content type="html" xml:base="http://localhost:4000/lu%20et%20approuv%C3%A9/sciences%20humaines/2017/08/24/le-theatre-de-shaw/">&lt;p&gt;&lt;img src=&quot;/images/Lu_et_approuv.png&quot; style=&quot;float: center&quot; /&gt;&lt;/p&gt;
 

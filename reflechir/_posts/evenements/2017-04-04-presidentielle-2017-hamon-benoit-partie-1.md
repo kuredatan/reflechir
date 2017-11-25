@@ -12,25 +12,31 @@ Voir les [deuxième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentie
 
 Benoît Hamon est le candidat à la présidence de la République Française pour 2017 issu du parti socialiste. Il est titulaire : ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon))
 
-- d'une licence d'histoire (université de Bretagne-Occidentale).
+<p>
+* d'une licence d'histoire (université de Bretagne-Occidentale).
+</p>
 
 Il a été affecté entre autres aux postes suivants durant sa carrière :  ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon))
 
-- Porte-parole du Parti socialiste (6 décembre 2008-16 mai 2012)
-- Député européen (20 juillet 2004-13 juillet 2009)
-- Ministre délégué à l'Économie sociale et solidaire et à la Consommation (16 mai 2012-31 mars 2014)
-- Ministre de l’Éducation nationale, de l'Enseignement supérieur et de la Recherche (2 avril 2014-25 août 2014)
-- Député de la 11e circonscription des Yvelines (20 juin 2012-21 juillet 2012) (27 septembre 2014-présent)
-- Conseiller régional d'Île-de-France (18 décembre 2015-présent)
+<p>
+* Porte-parole du Parti socialiste (6 décembre 2008-16 mai 2012)<br>
+* Député européen (20 juillet 2004-13 juillet 2009)<br>
+* Ministre délégué à l'Économie sociale et solidaire et à la Consommation (16 mai 2012-31 mars 2014)<br>
+* Ministre de l’Éducation nationale, de l'Enseignement supérieur et de la Recherche (2 avril 2014-25 août 2014)<br>
+* Député de la 11e circonscription des Yvelines (20 juin 2012-21 juillet 2012) (27 septembre 2014-présent)<br>
+* Conseiller régional d'Île-de-France (18 décembre 2015-présent)
+</p>
 
 Il a notamment participé aux réformes suivantes : ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon))
 
-- "Loi Hamon" (votée le 17 mars 2014) : loi relative à la consommation, ayant pour but de "renforcer les droits des consommateurs". ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon))
-- Se dit en faveur du départ à la retraite à 60 ans "sans augmentation de la durée de cotisation" ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon)) (2010)
-- Initiative d'une "résolution en faveur de la reconnaissance de l'État de Palestine" (votée le 2 décembre 2014)
-- Initiative pour la reconnaissance du syndrome de "burnout" (épuisement professionnel) comme maladie professionnelle (2016) ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon))
-- Opposition à l'inscription dans la Constitution de la déchéance de nationalité pour les Français binationaux ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon))
-- Participation à la motion de censure du 1er septembre 2016 ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon))
+<p>
+* "Loi Hamon" (votée le 17 mars 2014) : loi relative à la consommation, ayant pour but de "renforcer les droits des consommateurs". ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon))<br>
+* Se dit en faveur du départ à la retraite à 60 ans "sans augmentation de la durée de cotisation" ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon)) (2010)<br>
+* Initiative d'une "résolution en faveur de la reconnaissance de l'État de Palestine" (votée le 2 décembre 2014)<br>
+* Initiative pour la reconnaissance du syndrome de "burnout" (épuisement professionnel) comme maladie professionnelle (2016) ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon))<br>
+* Opposition à l'inscription dans la Constitution de la déchéance de nationalité pour les Français binationaux ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon))<br>
+* Participation à la motion de censure du 1er septembre 2016 ([source](https://fr.wikipedia.org/wiki/Benoit_Hamon))
+</p>
 
 Aucune affaire judiciaire où il serait impliqué n'est connue à ce jour.
 
@@ -98,7 +104,7 @@ Les primo-accédants sont les personnes qui achètent pour la première fois un 
 
 #### Prélèvement à la source de l'impôt sur le revenu ####
 
-“Ce prélèvement prendra la forme d’une retenue à la source sur les salaires, les pensions de retraites, les allocations-chômage… prélevée directement par l’employeur, la caisse de retraite, etc. [...] L’éventuel trop payé sera corrigé en septembre 2019, lors de la régularisation du solde de l’impôt.” ([source](http://www.lemonde.fr/economie/article/2017/01/18/la-calendrier-du-prelevement-a-la-source_5064808_3234.html))
+“Ce prélèvement prendra la forme d’une retenue à la source sur les salaires, les pensions de retraites, les allocations-chômage… prélevée directement par l’employeur, la caisse de retraite, etc. (...) L’éventuel trop payé sera corrigé en septembre 2019, lors de la régularisation du solde de l’impôt.” ([source](http://www.lemonde.fr/economie/article/2017/01/18/la-calendrier-du-prelevement-a-la-source_5064808_3234.html))
 
 #### "Je garantirai le droit à mourir (sic) dans la dignité" ####
 

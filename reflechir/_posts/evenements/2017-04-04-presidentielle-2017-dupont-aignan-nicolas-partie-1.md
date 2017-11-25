@@ -12,24 +12,30 @@ Voir les [deuxième]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentie
 
 Nicolas Dupont-Aignan est le candidat à la présidence de la République Française pour 2017 issu du parti "Debout la France" (DLF). Il est administrateur civil[source](https://fr.wikipedia.org/wiki/Nicolas_Dupont-Aignan), et titulaire[source](https://fr.wikipedia.org/wiki/Nicolas_Dupont-Aignan) :
 
--  d'un diplôme de l’Institut d'études politiques de Paris (1982); 
--  d'un DESS de gestion de l’entreprise et marché financier (Université Paris-Dauphine); 
--  d'un diplôme de l'ENA (ENA). 
+<p>
+* d'un diplôme de l’Institut d'études politiques de Paris (1982); <br>
+* d'un DESS de gestion de l’entreprise et marché financier (Université Paris-Dauphine); <br>
+* d'un diplôme de l'ENA (ENA). 
+</p>
 
 Il a été affecté aux postes suivants durant sa carrière politique : [source](https://fr.wikipedia.org/wiki/Nicolas_Dupont-Aignan)
 
-- Maire de Yerres (25 juin 1995-présent);
-- Député de la 8e circonscription de l'Essonne (12 juin 1997-présent);
-- Président de la communauté d'agglomération du Val d'Yerres (22 mars 2002-31 décembre 2015);
-- Président de la communauté d'agglomération Val d'Yerres Val de Seine (9 mars 2016-présent);
+<p>
+* Maire de Yerres (25 juin 1995-présent); <br>
+* Député de la 8e circonscription de l'Essonne (12 juin 1997-présent); <br>
+* Président de la communauté d'agglomération du Val d'Yerres (22 mars 2002-31 décembre 2015); <br>
+* Président de la communauté d'agglomération Val d'Yerres Val de Seine (9 mars 2016-présent); 
+<p>
 
 Les évènements notables de sa carrière politique[source](https://fr.wikipedia.org/wiki/Nicolas_Dupont-Aignan) :
 
-- Il a été par deux fois conseiller technique, la première fois de 1993 à 1994 pour François Bayrou, alors ministre de l’Éducation nationale; la seconde fois pour l’emploi, l’écologie urbaine et le bruit, de 1994 à 1995, pour Michel Barnier, alors ministre de l'Environnement;
+<p>
+* Il a été par deux fois conseiller technique, la première fois de 1993 à 1994 pour François Bayrou, alors ministre de l’Éducation nationale; la seconde fois pour l’emploi, l’écologie urbaine et le bruit, de 1994 à 1995, pour Michel Barnier, alors ministre de l'Environnement;<br>
 
--  Il a été choisi pour participer à des séminaires de la French-American Foundation (association dont le but est de renforcer les liens entre la France et les Etats-Unis) en 2001; 
+* Il a été choisi pour participer à des séminaires de la French-American Foundation (association dont le but est de renforcer les liens entre la France et les Etats-Unis) en 2001; <br>
 
--  Il se prononce contre la privatisation de Gaz de France [source](http://www.lemonde.fr/economie/article/2007/12/20/le-gouvernement-publie-le-decret-de-privatisation-de-gaz-de-france_991884_3234.html). 
+* Il se prononce contre la privatisation de Gaz de France [source](http://www.lemonde.fr/economie/article/2007/12/20/le-gouvernement-publie-le-decret-de-privatisation-de-gaz-de-france_991884_3234.html). 
+</p>
 
 Aucune affaire judiciaire où il serait impliqué n'est connue à ce jour.
 

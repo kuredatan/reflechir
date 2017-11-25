@@ -12,17 +12,23 @@ Le programme de François Asselineau est disponible en format vidéo [ici](https
 
 François Asselineau est le candidat à la présidence de la République Française pour 2017 issu du parti "Union Populaire Républicaine" (UPR). Il est Inspecteur Général des Finances.([source](https://fr.wikipedia.org/wiki/Francois_Asselineau)) Il a suivi sa formation :
 
-- à HEC Paris;
-- puis à l'ENA (diplômé en 1985).
+<p>
+* à HEC Paris;<br>
+* puis à l'ENA (diplômé en 1985).
+</p>
 
 Il a été affecté aux postes suivants durant sa carrière (après avoir été inspecteur général des finances) : ([source](https://fr.wikipedia.org/wiki/Francois_Asselineau))
 
-- Président de l'Union populaire républicaine (25 mars 2007)
-- Conseiller de Paris (25 mars 2001 – 24 mars 2008)
+<p>
+* Président de l'Union populaire républicaine (25 mars 2007)<br>
+* Conseiller de Paris (25 mars 2001 – 24 mars 2008)
+</p>
 
 Il a notamment participé aux évènements suivants :
 
-- Soutien au Brexit en 2016([source](https://fr.wikipedia.org/wiki/Francois_Asselineau)).
+<p>
+* Soutien au Brexit en 2016([source](https://fr.wikipedia.org/wiki/Francois_Asselineau)).
+</p>
 
 Aucune affaire judiciaire où il serait impliqué n'est connue à ce jour.
 

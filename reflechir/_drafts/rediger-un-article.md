@@ -28,9 +28,14 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ou
 https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
-J'écris ici seulement l'essentiel :
+J'écris ici seulement l'essentiel : /!\ Ne pas utiliser de crochets à part pour les liens (préférer les parenthèses) /!\
 
-* Faire une liste : à la place de flèches, utiliser *, - ou +.
+* Faire une liste : à la place de flèches, utiliser *, - ou +. Attention, pour que les listes s'affichent correctement :
+
+<p>
+- Item 1<br>
+- Item 2<br>
+</p>
 
 * Pas de possibilité pour souligner.
 
