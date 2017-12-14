@@ -89,7 +89,7 @@ Une annuité est une année de cotisation.
 
 ####  « Face aux pressions d’autorités supranationales, maintenir l’interdiction de la GPA et réserver la PMA comme réponse médicale aux problèmes de stérilité. Créer une union civile (PACS amélioré) qui viendra remplacer les dispositions de la loi Taubira, sans effet rétroactif. » (87) ####
 
-### ÉGALITÉ FEMMES - HOMMES ###
+### ÉGALITÉ FEMMES - HOMMES ###
 
 ####  « Défendre les droits des femmes : lutter contre l’islamisme qui fait reculer leurs libertés fondamentales ; mettre en place un plan national pour l’égalité salariale femme/homme et lutter contre la précarité professionnelle et sociale. » (9) ####
 
