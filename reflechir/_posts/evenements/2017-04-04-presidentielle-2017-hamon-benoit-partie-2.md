@@ -107,7 +107,7 @@ Autrement dit, si les dépenses pour la défense dépassent la moyenne européen
 
 #### Reconnaissance de l'Etat palestinien ####
 
-## IX) Immigration ##
+## IX) Immigration ##
 
 #### Création d'un "visa humanitaire" pour l'accueil des réfugiés ####
 
