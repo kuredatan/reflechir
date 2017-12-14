@@ -18,11 +18,11 @@ Voir les [première]({{ siteurl }}{% post_url /evenements/2017-04-04-presidentie
 
 #### Procédure parlementaire plus efficace et rapide : interdire que des amendements écartés en commission soient re-discutés en Assemblée. Réduction du nombre de parlementaires aussi bien au Sénat qu’à l’Assemblée. ####
 
-## XI) Culture ##
+## XI) Culture ##
 
 #### Ouverture des bibliothèques le soir et le dimanche. Pass Culture de 500 € pour tous les jeunes de 18 ans cofinancé par les entreprises pour élargir l’accès à la culture des jeunes. ####
 
-## XII) Education ##
+## XII) Education ##
 
 ### Lutter contre les inégalités par l’encadrement scolaire ###
 
@@ -40,13 +40,13 @@ Refondation de l'Éducation Prioritaire : voir  ([source](http://eduscol.educati
 
 #### Revoir la forme du baccalauréat - 4 matières obligatoires à l’examen final - pour permettre une autre organisation du temps scolaire qui prépare mieux les élèves à leur future profession. Favoriser les services civiques de jeunes dans les écoles. ####
 
-## XIII) Outre-Mer ##
+## XIII) Outre-Mer ##
 
 #### Plan d’investissement de 1 milliard d’euros des territoires ultra-marins. ####
 
 #### Développement d’un Erasmus caribéen et de pôles universitaires dans les Outre-mer. ####
 
-## XIV) Sécurité intérieure ##
+## XIV) Sécurité intérieure ##
 
 ### Une police plus présente ###
 
