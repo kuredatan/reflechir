@@ -35,7 +35,7 @@ Toutes les mesures décrites ici sont exclusivement extraites du programme de Je
 
 ## I) Mesures économiques ##
 
-#### Paragraphe "Libérons-nous de l'oppression financière" ####
+#### Paragraphe "Libérons-nous de l'oppression financière" ####
 
 Le candidat semble vouloir se défaire des établissements financiers, qui prêtent aux pays européens avec des taux déraisonnables. Cependant, il ne propose pas de mesure concrète.
 
@@ -53,7 +53,7 @@ Pas de paragraphe relié à ce thème.
 
 Le candidat semble soutenir l'amélioration du service public, la diminution du chômage, la liberté religieuse "débarrassée d’influences extérieures" et le rétablissement du service national "civil ou militaire" (sic) pour les deux sexes. Mais il ne propose pas de solution concrète.
 
-## IV) Mesures écologiques ##
+## IV) Mesures écologiques ##
 
 #### Paragraphe "Passons aux énergies renouvelables" ####
 
@@ -63,7 +63,7 @@ Le candidat semble vouloir renoncer à l'énergie nucléaire et privilégier les
 
 Le candidat veut que les communes françaises gèrent les mesures écologiques, mais ne propose pas de mesure concrète.
 
-## V) Santé ##
+## V) Santé ##
 
 Pas de paragraphe relié à ce thème.
 
