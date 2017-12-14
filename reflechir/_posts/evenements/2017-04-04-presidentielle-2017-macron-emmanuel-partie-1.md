@@ -33,7 +33,7 @@ Controverse : en 2016, d’après les journalistes Marion L’Hour et Frédéric
 
 Toutes les mesures décrites ici sont exclusivement extraites du programme d’Emmanuel Macron, disponible sur le site en-marche.fr et vu à la date du 23/03/2017. Dans un souci de lisibilité, toutes les mesures du candidat ne sont pas présentées ici, et toutes les mesures présentées ne sont pas commentées. Le choix des mesures a été fait avec le plus d'objectivité possible et l'auteur de l'article a essayé d'inclure toutes les mesures les plus importantes des différentes parties du programme.
 
-## I) Mesures économiques ##
+## I) Mesures économiques ##
 
 ### Incitation à l’investissement, à l'entrepreneuriat et développement des entreprises
 
@@ -53,7 +53,7 @@ Un “Buy American Act” de la même sorte a été appliqué aux Etats-Unis. ([
 
 #### Lancer un “grand plan d’investissement de 50 milliards d’euros. Ce plan sur 5 ans sera mis au service des qualifications de tous les citoyens, de la transition écologique, de la révolution numérique, de la modernisation des services publics et de la rénovation urbaine.” ####
 
-## II) Mesures sociales et fiscales ##
+## II) Mesures sociales et fiscales ##
 
 ### Baisse globale des taxes et simplification de la fiscalité ###
 
@@ -71,7 +71,7 @@ La prime d’activité est une prime versée pour “les travailleurs de 18 ans 
 
 #### Maintien du déficit public sous la barre des 3% du PIB. ####
 
-## III) Unité sociale ##
+## III) Unité sociale ##
 
 #### Défense du mariage pour tous et lutte contre l’homophobie, notamment en entreprise par des contrôles aléatoires et la désignation publique des entreprises. ####
 
