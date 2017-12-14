@@ -152,7 +152,7 @@ But : Aider les "mères isolées" et les familles monoparentales
 
 #### Ouverture "[...] du droit aux allocations familiales dès le premier enfant" ####
 
-## III) Unité sociale ##
+## III) Unité sociale ##
 
 ### LAÏCITÉ ###
 
@@ -162,7 +162,7 @@ But : Aider les "mères isolées" et les familles monoparentales
 
 #### Simplification de la procédure de changement de mention du sexe à l'état civil pour les personnes transsexuelles ####
 
-### ÉGALITÉ FEMMES - HOMMES ###
+### ÉGALITÉ FEMMES - HOMMES ###
 
 #### "Je poursuivrai la féminisation de la fonction publique à tous les degrés hiérarchiques" ####
 
@@ -174,7 +174,7 @@ Ajout : "[...] Je créerai 4 500 places d’hébergement spécialisé"
 
 Il est dommage que les violences autres que celles subies par les femmes ne soient pas aussi prises en compte : violences faites aux hommes, etc.
 
-### HANDICAP ###
+### HANDICAP ###
 
 #### "Je propose de diminuer les effectifs des classes en fonction du nombre d’élèves en situation de handicap" ####
 
