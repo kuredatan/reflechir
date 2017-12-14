@@ -64,7 +64,7 @@ Ajout : seuil maximum "[...] à 20" élèves "dans les écoles en éducation pri
 
 #### Recrutement de 40 000 enseignants en cinq ans ####
 
-## XIII) Outre-Mer ##
+## XIII) Outre-Mer ##
 
 #### Dotation d'un "fonds pour l'égalité réelle Outre-Mer de 2,5 milliards d'euros sur cinq ans" ####
 
