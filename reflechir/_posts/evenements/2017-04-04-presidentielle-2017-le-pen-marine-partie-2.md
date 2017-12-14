@@ -64,7 +64,7 @@ L'auteur n'a pas trouvé de chiffres plus récents, mais il est fort possible qu
 
 La loi Taubira propose des peines alternatives à l'incarcération, la libération sous contrainte au bout de deux tiers de la peine de prison et la suppression des peines planchers. ([source](https://fr.wikipedia.org/wiki/Loi_relative_%C3%A0_l%27individualisation_des_peines_et_renfor%C3%A7ant_l%27efficacit%C3%A9_des_sanctions_p%C3%A9nales))
 
-####  « Suppression du versement des aides sociales aux parents de mineurs récidivistes en cas de carence éducative manifeste » #### 
+####  « Suppression du versement des aides sociales aux parents de mineurs récidivistes en cas de carence éducative manifeste »
 
 Afin de « responsabiliser les parents » (18) Il est important de noter que si les parents d'un mineur récidiviste ont plusieurs enfants, leurs autres enfants vont eux aussi souffrir de ce manque d'aides sociales.
 
