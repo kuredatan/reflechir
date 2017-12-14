@@ -30,7 +30,7 @@ L’obsolescence programmée est “une stratégie visant à réduire la durée 
 
 #### Soutien financier aux régions si et seulement si elles jouent le rôle qui leur est assigné dans la transition écologique. Dans le cadre de la PAC, les agriculteurs jouant un rôle dans la transition écologique obtiendront des rémunérations incitatives. ####
 
-## V) Santé ##
+## V) Santé ##
 
 ### Promouvoir la prévention sanitaire ###
 
@@ -42,13 +42,13 @@ L’obsolescence programmée est “une stratégie visant à réduire la durée 
 
 #### Déploiement des groupes hospitaliers sur le territoire et réduction de la tarification à l’activité au profit d’une rémunération globale des soignants. ####
 
-## VI) Enseignement supérieur et Recherche ##
+## VI) Enseignement supérieur et Recherche ##
 
 #### Favoriser le regroupement des universités en pôles de recherche. ####
 
 #### Développement des licences en alternance. Plus de liberté aux universités dans le choix de l’aménagement des parcours. Diversification des sources de financement des universités. ####
 
-## VII) Justice ##
+## VII) Justice ##
 
 #### Une justice plus lisible et accessible : un tribunal de grande instance dans chaque département. Création de centres d’accueil unique du justiciable. ####
 
@@ -64,7 +64,7 @@ L’examen de l’aménagement de peine permet de déterminer si le prisonnier e
 
 #### Rénovation des bâtiments pénitentiaires et aménagement de 15 000 places supplémentaires. ####
 
-## VIII) Relations internationales ##
+## VIII) Relations internationales ##
 
 #### Dissuasion nucléaire : importance stratégique donc maintien et modernisation des forces de dissuasion dont les forces aériennes. ####
 
@@ -72,7 +72,7 @@ L’examen de l’aménagement de peine permet de déterminer si le prisonnier e
 
 #### Percevoir les Etats-Unis et le Maghreb comme des alliés, la Russie, la Turquie et le Moyen-Orient comme des partenaires de négociations. ####
 
-## IX) Immigration ##
+## IX) Immigration ##
 
 #### Intégration : formation des immigrants au français niveau B1. Réduction des délais pour les visas “talents” - pour attirer les “talents étrangers”. Simplification des modalités d’accès à l’emploi pour les étrangers diplômés en France. ####
 
