@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr"><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="fr" /><updated>2017-12-15T00:36:09+01:00</updated><id>http://localhost:4000/</id><title type="html">Réfléchir</title><subtitle>Ce site s'adresse à tous et a pour but de susciter la réflexion, autant par l'analyse des actualités que par la découverte des sciences et des sciences humaines.</subtitle><entry><title type="html">5. Arithmétique</title><link href="http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique/" rel="alternate" type="text/html" title="5. Arithmétique" /><published>2017-11-20T00:00:00+01:00</published><updated>2017-11-20T00:00:00+01:00</updated><id>http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique</id><content type="html" xml:base="http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique/">&lt;p&gt;L’arithmétique est la branche des mathématiques qui s’intéresse aux nombres ($\alpha \rho \iota \theta \mu o \varsigma$ ou arithmos en grec signifie nombre). Elle est prolongée par la théorie des nombres (il n’y a pas de consensus sur où s’arrête précisément l’arithmétique et où commence précisément la théorie des nombres, mais en général quand on utilise des outils d’algèbre ou d’analyse (voir articles 9 et 10) on parle de théorie des nombres et sinon on parle d’arithmétique).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr"><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="fr" /><updated>2017-12-17T20:09:46+01:00</updated><id>http://localhost:4000/</id><title type="html">Réfléchir</title><subtitle>Ce site s'adresse à tous et a pour but de susciter la réflexion, autant par l'analyse des actualités que par la découverte des sciences et des sciences humaines.</subtitle><entry><title type="html">Introduction aux graphes</title><link href="http://localhost:4000/informatique/sciences/2017/12/16/introduction-aux-graphes/" rel="alternate" type="text/html" title="Introduction aux graphes" /><published>2017-12-16T00:00:00+01:00</published><updated>2017-12-16T00:00:00+01:00</updated><id>http://localhost:4000/informatique/sciences/2017/12/16/introduction-aux-graphes</id><content type="html" xml:base="http://localhost:4000/informatique/sciences/2017/12/16/introduction-aux-graphes/">&lt;p&gt;&lt;strong&gt;Note :&lt;/strong&gt; Les quatre premiers articles de mathématiques peuvent être utiles pour faire les exercices de cet article (ne vous inquiétez pas, ils sont très courts !).&lt;/p&gt;
+
+&lt;p&gt;Un &lt;strong&gt;graphe&lt;/strong&gt; est un objet mathématique qui permet, notamment, de représenter une communauté et ses interactions : par exemple, un groupe de profils Facebook avec les ajouts en ami, un ensemble de villes et les routes qui les relient entre elles, un ensemble de gènes et leurs liens de régulation, … Il s’agit dans cet article d’introduire les définitions basiques portant sur les graphes pour résoudre un problème simple : étant donné des emplois du temps scolaires dans une école, compter le nombre de salles nécessaires à réserver pour que tous les cours soient mis en place. Le problème majeur est que plusieurs cours peuvent se passer simultanément, et réserver une salle est suffisamment pénible pour souhaiter n’avoir à le faire qu’un nombre minimal de fois (sinon, attribuer autant de salles qu’il y a de cours aurait été une solution acceptable).&lt;/p&gt;
+
+&lt;p&gt;Il y a une distinction importante à faire entre un &lt;strong&gt;problème&lt;/strong&gt; et une &lt;strong&gt;instance&lt;/strong&gt; de ce problème. Une instance de ce problème est un exemple concret d’un problème : par exemple, la description abstraite ci-dessus est un problème. Une instance de ce problème serait de se donner un véritable emploi du temps (avec heures et intitulés des cours), et trouver la solution pour cette instance particulière de ce problème. Dire que “entiers” est un ensemble de nombres avec des propriétés particulières, et que 1, 2, 3, … sont des instances d’entiers est analogue.&lt;/p&gt;
+
+&lt;h2 id=&quot;définitions&quot;&gt;Définitions&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-12-15-image1.png&quot; style=&quot;float: center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Commençons par définir ce qu’est exactement un graphe (voir un exemple simple de graphe ci-dessus). Comme écrit précédemment, un graphe représente un &lt;strong&gt;ensemble d’objets&lt;/strong&gt; et les &lt;strong&gt;interactions entre ces objets&lt;/strong&gt; : on appelle les objets des &lt;strong&gt;sommets&lt;/strong&gt; (ou noeuds). Une interaction est symétrique si, quand l’objet A interagit avec B, nécessairement B interagit également avec A; sinon, cette interaction est dite asymétrique. Par exemple, pour les amis sur Facebook, si Alice est amie avec Bob, alors Bob est aussi ami avec Alice, car Facebook exige l’accord des deux personnes pour qu’elles deviennent amies. Au contraire, dans le cas d’un arbre généalogique, si Charlotte est la mère de Daniel, en revanche Daniel n’est pas la mère de Charlotte. Si vous êtes familiers avec les relations en mathématiques (par exemple, l’égalité, les ordres, …), les graphes peuvent être la représentation d’un relation d’ordre sur des éléments d’un ensemble.&lt;/p&gt;
+
+&lt;p&gt;Dans un graphe, on appelle les interactions symétriques (ou &lt;strong&gt;non orientées&lt;/strong&gt;) arêtes, et les interactions asymétriques (ou &lt;strong&gt;orientées&lt;/strong&gt;) arcs.&lt;/p&gt;
+
+&lt;p&gt;Un graphe est caractérisé par les ensembles de ses sommets (à renommage près) et de ses interactions : c’est-à-dire, si on possède ces deux informations, alors on peut reconstruire le graphe de façon non ambiguë, quitte à changer le nom des sommets si nécessaire. On écrit souvent, comme définition d’un graphe G : G = (S, A) où S est l’ensemble des sommets, et A l’ensemble des arêtes/arcs.&lt;/p&gt;
+
+&lt;p&gt;Par exemple, pour le graphe ci-dessus, l’ensemble des sommets est A, B, C, D et les arcs sont (A, B), (B, C), (C, A) et (D, C). Le premier sommet écrit pour un arc donné est le sommet &lt;strong&gt;sortant&lt;/strong&gt;, et le deuxième le sommet &lt;strong&gt;entrant&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le degré d’un noeud/sommet du graphe est le nombre d’interactions qui impliquent ce noeud. Si les interactions ne sont pas symétriques, on définit séparément le degré &lt;strong&gt;entrant&lt;/strong&gt;, donc le nombre d’interactions qui ont ce noeud pour sommet &lt;strong&gt;entrant&lt;/strong&gt;, et le degré &lt;strong&gt;sortant&lt;/strong&gt;, le nombre d’interactions qui ont ce noeud pour sommet &lt;strong&gt;sortant&lt;/strong&gt;. Par exemple, ici A a un degré entrant égal à 1. Son degré sortant est également égal à 1.&lt;/p&gt;
+
+&lt;h2 id=&quot;la-notion-de-coloration&quot;&gt;La notion de coloration&lt;/h2&gt;
+
+&lt;p&gt;Maintenant on va utiliser les graphes définis précédemment dans notre problème d’attribution de salles. Etant donné notre emploi du temps d’un jour donné, on va se saisir de notre boîte à crayons, et colorier chaque cours avec une couleur différente si une nouvelle salle a besoin d’être attribuée. Décrivons une instance de ce problème à l’aide d’un graphe.&lt;/p&gt;
+
+&lt;p&gt;Voici notre emploi du temps, où les cours sont présentés par ordre chronologique :&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Cours&lt;/th&gt;
+      &lt;th&gt;Horaires&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Français&lt;/td&gt;
+      &lt;td&gt;8H30 - 11H00&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mathématiques&lt;/td&gt;
+      &lt;td&gt;9H30 - 12H00&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Physique&lt;/td&gt;
+      &lt;td&gt;13H00 - 14H30&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Sciences de la Vie et de la Terre&lt;/td&gt;
+      &lt;td&gt;14H00 - 18H00&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Histoire&lt;/td&gt;
+      &lt;td&gt;14H40 - 16H00&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Chaque sommet sera un cours de l’emploi du temps. Chaque arête entre deux sommets sera présente si les cours associés à ces sommets se déroulent en même temps/se superposent dans le temps. C’est bien une interaction symétrique.&lt;/p&gt;
+
+&lt;p&gt;Voici le graphe correspondant :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-12-15-image2.png&quot; style=&quot;float: center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Maintenant définissons une coloration d’un graphe :&lt;/p&gt;
+
+&lt;p&gt;Une &lt;strong&gt;coloration d’un graphe&lt;/strong&gt; est une fonction notée c qui à un sommet associe sa couleur : par exemple, si on a colorié le sommet “Français” du graphe en bleu, c(“Français”) = bleu. Tout comme on peut associer des entiers à chaque sommet, de même on pourra associer un entier à chaque couleur (Il est évidemment préférable d’associer deux entiers différents à deux couleurs différentes). En définitive, c sera une fonction d’un intervalle {1, 2, …, n} dans un intervalle {1, 2, …, m}, où n sera le nombre de sommets, et m le nombre de couleurs, et c(i) sera donc la couleur du sommet numéroté i, où i est un entier.&lt;/p&gt;
+
+&lt;p&gt;Définissons la propriété de non-superposition des couleurs :&lt;/p&gt;
+
+&lt;p&gt;Propriété (P) : Si les sommets i et les sommets j sont reliés par une arête, alors ils ont des couleurs distinctes par la coloration c : c(i) différent de c(j).&lt;/p&gt;
+
+&lt;p&gt;Enfin, définissons une coloration &lt;strong&gt;minimale&lt;/strong&gt; d’un graphe.&lt;/p&gt;
+
+&lt;p&gt;Une coloration minimale d’un graphe est une coloration qui utilise le moins de couleurs possible et qui respecte la propriété (P) : autrement, où m est le plus petit possible. On notera K(G) cette valeur minimale de m.&lt;/p&gt;
+
+&lt;h2 id=&quot;résolution&quot;&gt;Résolution&lt;/h2&gt;
+
+&lt;p&gt;Essayons de trouver une solution à l’instance du problème décrite ci-dessus. Puisque cette instance est de petite taille, on peut énumérer les nombres de couleurs en partant de 1, et incrémenter ce nombre jusqu’à trouver un nombre de couleurs qui respecte la propriété (P). Comme on aura énuméré les nombres de couleurs dans l’ordre croissant, nous serons certains que ce nombre trouvé sera minimal.&lt;/p&gt;
+
+&lt;p&gt;Une chose à vérifier est s’il existe une coloration minimale de ce graphe (parce que sinon, nous énumérerons sans fin tous les entiers…). Dans ce cas-ci, c’est assez évident puisque, comme dit précédemment, une solution non minimale mais acceptable au problème est de réserver autant de salles qu’il y a de cours. Autrement dit, choisir autant de crayons de couleur qu’il y a de cours. Donc, au maximum, nous énumérerons 1, 2, 3, 4, 5 (5 est le nombre total de cours). Il est à noter que dans d’autres situations, savoir que notre procédure a une fin n’est pas aussi évident, mais que cela reste tout aussi crucial à savoir. La propriété qu’une procédure (en fait, un algorithme) &lt;strong&gt;termine&lt;/strong&gt; est la terminaison d’un algorithme.&lt;/p&gt;
+
+&lt;p&gt;Cas m=1 : Si on ne choisit qu’une seule couleur, alors on voit que la propriété (P) ne sera pas respectée pour le couple de sommets A et C.&lt;/p&gt;
+
+&lt;p&gt;Cas m=2 : La propriété (P) est vérifiée !&lt;/p&gt;
+
+&lt;p&gt;Un exemple de coloration pour m=2 est présenté ci-dessous :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-12-15-image3.png&quot; style=&quot;float: center&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;exercices&quot;&gt;Exercices&lt;/h2&gt;
+
+&lt;p&gt;Quelques exercices pour vérifier votre compréhension (la correction sera donnée dans le prochain article) :&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercice 1 :&lt;/strong&gt; Dites combien vaut K(G) quand G a trois sommets 0, 1 et 2, et trois arêtes, une reliant 0 à 1, une reliant 1 à 2, et l’autre reliant 2 à 0.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercice 2 :&lt;/strong&gt; Un graphe complet à i sommets (noté K-i) est un graphe tel qu’il existe une arête entre chaque couple de sommets distincts du graphe (par exemple, le graphe de l’exercice précédent s’appelle K-3). Montrez que K(K-i) est supérieur ou égal à i. (Indice : démonstration par l’absurde, en supposant que K(K-i) est strictement inférieur à i)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercice 3 :&lt;/strong&gt; Un cycle à i sommets C-i est un graphe tel que, si les sommets sont numérotés 0, 1, 2, 3, …, i-1, ses arêtes sont (0, 1), (1, 2), (2, 3), …, (i-2, i-1), (i-1, 0). Montrez que si i est supérieur ou égal à 2, alors soit K(C-i) = 2 si i est pair, soit K(C-i) = 3 si i est impair. (Indice : raisonnement par récurrence sur i puis, à l’intérieur de la récurrence, un raisonnement par disjonction de cas, dans les deux cas où i est pair/impair)&lt;/p&gt;
+
+&lt;p&gt;Pour aller plus loin :&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercice de programmation :&lt;/strong&gt; Ecrire (dans le langage de votre choix) l’algorithme réalisé précédemment, pour le problème des emplois du temps. Vérifiez qu’il renvoie bien m=2 pour l’instance présentée précédemment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Une famille de graphes particulière : les graphes planaires&lt;/strong&gt; Un graphe planaire G est tel qu’il existe une façon de le dessiner sans que les arêtes ne s’intersectent. Un &lt;strong&gt;graphe planaire plongé&lt;/strong&gt; est un graphe qui est dessiné sans que les arêtes ne s’intersectent. Autrement dit, un graphe planaire peut être dessiné sous forme d’un graphe planaire plongé. Ici, lorsqu’on évoquera un graphe planaire, on pensera à sa version plongée.&lt;/p&gt;
+
+&lt;p&gt;Le graphe K-4 est-il planaire ? K-5 est-il planaire ? (Indice : il y a un oui et un non. Pour prouver le oui, dessinez une version planaire du graphe. La justification du non nécessite le théorème de Kuratowski-Wagner, qui sera présenté plus tard)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Une autre famille de graphes particulière : les graphes connexes&lt;/strong&gt; Un graphe connexe est un graphe tel que, pour tous sommets i et j distincts, il existe un chemin, c’est-à-dire une suite d’arêtes, dans le graphe de i vers j (et de j vers i, si le graphe est non orienté). Par exemple, K-3 est connexe. Donnez un exemple de graphe non connexe, et justifiez sa non-connexité (On exhibera donc un couple de sommets qui ne respecte pas la condition ci-dessus).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Une autre famille de graphes particulière : les graphes bipartis&lt;/strong&gt; Le graphe G-i-j est le graphe constitué de deux ensembles de sommets distincts G-i (contenant i sommets) et G-j (contenant j sommets), tels que toute arête/arc soit une interaction de la forme (a, b) où soit a appartient à G-i et b appartient à G-j, soit a appartient à G-j et b appartient à G-i. Vérifiez que le graphe présentant l’instance du problème de l’article est un graphe biparti, et exhibez les parties de l’ensemble de sommets correspondantes. Il existe un théorème qui montre qu’un graphe a un nombre chromatique inférieur ou égal à 2 si et seulement s’il est biparti. Prouvez ce théorème.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;informatique&quot;, &quot;sciences&quot;]" /><summary type="html">Note : Les quatre premiers articles de mathématiques peuvent être utiles pour faire les exercices de cet article (ne vous inquiétez pas, ils sont très courts !).</summary></entry><entry><title type="html">5. Arithmétique</title><link href="http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique/" rel="alternate" type="text/html" title="5. Arithmétique" /><published>2017-11-20T00:00:00+01:00</published><updated>2017-11-20T00:00:00+01:00</updated><id>http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique</id><content type="html" xml:base="http://localhost:4000/math%C3%A9matiques/sciences/2017/11/20/5-arithmetique/">&lt;p&gt;L’arithmétique est la branche des mathématiques qui s’intéresse aux nombres ($\alpha \rho \iota \theta \mu o \varsigma$ ou arithmos en grec signifie nombre). Elle est prolongée par la théorie des nombres (il n’y a pas de consensus sur où s’arrête précisément l’arithmétique et où commence précisément la théorie des nombres, mais en général quand on utilise des outils d’algèbre ou d’analyse (voir articles 9 et 10) on parle de théorie des nombres et sinon on parle d’arithmétique).&lt;/p&gt;
 
 &lt;h2 id=&quot;i-lemme-de-gauss-et-théorème-dunicité-de-la-décomposition-en-facteurs-premiers&quot;&gt;I) Lemme de Gauss et théorème d’unicité de la décomposition en facteurs premiers.&lt;/h2&gt;
 
@@ -1039,72 +1156,4 @@ Il a lancé le 10 février 2016 le mouvement La France Insoumise afin de candida
 
 &lt;h4 id=&quot;-interdire-la-présence-de-ministres-et-préfets-aux-cérémonies-religieuses-et-refuser-le-titre-de--chanoine-de-latran--pour-le-président-de-la-république--7&quot;&gt;« Interdire la présence de ministres et préfets aux cérémonies religieuses et refuser le titre de « chanoine de Latran » pour le président de la République » (7)&lt;/h4&gt;
 
-&lt;p&gt;L’image vient de europe1.fr&lt;/p&gt;</content><author><name></name></author><category term="[&quot;évènements&quot;, &quot;actualités&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Présidentielle 2017 : Emmanuel Macron (troisième partie)</title><link href="http://localhost:4000/%C3%A9v%C3%A8nements/actualit%C3%A9s/2017/04/04/presidentielle-2017-macron-emmanuel-partie-3/" rel="alternate" type="text/html" title="Présidentielle 2017 : Emmanuel Macron (troisième partie)" /><published>2017-04-04T00:00:00+02:00</published><updated>2017-04-04T00:00:00+02:00</updated><id>http://localhost:4000/%C3%A9v%C3%A8nements/actualit%C3%A9s/2017/04/04/presidentielle-2017-macron-emmanuel-partie-3</id><content type="html" xml:base="http://localhost:4000/%C3%A9v%C3%A8nements/actualit%C3%A9s/2017/04/04/presidentielle-2017-macron-emmanuel-partie-3/">&lt;p&gt;&lt;img src=&quot;/images/21e61bb6f3f978d3d1c96e89c9d9f.jpeg&quot; style=&quot;float: center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Voir les &lt;a href=&quot;/%C3%A9v%C3%A8nements/actualit%C3%A9s/2017/04/04/presidentielle-2017-macron-emmanuel-partie-1/&quot;&gt;première&lt;/a&gt; et &lt;a href=&quot;/%C3%A9v%C3%A8nements/actualit%C3%A9s/2017/04/04/presidentielle-2017-macron-emmanuel-partie-2/&quot;&gt;deuxième&lt;/a&gt; parties. Le programme d’Emmanuel Macron est disponible sur cette &lt;a href=&quot;http://www.en-marche.fr/emmanuel-macron/le-programme&quot;&gt;page&lt;/a&gt;. Synthèse : &lt;a href=&quot;http://www.cnewsmatin.fr/politique/2017-03-19/presidentielle-2017-le-programme-demmanuel-macron-744341&quot;&gt;ici&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;x-mesures-institutionnelles&quot;&gt;X) Mesures institutionnelles&lt;/h2&gt;
-
-&lt;h4 id=&quot;des-cibles-déconomie-seront-fixées-pour-chaque-ministère-et-un-ministre-ne-parvenant-pas-à-réaliser-ses-économies-programmées-se-verra-contraint-de-démissionner-le-ministre-des-finances-rendra-compte-de-la-situation-budgétaire-chaque-trimestre-au-parlement&quot;&gt;Des cibles d’économie seront fixées pour chaque ministère et un ministre ne parvenant pas à réaliser ses économies programmées se verra contraint de démissionner. Le ministre des Finances rendra compte de la situation budgétaire chaque trimestre au Parlement.&lt;/h4&gt;
-
-&lt;h4 id=&quot;instauration-du-non-cumul-des-mandats-dans-le-temps&quot;&gt;Instauration du non-cumul des mandats dans le temps.&lt;/h4&gt;
-
-&lt;h4 id=&quot;probité-des-hommes-politiques--contrôle-de-lutilisation-de-lindemnité-des-parlementaires-et-interdiction-du-recrutement-de-membres-de-leur-familles-comme-assistants-parlementaires-exigence-dun-casier-judiciaire-vierge-pour-laccès-à-la-fonction-publique&quot;&gt;Probité des hommes politiques : contrôle de l’utilisation de l’indemnité des parlementaires et interdiction du recrutement de membres de leur familles comme assistants parlementaires. Exigence d’un casier judiciaire vierge pour l’accès à la fonction publique.&lt;/h4&gt;
-
-&lt;h4 id=&quot;procédure-parlementaire-plus-efficace-et-rapide--interdire-que-des-amendements-écartés-en-commission-soient-re-discutés-en-assemblée-réduction-du-nombre-de-parlementaires-aussi-bien-au-sénat-quà-lassemblée&quot;&gt;Procédure parlementaire plus efficace et rapide : interdire que des amendements écartés en commission soient re-discutés en Assemblée. Réduction du nombre de parlementaires aussi bien au Sénat qu’à l’Assemblée.&lt;/h4&gt;
-
-&lt;h2 id=&quot;xi-culture&quot;&gt;XI) Culture&lt;/h2&gt;
-
-&lt;h4 id=&quot;ouverture-des-bibliothèques-le-soir-et-le-dimanche-pass-culture-de-500--pour-tous-les-jeunes-de-18-ans-cofinancé-par-les-entreprises-pour-élargir-laccès-à-la-culture-des-jeunes&quot;&gt;Ouverture des bibliothèques le soir et le dimanche. Pass Culture de 500 € pour tous les jeunes de 18 ans cofinancé par les entreprises pour élargir l’accès à la culture des jeunes.&lt;/h4&gt;
-
-&lt;h2 id=&quot;xii-education&quot;&gt;XII) Education&lt;/h2&gt;
-
-&lt;h3 id=&quot;lutter-contre-les-inégalités-par-lencadrement-scolaire&quot;&gt;Lutter contre les inégalités par l’encadrement scolaire&lt;/h3&gt;
-
-&lt;h4 id=&quot;augmentation-des-places-en-crèche-et-obligation-de-transparence-critères-dattribution-des-places-publiés-en-ligne-dans-lattribution-des-places-par-les-communes&quot;&gt;Augmentation des places en crèche et obligation de transparence (critères d’attribution des places publiés en ligne) dans l’attribution des places par les communes.&lt;/h4&gt;
-
-&lt;h4 id=&quot;etudes-dirigées-et-accompagnement-après-la-classe-dans-tous-les-collèges-et-lycées-stage-de-remise-à-niveau-pour-les-lycéens-en-difficulté&quot;&gt;Etudes dirigées et accompagnement après la classe dans tous les collèges et lycées. Stage de remise à niveau pour les lycéens en difficulté.&lt;/h4&gt;
-
-&lt;h3 id=&quot;refondation-du-recrutement-du-personnel-enseignant-et-du-temps-scolaire&quot;&gt;Refondation du recrutement du personnel enseignant et du temps scolaire&lt;/h3&gt;
-
-&lt;h4 id=&quot;développer-lapprentissage-dans-les-lycées-professionnels-par-la-taxe-dapprentissage-et-faciliter-les-démarches-pour-les-jeunes-et-les-entreprises&quot;&gt;Développer l’apprentissage dans les lycées professionnels par la taxe d’apprentissage et faciliter les démarches pour les jeunes et les entreprises.&lt;/h4&gt;
-
-&lt;h4 id=&quot;fin-de-laffectation-doffice-hors-choix-motivé-dun-jeune-enseignant-en-zep-zone-dÉducation-prioritaire--établissement-bénéficiant-daides-supplémentaires-à-cause-de-difficultés-dordre-social-ou-scolaire-prime-annuelle-de-3000-euros-pour-les-enseignants-en-rep&quot;&gt;Fin de l’affectation d’office (hors choix motivé) d’un jeune enseignant en ZEP (Zone d’Éducation Prioritaire : établissement bénéficiant d’aides supplémentaires à cause de difficultés d’ordre social ou scolaire). Prime annuelle de 3000 euros pour les enseignants en REP&lt;/h4&gt;
-
-&lt;p&gt;Refondation de l’Éducation Prioritaire : voir  (&lt;a href=&quot;http://eduscol.education.fr/cid52780/les-rep.html&quot;&gt;source&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h4 id=&quot;revoir-la-forme-du-baccalauréat---4-matières-obligatoires-à-lexamen-final---pour-permettre-une-autre-organisation-du-temps-scolaire-qui-prépare-mieux-les-élèves-à-leur-future-profession-favoriser-les-services-civiques-de-jeunes-dans-les-écoles&quot;&gt;Revoir la forme du baccalauréat - 4 matières obligatoires à l’examen final - pour permettre une autre organisation du temps scolaire qui prépare mieux les élèves à leur future profession. Favoriser les services civiques de jeunes dans les écoles.&lt;/h4&gt;
-
-&lt;h2 id=&quot;xiii-outre-mer&quot;&gt;XIII) Outre-Mer&lt;/h2&gt;
-
-&lt;h4 id=&quot;plan-dinvestissement-de-1-milliard-deuros-des-territoires-ultra-marins&quot;&gt;Plan d’investissement de 1 milliard d’euros des territoires ultra-marins.&lt;/h4&gt;
-
-&lt;h4 id=&quot;développement-dun-erasmus-caribéen-et-de-pôles-universitaires-dans-les-outre-mer&quot;&gt;Développement d’un Erasmus caribéen et de pôles universitaires dans les Outre-mer.&lt;/h4&gt;
-
-&lt;h2 id=&quot;xiv-sécurité-intérieure&quot;&gt;XIV) Sécurité intérieure&lt;/h2&gt;
-
-&lt;h3 id=&quot;une-police-plus-présente&quot;&gt;Une police plus présente&lt;/h3&gt;
-
-&lt;h4 id=&quot;développement-des-sanctions-immédiates-amendes-pour-consommation-de-cannabis-comme-pour-une-infraction-routière-au-lieu-de-procédures-lourdes-et-non-dissuasives&quot;&gt;Développement des sanctions immédiates (amendes pour consommation de cannabis comme pour une infraction routière) au lieu de procédures lourdes et non dissuasives.&lt;/h4&gt;
-
-&lt;h4 id=&quot;nouvelles-fonctions-attribuées-aux-policiers--interdire-à-un-individu-générateur-de-troubles-laccès-à-certains-lieux&quot;&gt;Nouvelles fonctions attribuées aux policiers : interdire à un individu générateur de troubles l’accès à certains lieux.&lt;/h4&gt;
-
-&lt;h4 id=&quot;développement-dune-police-de-proximité-et-de-nouveaux-outils-de-relations-avec-les-citoyens-comme-par-exemple-des-délégués-de-quartier-chargés-des-relations-entre-citoyens-et-forces-de-police-usage-des-caméras-de-rue-lors-des-contrôles-didentité&quot;&gt;Développement d’une police de proximité et de nouveaux outils de relations avec les citoyens comme par exemple des délégués de quartier chargés des relations entre citoyens et forces de police. Usage des caméras de rue lors des contrôles d’identité.&lt;/h4&gt;
-
-&lt;h3 id=&quot;la-lutte-contre-le-terrorisme&quot;&gt;La lutte contre le terrorisme&lt;/h3&gt;
-
-&lt;h4 id=&quot;lutte-contre-les-filières-djihadistes-sur-le-territoire-et-dans-les-pays-voisins-tunisie-jordanie-amélioration-du-renseignement-et-maintien-du-programme-sentinelle&quot;&gt;Lutte contre les filières djihadistes sur le territoire et dans les pays voisins (Tunisie, Jordanie). Amélioration du renseignement et maintien du programme Sentinelle.&lt;/h4&gt;
-
-&lt;h4 id=&quot;coordination-des-ministères-de-lintérieur-de-la-défense-et-des-affaires-Étrangères-avec-notamment-une-meilleure-circulation-des-informations-entre-ces-entités&quot;&gt;Coordination des ministères de l’Intérieur, de la Défense et des Affaires Étrangères avec notamment une meilleure circulation des informations entre ces entités.&lt;/h4&gt;
-
-&lt;h4 id=&quot;cellule-spéciale-de-renseignement-anti-daech&quot;&gt;Cellule spéciale de renseignement anti-Daech.&lt;/h4&gt;
-
-&lt;h4 id=&quot;création-de-centres-de-réinsertion-des-français-de-retour-de-syrie&quot;&gt;Création de centres de réinsertion des Français de retour de Syrie.&lt;/h4&gt;
-
-&lt;h2 id=&quot;comparaison-avec-les-autres-candidats&quot;&gt;Comparaison avec les autres candidats&lt;/h2&gt;
-
-&lt;p&gt;Macron propose que les horaires effectifs de travail soient “définis par accord majoritaire ou par référendum d’entreprise”. Il opte donc pour plus de “dialogue social” et de compétitivité et moins de protection des travailleurs par l’Etat, tout en n’allant pas aussi loin que Fillon qui propose de mettre fin à la durée légale du travail à 35 heures. Macron et Fillon, en suivant la ligne initiée par la loi Travail, s’opposent ainsi à Mélenchon, Hamon et Le Pen, qui veulent abroger ou remplacer la loi Travail.
-Macron propose également un grand plan d’investissements de 50 milliards d’euros pour relancer l’économie; Mélenchon propose un grand plan d’investissements de 100 milliards d’euros, et Hamon propose de consacrer 60 milliards d’euros à la R&amp;amp;D et 100 milliards d’euros à la rénovation urbaine et technique. Le Pen et Fillon ne proposent pas de grand plan d’investissements.
-Macron, Mélenchon, Hamon, Fillon et Le Pen veulent tous développer les énergies renouvelables (à l’exception des éoliennes pour Le Pen). Mélenchon et Hamon ont pour but dans le long terme de sortir du nucléaire, contrairement à Macron, Fillon et Le Pen.&lt;/p&gt;
-
-&lt;p&gt;L’image vient du site bfmtv.com&lt;/p&gt;</content><author><name></name></author><category term="[&quot;évènements&quot;, &quot;actualités&quot;]" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;L’image vient de europe1.fr&lt;/p&gt;</content><author><name></name></author><category term="[&quot;évènements&quot;, &quot;actualités&quot;]" /><summary type="html"></summary></entry></feed>
