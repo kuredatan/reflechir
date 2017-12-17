@@ -1,6 +1,6 @@
 ---
 title: "Introduction aux graphes"
-date: 2017-12-16
+date: 2017-12-15
 bitlink: http://bit.ly/2zhVbuQ
 ---
 
