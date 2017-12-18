@@ -36,7 +36,7 @@ MathJax.Hub.Config({
   <meta name="description" content="Ce site s&#39;adresse à tous et a pour but de susciter la réflexion, autant par l&#39;analyse des actualités que par la découverte des sciences et des sciences humai...">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4010/informatique/sciences/2017/12/15/introduction-aux-graphes/">
+  <link rel="canonical" href="http://localhost:4000/informatique/sciences/2017/12/15/introduction-aux-graphes/">
   <link rel="alternate" type="application/rss+xml" title="Réfléchir" href="/feed.xml">
   
   <script>
@@ -430,9 +430,9 @@ header
 
 <p><strong>Exercice 1 :</strong> Dites combien vaut K(G) quand G a trois sommets 0, 1 et 2, et trois arêtes, une reliant 0 à 1, une reliant 1 à 2, et l’autre reliant 2 à 0.</p>
 
-<p><strong>Exercice 2 :</strong> Un graphe complet à i sommets (noté K-i) est un graphe tel qu’il existe une arête entre chaque couple de sommets distincts du graphe (par exemple, le graphe de l’exercice précédent s’appelle K-3). Montrez que K(K-i) est supérieur ou égal à i. (Indice : démonstration par l’absurde, en supposant que K(K-i) est strictement inférieur à i)</p>
+<p><strong>Exercice 2 :</strong> Un graphe complet à i sommets (noté $K_{i}$) est un graphe tel qu’il existe une arête entre chaque couple de sommets distincts du graphe (par exemple, le graphe de l’exercice précédent s’appelle $K_3$). Montrez que $K(K_{i})$ est supérieur ou égal à i. (Indice : démonstration par l’absurde, en supposant que $K(K_{i})$ est strictement inférieur à i)</p>
 
-<p><strong>Exercice 3 :</strong> Un cycle à i sommets C-i est un graphe tel que, si les sommets sont numérotés 0, 1, 2, 3, …, i-1, ses arêtes sont (0, 1), (1, 2), (2, 3), …, (i-2, i-1), (i-1, 0). Montrez que si i est supérieur ou égal à 2, alors soit K(C-i) = 2 si i est pair, soit K(C-i) = 3 si i est impair. (Indice : raisonnement par récurrence sur i puis, à l’intérieur de la récurrence, un raisonnement par disjonction de cas, dans les deux cas où i est pair/impair)</p>
+<p><strong>Exercice 3 :</strong> Un cycle à i sommets $C_i$ est un graphe tel que, si les sommets sont numérotés 0, 1, 2, 3, …, i-1, ses arêtes sont (0, 1), (1, 2), (2, 3), …, (i-2, i-1), (i-1, 0). Montrez que si i est supérieur ou égal à 2, alors soit $K(C_i)$ = 2 si i est pair, soit $K(C_i)$ = 3 si i est impair. (Indice : raisonnement par récurrence sur i puis, à l’intérieur de la récurrence, un raisonnement par disjonction de cas, dans les deux cas où i est pair/impair)</p>
 
 <p>Pour aller plus loin :</p>
 
@@ -440,12 +440,13 @@ header
 
 <p><strong>Une famille de graphes particulière : les graphes planaires</strong> Un graphe planaire G est tel qu’il existe une façon de le dessiner sans que les arêtes ne s’intersectent. Un <strong>graphe planaire plongé</strong> est un graphe qui est dessiné sans que les arêtes ne s’intersectent. Autrement dit, un graphe planaire peut être dessiné sous forme d’un graphe planaire plongé. Ici, lorsqu’on évoquera un graphe planaire, on pensera à sa version plongée.</p>
 
-<p>Le graphe K-4 est-il planaire ? K-5 est-il planaire ? (Indice : il y a un oui et un non. Pour prouver le oui, dessinez une version planaire du graphe. La justification du non nécessite le théorème de Kuratowski-Wagner, qui sera présenté plus tard)</p>
+<p>Le graphe $K_4$ est-il planaire ? $K_5$ est-il planaire ? (Indice : il y a un oui et un non. Pour prouver le oui, dessinez une version planaire du graphe. La justification du non nécessite le théorème de Kuratowski-Wagner, qui sera présenté plus tard)</p>
 
-<p><strong>Une autre famille de graphes particulière : les graphes connexes</strong> Un graphe connexe est un graphe tel que, pour tous sommets i et j distincts, il existe un chemin, c’est-à-dire une suite d’arêtes, dans le graphe de i vers j (et de j vers i, si le graphe est non orienté). Par exemple, K-3 est connexe. Donnez un exemple de graphe non connexe, et justifiez sa non-connexité (On exhibera donc un couple de sommets qui ne respecte pas la condition ci-dessus).</p>
+<p><strong>Une autre famille de graphes particulière : les graphes connexes</strong> Un graphe connexe est un graphe tel que, pour tous sommets i et j distincts, il existe un chemin, c’est-à-dire une suite d’arêtes, dans le graphe de i vers j (et de j vers i, si le graphe est non orienté). Par exemple, $K_3$ est connexe. Donnez un exemple de graphe non connexe, et justifiez sa non-connexité (On exhibera donc un couple de sommets qui ne respecte pas la condition ci-dessus).</p>
 
-<p><strong>Une autre famille de graphes particulière : les graphes bipartis</strong> Le graphe G-i-j est le graphe constitué de deux ensembles de sommets distincts G-i (contenant i sommets) et G-j (contenant j sommets), tels que toute arête/arc soit une interaction de la forme (a, b) où soit a appartient à G-i et b appartient à G-j, soit a appartient à G-j et b appartient à G-i. Vérifiez que le graphe présentant l’instance du problème de l’article est un graphe biparti, et exhibez les parties de l’ensemble de sommets correspondantes. Il existe un théorème qui montre qu’un graphe a un nombre chromatique inférieur ou égal à 2 si et seulement s’il est biparti. Prouvez ce théorème.</p>
+<p><strong>Une autre famille de graphes particulière : les graphes bipartis</strong> Le graphe $G_{i,j}$ est le graphe constitué de deux ensembles de sommets distincts $G_i$ (contenant i sommets) et $G_j$ (contenant j sommets), tels que toute arête/arc soit une interaction de la forme (a, b) où soit a appartient à $G_i$ et b appartient à $G_j$, soit a appartient à $G_j$ et b appartient à $G_i$. Vérifiez que le graphe présentant l’instance du problème de l’article est un graphe biparti, et exhibez les parties de l’ensemble de sommets correspondantes. Il existe un théorème qui montre qu’un graphe a un nombre chromatique inférieur ou égal à 2 si et seulement s’il est biparti. Prouvez ce théorème.</p>
 
+<p><strong>Modifications du 18/12/2017 :</strong> Changements mineurs dans les notations.</p>
 
   </div>
   <div id="share-buttons">
@@ -488,9 +489,7 @@ header
 <br></br>
 
           <h3><b>Articles à venir :</b></h3>
-          <h5><p class="indent2"><em>[Informatique] Algorithme de Nussinov et introduction aux grammaires</em></p></h5>
-          <h5><p class="indent2"><em>[Informatique] Eléments de programmation réseau : s'envoyer des mails à l'ancienne</em></p></h5>
-          <h5><p class="indent2"><em>[Informatique] Théorème des quatre couleurs</em></p></h5>
+          <h5><p class="indent2"><em>[Informatique] Introduction aux graphes (Corrigé)</em></p></h5>
           <h5><p class="indent2"><em>[Mathématiques] Combinatoire</em></p></h5>
           <h5><p class="indent2"><em>[Mathématiques] Géométrie</em></p></h5>
           <h5><p class="indent2"><em>[Évènements] Ordonnances sur le Code du Travail</em></p></h5>

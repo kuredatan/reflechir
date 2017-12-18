@@ -4,7 +4,7 @@ date: 2017-12-16
 bitlink: http://bit.ly/2otURWn
 --- 
 
-Eros+Massacre (エロス＋虐殺, Erosu purasu Gyakusatsu) est un film japonais du début des années 1970, qui décrit la quête de deux jeunes étudiants sur les traces d'un couple emblématique de l'anarchie japonaise du début du vingtième siècle, Sakae Osugi et Noe Ito, de leur rencontre jusqu'à leur assassinat par l'armée japonaise en 1923. Une grande partie du film a été censurée jusqu'à récemment, et il est indéniablement préférable de voir la version complète du film pour mieux le comprendre.
+Eros+Massacre (エロス＋虐殺, Erosu purasu Gyakusatsu) est un film japonais du début des années 1970, qui décrit la quête de deux jeunes étudiants sur les traces d'un couple emblématique de l'anarchie japonaise du début du vingtième siècle, Sakae Osugi et Noe Ito, de leur rencontre jusqu'à leur assassinat par la police militaire japonaise en 1923. Une grande partie du film a été censurée jusqu'à récemment, et il est indéniablement préférable de voir la version complète du film pour mieux le comprendre.
 
 <img src="/images/eros-plus-massacre-1.jpg" style="float: center"/> 
 
@@ -29,4 +29,6 @@ L'un des points noirs de ce film pourtant pourrait être ses inspirations Nouvel
 <img src="/images/mako-osugi.JPG" style="float: center"/> 
 
 En résumé, Eros+Massacre est un film original, qui peut rebuter par sa mise en scène maniérée et son scénario, mais qui est un bijou d'esthétique visuelle.
+
+**Modification du 18/12/2017 :** Ito et Osugi ont été assassinés par la police militaire japonaise, et non par l'armée japonaise impériale.
 
