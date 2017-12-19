@@ -24,7 +24,7 @@ La narration pudique, et juste, est aussi un point fort du film. Beaucoup de bio
 
 <img src="/images/erosplusmassacre3.jpeg" style="float: center"/> 
 
-L'un des points noirs de ce film pourtant pourrait être ses inspirations Nouvelle Vague, qui peuvent être rédibitoires aujourd'hui. Le scénario à lui seul est un cas type de cette époque : l'histoire de jeunes héros à la recherche d'indépendance et de liberté, allant contre la société et les contraintes morales usuelles. Le choix du noir et blanc dans l'image, et la mise en scène tirent clairement des influences de ce mouvement. Pourtant, lors des parties portant sur Osugi et Ito, le réalisateur penche davantage pour un parti plus esthétique et subtil, et la scène de la première discussion entre Osugi et Ito sous les cerisiers sort de toute séquence type du cinéma. 
+L'un des points noirs de ce film pourtant pourrait être ses inspirations Nouvelle Vague, qui peuvent être rédhibitoires aujourd'hui. Le scénario à lui seul est un cas type de cette époque : l'histoire de jeunes héros à la recherche d'indépendance et de liberté, allant contre la société et les contraintes morales usuelles. Le choix du noir et blanc dans l'image, et la mise en scène tirent clairement des influences de ce mouvement. Pourtant, lors des parties portant sur Osugi et Ito, le réalisateur penche davantage pour un parti plus esthétique et subtil, et la scène de la première discussion entre Osugi et Ito sous les cerisiers sort de toute séquence type du cinéma. 
 
 <img src="/images/mako-osugi.JPG" style="float: center"/> 
 
